@@ -1,0 +1,1835 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"car_onwer",
+				"car_owner_phone"
+			],
+			[
+				"user",
+				"userid	(User.php)"
+			],
+			[
+				"MoveCar",
+				"MoveCarRequest	(resources.js)"
+			],
+			[
+				"resource",
+				"resourceConfig"
+			],
+			[
+				"place",
+				"placeholder	Attr"
+			],
+			[
+				"button-",
+				"button-block	(tab-move_car.html)"
+			],
+			[
+				"$ionic",
+				"$ionicConfigProvider"
+			],
+			[
+				"get_wx",
+				"get_wx_user_bind"
+			],
+			[
+				"access_token",
+				"access_token?appid"
+			],
+			[
+				"WX_User",
+				"WX_USER	(TempController.php)"
+			],
+			[
+				"getUser",
+				"getUserInfo	(routes.php)"
+			],
+			[
+				"menu",
+				"menu_conf_f"
+			],
+			[
+				"men",
+				"menu_conf_f"
+			],
+			[
+				"scratch",
+				"scratch_width"
+			],
+			[
+				"scra",
+				"scratch_width"
+			],
+			[
+				"scrathc",
+				"scratch_height"
+			],
+			[
+				"rand",
+				"rand_scratch_y"
+			],
+			[
+				"img",
+				"img_width"
+			],
+			[
+				"last",
+				"last_x"
+			],
+			[
+				"count",
+				"countFavourRead"
+			],
+			[
+				"dis",
+				"discovery_url"
+			],
+			[
+				"base64",
+				"base64	(main.js)"
+			],
+			[
+				"ver",
+				"vertical-align"
+			],
+			[
+				"wx_user",
+				"wx_userinfo"
+			],
+			[
+				"wx_openid",
+				"wx_opnenid	(TempController.php)"
+			],
+			[
+				"Insurance",
+				"InsuranceDrawFilter	(InsuranceDrawFilter.php)"
+			],
+			[
+				"http",
+				"http://116.55.248.76"
+			],
+			[
+				"bingo_",
+				"bingo_num_sql"
+			],
+			[
+				"nearest_time",
+				"nearest_time_sql"
+			],
+			[
+				"p_user",
+				"p_user_phone"
+			],
+			[
+				"style",
+				"stylesheet	(index.volt)"
+			],
+			[
+				"gift",
+				"gift_money"
+			],
+			[
+				"del",
+				"del_success"
+			],
+			[
+				"insure_pro",
+				"insure_process_page_view"
+			],
+			[
+				"http_get",
+				"http_get_request_body"
+			],
+			[
+				"final",
+				"final_http_response"
+			],
+			[
+				"http_re",
+				"http_respone"
+			],
+			[
+				"action",
+				"action_method_ref_class"
+			],
+			[
+				"controller",
+				"controller_class_name"
+			],
+			[
+				"param",
+				"param_name"
+			],
+			[
+				"action_parameter",
+				"action_parameter_rel_class"
+			],
+			[
+				"action_",
+				"action_method_ref_class"
+			],
+			[
+				"request",
+				"request_method"
+			],
+			[
+				"SF",
+				"SF_BaseRouter::QUERY_STRING_MODE"
+			],
+			[
+				"SF_",
+				"SF_BaseRouter"
+			],
+			[
+				"jqm",
+				"jqm_widget_ext	(main.js)"
+			],
+			[
+				"goto",
+				"goto_btn"
+			],
+			[
+				"Insu",
+				"InsureProcessFormModel"
+			],
+			[
+				"login",
+				"login_form_model"
+			],
+			[
+				"_onLogin",
+				"_onLoginFormModelSync"
+			],
+			[
+				"base",
+				"base_url"
+			],
+			[
+				"SF_BaseView",
+				"SF_BaseViewEngine	(SF_BaseViewEgine.php)"
+			],
+			[
+				"method",
+				"method_exists"
+			],
+			[
+				"Http",
+				"HttpResponse	(HttpResponse.php)"
+			],
+			[
+				"SF_Base",
+				"SF_BaseController	(SF_BaseController.php)"
+			],
+			[
+				"_default",
+				"_default_controller_name"
+			],
+			[
+				"_action",
+				"_action_suffix"
+			],
+			[
+				"native",
+				"nativeQuery	(Insurance.php)"
+			],
+			[
+				"php",
+				"perhaps	(backbone.js)"
+			],
+			[
+				"canvas",
+				"canvas_license_a"
+			],
+			[
+				"compress",
+				"compress_width"
+			],
+			[
+				"_onT",
+				"_onThumbnailImageLoad"
+			],
+			[
+				"total",
+				"total_standard"
+			],
+			[
+				"com",
+				"company"
+			],
+			[
+				"apply_ac",
+				"apply_actual_page_view"
+			],
+			[
+				"is",
+				"is_compulsory"
+			],
+			[
+				"compulsory",
+				"compulsoryShortCut"
+			],
+			[
+				"_onFormModel",
+				"_onFormModelSync"
+			],
+			[
+				"car_info",
+				"car_info_id"
+			],
+			[
+				"update",
+				"updateCarInfo"
+			],
+			[
+				"upload",
+				"upload_dir"
+			],
+			[
+				"encodeURI",
+				"encodeURIComponent	(ActuaryPricePageView.js)"
+			],
+			[
+				"show",
+				"showGallery"
+			],
+			[
+				"get_illegal_",
+				"get_illegal_order_sql"
+			],
+			[
+				"get_illegal_total",
+				"get_illegal_total_bind"
+			],
+			[
+				"get_illegal",
+				"get_illegal_total_sql"
+			],
+			[
+				"page",
+				"page_num"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"echo",
+				"echoAccessXML"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/config/routes.php",
+			"settings":
+			{
+				"buffer_size": 2109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/plugins/AuthFilter.php",
+			"settings":
+			{
+				"buffer_size": 957,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/plugins/AutoLoginFilter.php",
+			"settings":
+			{
+				"buffer_size": 1708,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/User.php",
+			"settings":
+			{
+				"buffer_size": 10950,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/UserController.php",
+			"settings":
+			{
+				"buffer_size": 3233,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/MovecarController.php",
+			"settings":
+			{
+				"buffer_size": 1742,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/IndexController.php",
+			"settings":
+			{
+				"buffer_size": 1784,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/TempController.php",
+			"settings":
+			{
+				"buffer_size": 17762,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/MoveCar.php",
+			"settings":
+			{
+				"buffer_size": 900,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/plugins/AjaxFilter.php",
+			"settings":
+			{
+				"buffer_size": 1650,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/plugins/CORSFilter.php",
+			"settings":
+			{
+				"buffer_size": 735,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 191.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packages",
+				"Package Control: List Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: Install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 538.0
+	},
+	"console":
+	{
+		"height": 160.0,
+		"history":
+		[
+			"exit()",
+			"exit",
+			"dir(urllib)",
+			"urllib.urlopen('www.baidu.com')",
+			"urllib.open('www.baidu.com')",
+			"import urllib",
+			"import urllib2",
+			"impor urllib",
+			"impor urllib2",
+			"import sys",
+			"import pygtk",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/ubuntu/www/php/mc_api",
+		"/ubuntu/www/php/mc_api/app",
+		"/ubuntu/www/php/mc_api/app/cache",
+		"/ubuntu/www/php/mc_api/app/config",
+		"/ubuntu/www/php/mc_api/app/models",
+		"/ubuntu/www/php/mc_api/app/plugins"
+	],
+	"file_history":
+	[
+		"/ubuntu/www/php/mc_api/app/controllers/IndexController.php",
+		"/ubuntu/www/js/mc/ionic.project",
+		"/ubuntu/www/php/mc_api/app/controllers/ActivityController.php",
+		"/ubuntu/www/js/mc/www/js/app.js",
+		"/ubuntu/www/js/mc/www/templates/tab-record.html",
+		"/ubuntu/www/js/mc/www/lib/ionic/js/ionic.bundle.js",
+		"/ubuntu/www/js/mc/www/lib/ionic/js/ionic-angular.js",
+		"/home/jkzleond/.config/sublime-text-3/Packages/User/Distraction Free.sublime-settings",
+		"/home/jkzleond/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/ubuntu/www/js/mc/www/templates/tabs.html",
+		"/home/jkzleond/.config/sublime-text-3/Packages/User/Side Bar.sublime-settings",
+		"/home/jkzleond/.config/sublime-text-3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/ubuntu/www/js/mc/gulpfile.js",
+		"/ubuntu/www/js/mc/bower.json",
+		"/ubuntu/www/js/mc/.gitignore",
+		"/ubuntu/www/js/mc/.editorconfig",
+		"/ubuntu/www/js/mc/.bowerrc",
+		"/ubuntu/www/js/mc/www/templates/cloudTabDefaultPage.html",
+		"/ubuntu/www/js/mc/www/templates/tabsController.html",
+		"/home/jkzleond/.config/sublime-text-3/Packages/User/AngularJS-sublime-package.sublime-settings",
+		"/home/jkzleond/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/ubuntu/www/php/car_mate_local_favour/app/views/temp/insuranceShareDraw.volt",
+		"/ubuntu/www/php/car_mate_local_favour/app/views/temp/insuranceShareDescribe.volt",
+		"/ubuntu/www/php/car_mate_local_favour/app/models/Order.php",
+		"/ubuntu/www/php/car_mate_local_favour/app/views/temp/insuranceShare.volt",
+		"/ubuntu/www/php/car_mate_local_favour/app/views/temp/winList.volt",
+		"/ubuntu/www/php/car_mate_local_favour/app/controllers/TempController.php",
+		"/ubuntu/www/php/car_mate_local_favour/app/views/activity/index.volt",
+		"/ubuntu/www/php/car_mate_local_favour/public/assets/js/app/templates/insurance/actuary_price_page.html",
+		"/ubuntu/www/php/car_mate_local_favour/public/assets/js/app-built/app/build-config.js",
+		"/ubuntu/www/php/car_mate_local_favour/public/assets/js/app/models/insurance/InsuranceActualFormModel.js",
+		"/ubuntu/www/php/car_mate_local_favour/public/assets/js/app/views/insurance/ApplyActualPageView.js",
+		"/ubuntu/www/php/car_mate_local_favour/public/assets/js/app/templates/insurance/apply_actual_compulsory_page.html",
+		"/ubuntu/www/php/car_mate_local_favour/public/assets/js/app/templates/insurance/apply_actual_page.html",
+		"/ubuntu/www/php/car_mate_local_favour/app/views/insurance/microMessengerBind.volt",
+		"/ubuntu/www/php/car_mate_local_favour/app/plugins/AjaxFilter.php",
+		"/ubuntu/www/php/car_mate_local_favour/app/plugins/AuthFilter.php",
+		"/ubuntu/www/php/car_mate_local_favour/app/plugins/AutoLoginFilter.php",
+		"/ubuntu/www/php/car_mate_local_favour/app/controllers/ClockinController.php",
+		"/ubuntu/www/php/car_mate_local_favour/app/controllers/UserController.php",
+		"/ubuntu/www/php/car_mate_local_favour/app/models/Mission.php",
+		"/ubuntu/www/php/car_mate_local_favour/app/plugins/MissionFilter.php",
+		"/ubuntu/www/php/car_mate_local_favour/app/models/Insurance.php",
+		"/ubuntu/www/php/car_mate_local_favour/app/config/plugins.php",
+		"/ubuntu/www/php/car_mate_local_favour/app/controllers/InsuranceController.php",
+		"/ubuntu/www/php/car_mate_local_favour/app/controllers/IndexController.php",
+		"/ubuntu/www/php/car_mate_local_favour/app/config/services.php",
+		"/ubuntu/www/php/car_mate_local_favour/app/config/routes.php",
+		"/ubuntu/www/php/car_mate_local_favour/app/views/index/index.volt",
+		"/ubuntu/www/php/car_mate_local_favour/public/assets/js/app/routers/ActivityRouter.js",
+		"/ubuntu/www/php/car_mate_local_favour/public/assets/js/app/main.js",
+		"/ubuntu/www/php/car_mate_local_favour/public/assets/css/jquery.mobile.material.theme.css",
+		"/ubuntu/www/php/car_mate_local_favour/public/assets/js/app/views/DiscoveryDetailPageView.js",
+		"/ubuntu/www/php/car_mate_local_favour/public/assets/js/app/build-config.js",
+		"/ubuntu/www/php/car_mate_local_favour/app/views/index.volt",
+		"/ubuntu/www/php/car_mate_local_favour/public/assets/js/app/templates/insurance/insurance_page.html",
+		"/ubuntu/www/php/car_mate_local_favour/public/assets/js/app/views/insurance/InsurancePageView.js",
+		"/ubuntu/www/php/car_mate_local_favour/app/models/Activity.php",
+		"/ubuntu/www/php/car_mate_local_favour/public/assets/css/bxjs.css",
+		"/ubuntu/www/php/car_mate_local_favour/app/controllers/ActivityController.php",
+		"/ubuntu/www/php/car_mate_local_favour/public/assets/js/app/views/activity/ActivityDetailPageView.js",
+		"/ubuntu/www/php/car_mate_local_favour/public/assets/js/app-built/app/main.js",
+		"/ubuntu/www/php/car_mate_local_favour/app/views/base.volt",
+		"/ubuntu/www/php/car_mate_local_favour/public/assets/js/build-tools/build.js",
+		"/ubuntu/www/php/car_mate_local_favour/public/assets/js/build-tools/r.js",
+		"/ubuntu/www/php/car_mate_local_favour/app/models/InsuranceInfo.php",
+		"/ubuntu/www/php/car_mate_local_favour/public/assets/js/backbone.js",
+		"/ubuntu/www/php/car_mate_local_favour/public/assets/js/app-built/app/models/activity/ActivitySignFormModel.js",
+		"/ubuntu/www/php/car_mate_local_favour/public/assets/js/app-built/app/models/DiscoveryModel.js",
+		"/ubuntu/www/php/car_mate_local_favour/public/assets/js/app-built/app/models/activity/ActivityPubFormModel.js",
+		"/ubuntu/www/php/car_mate_local_favour/public/assets/js/app-built/app/templates/activity/activitise_page.html",
+		"/ubuntu/www/php/car_mate_local_favour/public/assets/js/app-built/app/models/CarInfoModel.js",
+		"/ubuntu/www/php/car_mate_local_favour/public/assets/js/app-built/app/models/activity/ActivityModel.js",
+		"/ubuntu/www/php/car_mate_local_favour/public/assets/js/app-built/app/models/activity/ActivityPuserModel.js",
+		"/ubuntu/www/php/car_mate_local_favour/public/assets/js/app-built/app/models/driving_tour/TourModel.js",
+		"/ubuntu/www/php/car_mate_local_favour/public/assets/js/app-built/app/models/discovery/CommentModel.js",
+		"/ubuntu/www/php/car_mate_local_favour/public/assets/js/app-built/app/models/collection/CollectionModel.js",
+		"/home/jkzleond/下载/example-multipage-master/www-built/js/common.js",
+		"/ubuntu/www/php/car_mate_local_favour/public/assets/temp/insuranceShare/img/bt_xz.png",
+		"/ubuntu/www/php/car_mate_local_favour/public/assets/temp/insuranceShare/img/bt_hy.png",
+		"/ubuntu/www/php/car_mate_local_favour/public/assets/temp/insuranceShare/img/bt_hy.jpg",
+		"/ubuntu/www/php/car_mate_local_favour/public/assets/temp/insuranceShare/img/bt_gz.png",
+		"/ubuntu/www/php/car_mate_local_favour/public/assets/temp/insuranceShare/img/bt_gj.png",
+		"/ubuntu/www/php/car_mate_local_favour/public/assets/temp/insuranceShare/img/bt_bf.jpg",
+		"/ubuntu/www/php/car_mate_local_favour/public/assets/temp/insuranceShare/img/bt_20.png",
+		"/ubuntu/www/php/car_mate_local_favour/app/controllers/ProvinceController.php",
+		"/ubuntu/www/php/car_mate_local_favour/public/assets/js/app/templates/insurance/discount_detail.html",
+		"/ubuntu/www/php/car_mate_local_favour/app/models/User.php",
+		"/ubuntu/www/php/car_mate_local_favour/app/library/twm/db/adapter/Mssql.php",
+		"/ubuntu/www/php/car_mate_local_favour/app/config/config.php",
+		"/ubuntu/www/php/car_mate_local_favour/app/models/ModelEx.php",
+		"/ubuntu/www/php/car_mate_local_favour/public/assets/js/app/views/insurance/CompulsorySetPageView.js",
+		"/ubuntu/www/php/car_mate_local_favour/app/views/index/index.volt~",
+		"/media/jkzleond/4fb73774-b62c-4824-ba2b-5cb9aba180e6/jkzleond/桌面/sublime-text2.desktop",
+		"/www/php/car_mate_local_favour/app/controllers/UserController.php",
+		"/www/php/car_mate_local_favour/app/models/Insurance.php",
+		"/www/php/car_mate_local_favour/public/assets/js/app/templates/insurance/result_detail.html",
+		"/www/php/car_mate_local_favour/app/controllers/IndexController.php",
+		"/www/php/car_mate_local_favour/app/controllers/InsuranceController.php",
+		"/www/php/car_mate_local_favour/app/models/InsuranceCalculator.php",
+		"/home/jkzleond/文档/车友惠零散文档/微信菜单/wx_menu_update.py",
+		"/home/jkzleond/wx_menu_update.py",
+		"/home/jkzleond/文档/车险精算结果表结构.txt",
+		"/www/php/car_mate_local_favour/app/models/Activity.php",
+		"/www/php/car_mate_local_favour/public/assets/js/app/views/insurance/ReservationPageView.js",
+		"/www/php/car_mate_local_favour/public/assets/js/app/views/insurance/ValueSetPageView.js",
+		"/www/php/car_mate_local_favour/public/assets/js/app/views/insurance/ApplyActualPageView.js",
+		"/www/php/car_mate_local_favour/public/assets/js/app/routers/NewInsuranceRouter.js",
+		"/www/php/car_mate_local_favour/app/models/LocalFavour.php",
+		"/www/php/car_mate_local_favour/app/controllers/MissionController.php",
+		"/www/php/car_mate_local_favour/app/controllers/DiscoveryController.php",
+		"/www/php/car_mate_local_favour/app/models/User.php",
+		"/www/php/car_mate_local_favour/app/views/temp/insuranceShareDescribe.volt",
+		"/www/php/car_mate_local_favour/public/assets/js/app/views/discovery/CommentsPageView.js",
+		"/www/php/car_mate_local_favour/public/assets/js/app/templates/discovery/comments_page_view.html",
+		"/www/php/car_mate_local_favour/public/assets/js/app/routers/ActivityRouter.js",
+		"/www/php/car_mate_local_favour/public/assets/js/app/templates/discovery/listItem.html",
+		"/www/php/car_mate_local_favour/public/assets/js/app/views/DiscoveryDetailPageView.js",
+		"/www/php/car_mate_local_favour/public/assets/js/app/views/DiscoveryListView.js",
+		"/www/php/car_mate_local_favour/app/controllers/TempController.php",
+		"/www/php/car_mate_local_favour/app/controllers/ActivityController.php",
+		"/www/php/car_mate_local_favour/public/assets/js/app/models/activity/ActivityUserModel.js",
+		"/www/php/car_mate_local_favour/public/assets/js/app/models/insurance/InsuranceActualFormModel.js",
+		"/www/php/car_mate_local_favour/public/assets/js/app/templates/insurance/apply_actual_page.html",
+		"/www/php/car_mate_local_favour/public/assets/js/app/models/activity/ActivityModel.js",
+		"/www/php/car_mate_local_favour/public/assets/js/app/views/activity/ActivityDetailPageView.js",
+		"/www/php/car_mate_local_favour/public/assets/js/app/templates/discovery/comment_list_item.html",
+		"/www/php/car_mate_local_favour/public/assets/js/app/templates/activity/activity_detail.html"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 111.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"        \n",
+			"();",
+			"is_checked",
+			"].",
+			"车主不接电话",
+			"'tab-record: {",
+			"RecordDetailCtrl",
+			"\"></",
+			"div",
+			"position",
+			"to-file",
+			"this.$el.find('.to-file').hide();",
+			"update",
+			"text!/a",
+			"车友们的回复",
+			"jquery",
+			"backbone",
+			"jqm",
+			"backbone",
+			"text",
+			"getUserInfo",
+			"setVar\\('user_phone'",
+			"$this->view->setVar\\('user_id",
+			"User",
+			"Backbone.sync",
+			"ui.btn",
+			"			\n",
+			"execute",
+			"getActivityUser",
+			"view_result",
+			"1",
+			"fetch",
+			"p_user_phone",
+			"\n					",
+			"出单",
+			"echo",
+			"src=\"(.*?)\"",
+			"src=\"(.*)\"",
+			"\\.rel-damge",
+			".rel-damge",
+			"tours_",
+			"Tours",
+			"Activity",
+			"tour_",
+			">下一步",
+			"button>下一步",
+			"insure_GP00000000_K1_flagM",
+			"insure_GP00000000_G",
+			"insure_GP00000000_A",
+			"</option><option",
+			"insure_carArea",
+			"insure_newDevice",
+			"insure_carTypeCode",
+			"\"(colorCode\\d+)\"",
+			"\"(registmodelcode[A-Z]\\d+)\"",
+			"</option><option",
+			"\"(licenseType\\d+)\"",
+			"(<option[^>]*>)\\n(.*)\\n",
+			"(<option[^>]*>)\\n(.*)",
+			"(<option[^>]*>)\\n",
+			"businessSource",
+			"script",
+			"__construct",
+			"getGroup",
+			"group_name",
+			"this->raw_content",
+			"this->headers",
+			"this->content",
+			"this->cookies",
+			"\\$content",
+			"\\$cookies",
+			"\\$headers",
+			"\\$raw_content",
+			"$raw_content",
+			";\n",
+			"'));",
+			"clear",
+			"'));",
+			");\n",
+			"bx_bx",
+			".insurance",
+			"\\.insurance",
+			"\\.(.*)",
+			"(\\..*)",
+			"retur"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"Puser",
+			"src=\"{{url('/assets/temp/insuranceShare/$1')}}\"",
+			"rel-damage",
+			"collection_",
+			"Collection",
+			"collection_",
+			"</option>\\n<option",
+			"\"insure_$1\"",
+			"</option>\\n<option",
+			"\"insure_$1\"",
+			"$1$2",
+			"$1",
+			"get",
+			"name",
+			"this->_raw_content",
+			"this->_headers",
+			"this->_content",
+			"this->_cookies",
+			"$_content",
+			"\\$_cookies",
+			"\\$_headers",
+			"\\$_raw_content",
+			"$_raw_content",
+			"bx",
+			".bx",
+			"bx",
+			"\\.insurance_$1",
+			"#insurance_page $1",
+			"#insurance_page \\1"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/config/routes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								531,
+								531
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 60.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/plugins/AuthFilter.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 957,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								777,
+								777
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/plugins/AutoLoginFilter.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1708,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								463,
+								463
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/models/User.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10950,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1709,
+								1709
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/controllers/UserController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3233,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2513,
+								2513
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 160.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/controllers/MovecarController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1742,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1228,
+								1228
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/controllers/IndexController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1784,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1589,
+								1589
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/controllers/TempController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17762,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3633,
+								3633
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2460.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/models/MoveCar.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 900,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								778,
+								778
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/plugins/AjaxFilter.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1650,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1281,
+								1281
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 240.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/plugins/CORSFilter.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 735,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								626,
+								626
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "mc_api.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 563.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/ubuntu/www/php/car_mate_local_favour/car_mate_local_favour.sublime-project"
+			]
+		],
+		"width": 428.0
+	},
+	"select_symbol":
+	{
+		"height": 400.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 466.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 417.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

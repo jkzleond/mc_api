@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="SQL Server (Microsoft) - IAMisDB@116.55.248.76" uuid="97ad16ea-841b-4db9-9abe-4cedbc9c777f">
+      <secret-storage>master_key</secret-storage>
+      <user-name>sa_iamis</user-name>
+      <schema-pattern>IAMisDB.*</schema-pattern>
+      <default-schemas>IAMisDB.*</default-schemas>
+    </data-source>
+  </component>
+</project>

@@ -1,0 +1,1457 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Activity	app/models/Activity.php	/^class Activity extends ModelEx$/;"	c
+ActivityController	app/controllers/ActivityController.php	/^class ActivityController extends ControllerBase$/;"	c
+Adv	app/models/Adv.php	/^class Adv extends ModelEx$/;"	c
+AjaxFilter	app/plugins/AjaxFilter.php	/^class AjaxFilter extends Plugin {$/;"	c
+Attachment	app/models/Attachment.php	/^class Attachment extends ModelEx$/;"	c
+AttachmentController	app/controllers/AttachmentController.php	/^class AttachmentController extends ControllerBase$/;"	c
+AuthFilter	app/plugins/AuthFilter.php	/^class AuthFilter extends Phalcon\\Mvc\\User\\Plugin$/;"	c
+AutoLoginFilter	app/plugins/AutoLoginFilter.php	/^class AutoLoginFilter extends Plugin$/;"	c
+CORSFilter	app/plugins/CORSFilter.php	/^class CORSFilter extends Plugin $/;"	c
+CarController	app/controllers/CarController.php	/^class CarController extends ControllerBase$/;"	c
+CarInfo	app/models/CarInfo.php	/^class CarInfo extends ModelEx$/;"	c
+ClockIn	app/models/ClockIn.php	/^class ClockIn extends ModelEx$/;"	c
+ClockinController	app/controllers/ClockinController.php	/^class ClockinController extends ControllerBase$/;"	c
+Collection	app/models/Collection.php	/^class Collection extends ModelEx$/;"	c
+CollectionController	app/controllers/CollectionController.php	/^class CollectionController extends ControllerBase$/;"	c
+CompulsoryState	app/models/CompulsoryState.php	/^class CompulsoryState extends ModelEx$/;"	c
+ControllerBase	app/controllers/ControllerBase.php	/^class ControllerBase extends Controller$/;"	c
+Criteria	app/models/Criteria.php	/^class Criteria$/;"	c
+DiscoveryController	app/controllers/DiscoveryController.php	/^class DiscoveryController extends ControllerBase$/;"	c
+DrivingTourController	app/controllers/DrivingtourController.php	/^class DrivingTourController extends ControllerBase$/;"	c
+Goods	app/models/Goods.php	/^class Goods extends ModelEx$/;"	c
+HttpConnect	app/library/palm/utils/HttpConnect.php	/^class HttpConnect {$/;"	c
+IndexController	app/controllers/IndexController.php	/^class IndexController extends ControllerBase$/;"	c
+Insurance	app/models/Insurance.php	/^class Insurance extends ModelEx$/;"	c
+InsuranceCalculator	app/models/InsuranceCalculator.php	/^class InsuranceCalculator$/;"	c
+InsuranceController	app/controllers/InsuranceController.php	/^class InsuranceController extends ControllerBase$/;"	c
+InsuranceInfo	app/models/InsuranceInfo.php	/^class InsuranceInfo extends ModelEx$/;"	c
+InsuranceParam	app/models/InsuranParam.php	/^class InsuranceParam extends ModelEx$/;"	c
+InsuranceSet	app/models/InsuranceSet.php	/^class InsuranceSet extends ModelEx$/;"	c
+LocalFavour	app/models/LocalFavour.php	/^class LocalFavour extends ModelEx$/;"	c
+Mission	app/models/Mission.php	/^class Mission extends ModelEx$/;"	c
+MissionController	app/controllers/MissionController.php	/^class MissionController extends ControllerBase$/;"	c
+MissionFilter	app/plugins/MissionFilter.php	/^class MissionFilter extends Plugin$/;"	c
+ModelEx	app/models/ModelEx.php	/^class ModelEx extends \\Phalcon\\Mvc\\Model$/;"	c
+MoveCar	app/models/MoveCar.php	/^class MoveCar extends ModelEx$/;"	c
+MovecarController	app/controllers/MovecarController.php	/^class MovecarController extends ControllerBase$/;"	c
+Mssql	app/library/twm/db/adapter/Mssql.php	/^class Mssql extends AdapterPdo implements EventsAwareInterface, AdapterInterface$/;"	c
+Mssql	app/library/twm/db/dialect/Mssql.php	/^class Mssql extends \\Phalcon\\Db\\Dialect \/\/implements \\Phalcon\\Db\\DialectInterface$/;"	c
+Order	app/models/Order.php	/^class Order extends ModelEx$/;"	c
+Province	app/models/Province.php	/^class Province extends ModelEx {$/;"	c
+ProvinceController	app/controllers/ProvinceController.php	/^class ProvinceController extends ControllerBase$/;"	c
+TempController	app/controllers/TempController.php	/^class TempController extends ControllerBase$/;"	c
+UTF8EnCodingFilter	app/plugins/UTF8EnCodingFilter.php	/^class UTF8EnCodingFilter extends Plugin {$/;"	c
+User	app/models/User.php	/^class User extends ModelEx$/;"	c
+UserController	app/controllers/UserController.php	/^class UserController extends ControllerBase$/;"	c
+__construct	app/library/twm/db/adapter/Mssql.php	/^    public function __construct( array $descriptor)$/;"	f
+__construct	app/models/Criteria.php	/^    public function __construct(array $collection=null)$/;"	f
+__get	app/models/Criteria.php	/^    public function __get($prop)$/;"	f
+__set	app/models/Criteria.php	/^    public function __set($prop, $value)$/;"	f
+_app_id	app/controllers/IndexController.php	/^    private $_app_id = 'wx1f42c4cb56c5095d';$/;"	v
+_app_id	app/controllers/TempController.php	/^	private $_app_id = 'wx1f42c4cb56c5095d';$/;"	v
+_app_secret	app/controllers/IndexController.php	/^    private $_app_secret = '276e08a1e2d2c9680823e6ddd0720c4c';$/;"	v
+_app_secret	app/controllers/TempController.php	/^	private $_app_secret = '276e08a1e2d2c9680823e6ddd0720c4c';$/;"	v
+_buildWGO	app/models/ModelEx.php	/^    private static function _buildWGO($parameters)$/;"	f
+_collection	app/models/Criteria.php	/^        $this->_collection = (array)$collection;$/;"	v
+_collection	app/models/Criteria.php	/^    protected $_collection;$/;"	v
+_compare	app/plugins/MissionFilter.php	/^    protected function _compare($cur_value, $obj_value)$/;"	f
+_dialect	app/library/twm/db/adapter/Mssql.php	/^        $this->_dialect = new \\Twm\\Db\\Dialect\\Mssql();$/;"	v
+_dir	app/controllers/AttachmentController.php	/^    private static function _dir()$/;"	f
+_doMicroMessengerBind	app/controllers/InsuranceController.php	/^    private function _doMicroMessengerBind($user_phone, $openid, $source='cm')$/;"	f
+_dsn	app/library/twm/db/adapter/Mssql.php	/^    protected function _dsn()$/;"	f
+_genOrderNo	app/models/Order.php	/^    protected static function _genOrderNo()$/;"	f
+_getAfterDiscountCompulsoryInsurance	app/models/InsuranceCalculator.php	/^    protected static function _getAfterDiscountCompulsoryInsurance($compulsory_state_id, $standard_compulsory)$/;"	f
+_getAfterDiscountDamageInsurance	app/models/InsuranceCalculator.php	/^    protected static function _getAfterDiscountDamageInsurance($standard_damage)$/;"	f
+_getAfterDiscountDriverInsurance	app/models/InsuranceCalculator.php	/^    protected static function _getAfterDiscountDriverInsurance($standard_driver)$/;"	f
+_getAfterDiscountGlassInsurance	app/models/InsuranceCalculator.php	/^    protected static function _getAfterDiscountGlassInsurance($standard_glass)$/;"	f
+_getAfterDiscountNotDeductibleInsurance	app/models/InsuranceCalculator.php	/^    protected static function _getAfterDiscountNotDeductibleInsurance($standard_not_deductible)$/;"	f
+_getAfterDiscountOptionalDeductibleInsurance	app/models/InsuranceCalculator.php	/^    protected static function _getAfterDiscountOptionalDeductibleInsurance($standard_optional_deductible)$/;"	f
+_getAfterDiscountPassengerInsurance	app/models/InsuranceCalculator.php	/^    protected static function _getAfterDiscountPassengerInsurance($standard_passenger)$/;"	f
+_getAfterDiscountRobberyInsurance	app/models/InsuranceCalculator.php	/^    protected static function _getAfterDiscountRobberyInsurance($standard_robbery)$/;"	f
+_getAfterDiscountScratchInsurance	app/models/InsuranceCalculator.php	/^    protected static function _getAfterDiscountScratchInsurance($standard_scratch)$/;"	f
+_getAfterDiscountSelfIgnitionInsurance	app/models/InsuranceCalculator.php	/^    protected static function _getAfterDiscountSelfIgnitionInsurance($standard_self_ignition)$/;"	f
+_getAfterDiscountThirdInsurance	app/models/InsuranceCalculator.php	/^    protected static function _getAfterDiscountThirdInsurance($standard_third)$/;"	f
+_getConnection	app/models/ModelEx.php	/^    protected static function _getConnection()$/;"	f
+_getSingleNotDeductibleDamageInsurance	app/models/InsuranceCalculator.php	/^    protected static function _getSingleNotDeductibleDamageInsurance($after_discount_damage)$/;"	f
+_getSingleNotDeductibleDriverInsurance	app/models/InsuranceCalculator.php	/^    protected static function _getSingleNotDeductibleDriverInsurance($after_discount_driver)$/;"	f
+_getSingleNotDeductibleGlassInsurance	app/models/InsuranceCalculator.php	/^    protected static function _getSingleNotDeductibleGlassInsurance($after_discount_glass)$/;"	f
+_getSingleNotDeductiblePassengerInsurance	app/models/InsuranceCalculator.php	/^    protected static function _getSingleNotDeductiblePassengerInsurance($after_discount_passenger)$/;"	f
+_getSingleNotDeductibleRobberyInsurance	app/models/InsuranceCalculator.php	/^    protected static function _getSingleNotDeductibleRobberyInsurance($after_discount_robbery)$/;"	f
+_getSingleNotDeductibleScratchInsurance	app/models/InsuranceCalculator.php	/^    protected static function _getSingleNotDeductibleScratchInsurance($after_discount_scratch)$/;"	f
+_getSingleNotDeductibleSelfIgnitionInsurance	app/models/InsuranceCalculator.php	/^    protected static function _getSingleNotDeductibleSelfIgnitionInsurance($after_discount_self_ignition)$/;"	f
+_getSingleNotDeductibleThirdInsurance	app/models/InsuranceCalculator.php	/^    protected static function _getSingleNotDeductibleThirdInsurance($after_discount_third)$/;"	f
+_getStandardCompusoryInsurance	app/models/InsuranceCalculator.php	/^    protected static function _getStandardCompusoryInsurance($type='family', $level=1)$/;"	f
+_getStandardDamageInsurance	app/models/InsuranceCalculator.php	/^    protected static function _getStandardDamageInsurance($coefficient, $car_price, $type='family', $level=1)$/;"	f
+_getStandardDriverInsurance	app/models/InsuranceCalculator.php	/^    protected static function _getStandardDriverInsurance($driver, $type='family', $level=1)$/;"	f
+_getStandardGlassInsurance	app/models/InsuranceCalculator.php	/^    protected static function _getStandardGlassInsurance($glass_id, $car_price, $type='family', $level=1)$/;"	f
+_getStandardNotDeductibleInsurance	app/models/InsuranceCalculator.php	/^    protected static function _getStandardNotDeductibleInsurance($standard_damage, $standard_third, $standard_driver, $standard_passenger, $standard_scratch, $standard_robbery)$/;"	f
+_getStandardOptionalDeductibleInsurance	app/models/InsuranceCalculator.php	/^    protected static function _getStandardOptionalDeductibleInsurance($car_price, $standard_damage, $optional_deductible)$/;"	f
+_getStandardPassengerInsurance	app/models/InsuranceCalculator.php	/^    protected static function _getStandardPassengerInsurance($passenger_number, $passenger, $type='family', $level=1)$/;"	f
+_getStandardRobberyInsurance	app/models/InsuranceCalculator.php	/^    protected static function _getStandardRobberyInsurance($car_price, $type='family', $level=1)$/;"	f
+_getStandardScratchInsurance	app/models/InsuranceCalculator.php	/^    protected static function _getStandardScratchInsurance($scratch, $car_price, $coefficient)$/;"	f
+_getStandardSelfIgnitionInsurance	app/models/InsuranceCalculator.php	/^    protected static function _getStandardSelfIgnitionInsurance($car_price, $round_year, $round_month)$/;"	f
+_getStandardThirdInsurance	app/models/InsuranceCalculator.php	/^    protected static function _getStandardThirdInsurance($third, $type='family', $level=1)$/;"	f
+_getTableName	app/models/ModelEx.php	/^    private static function _getTableName()$/;"	f
+_lock_time	app/controllers/TempController.php	/^	private $_lock_time = null;$/;"	v
+_make_header_body	app/library/palm/utils/HttpConnect.php	/^    protected function _make_header_body()$/;"	f
+_mc_client_url	app/controllers/IndexController.php	/^    private $_mc_client_url = 'http:\/\/192.168.31.247:8801\/#\/';$/;"	v
+_pdo	app/library/twm/db/adapter/Mssql.php	/^        $this->_pdo = new \\PDO($/;"	v
+_pdoType	app/library/twm/db/adapter/Mssql.php	/^                    $this->_pdoType = 'dblib';$/;"	v
+_pdoType	app/library/twm/db/adapter/Mssql.php	/^                    $this->_pdoType = 'mssql';$/;"	v
+_pdoType	app/library/twm/db/adapter/Mssql.php	/^                    $this->_pdoType = 'sybase';$/;"	v
+_requestDataType	app/plugins/AjaxFilter.php	/^    protected function _requestDataType()$/;"	f
+_response	app/library/palm/utils/HttpConnect.php	/^        $this->_response = curl_exec($ch);$/;"	v
+_response	app/library/palm/utils/HttpConnect.php	/^    protected $_response = null;$/;"	v
+_response_body	app/library/palm/utils/HttpConnect.php	/^        $this->_response_body = $parts[1];$/;"	v
+_response_body	app/library/palm/utils/HttpConnect.php	/^    protected $_response_body = null;$/;"	v
+_response_header	app/library/palm/utils/HttpConnect.php	/^        $this->_response_header = $parts[0];$/;"	v
+_response_header	app/library/palm/utils/HttpConnect.php	/^    protected $_response_header = null;$/;"	v
+_status	app/library/palm/utils/HttpConnect.php	/^        $this->_status = $match['status'];$/;"	v
+_status	app/library/palm/utils/HttpConnect.php	/^    protected $_status = null;$/;"	v
+_table_name	app/models/ModelEx.php	/^    protected static $_table_name = '';$/;"	v
+_type	app/library/twm/db/adapter/Mssql.php	/^    protected $_type = 'mssql';$/;"	v
+access_token_info	app/controllers/InsuranceController.php	/^        $access_token_info = json_decode($access_token_json, true);$/;"	v
+access_token_json	app/controllers/InsuranceController.php	/^        $access_token_json = file_get_contents($access_token_url);$/;"	v
+access_token_url	app/controllers/InsuranceController.php	/^        $access_token_url = 'https:\/\/api.weixin.qq.com\/sns\/oauth2\/access_token?appid='.$app_id.'&secret='.$app_secret.'&code='.$code.'&grant_type=authorization_code';$/;"	v
+activitise	app/controllers/ActivityController.php	/^        $activitise = Activity::getActivityList($criteria, $page_num, $page_size);$/;"	v
+activity	app/controllers/ActivityController.php	/^        $activity = Activity::getActivityDetailById($id);$/;"	v
+activity	app/models/Activity.php	/^        $activity = array();$/;"	v
+activity_puser	app/controllers/ActivityController.php	/^        $activity_puser = Activity::getActivityPuser($aid, $user_id);$/;"	v
+activity_user	app/controllers/ActivityController.php	/^        $activity_user = Activity::getActivityUser($json_data);$/;"	v
+actualAction	app/controllers/InsuranceController.php	/^    public function actualAction()$/;"	f
+addActivity	app/models/Activity.php	/^    public static function addActivity(array $criteria)$/;"	f
+addActivityAction	app/controllers/ActivityController.php	/^    public function addActivityAction()$/;"	f
+addActivityOrder	app/models/Order.php	/^    public static function addActivityOrder($au_id, $user_id, array $pay_items)$/;"	f
+addActivityUser	app/models/Activity.php	/^    public static function addActivityUser(array $user_info, $aid)$/;"	f
+addAttachment	app/models/Attachment.php	/^	public static function addAttachment($data, $name=null, $mime_type='text', $data_type='url')$/;"	f
+addCarInfo	app/models/CarInfo.php	/^    public static function addCarInfo(array $car_info)$/;"	f
+addClockIn	app/models/ClockIn.php	/^    public static function addClockIn($user_id)$/;"	f
+addColumn	app/library/twm/db/dialect/Mssql.php	/^    public function addColumn($tableName, $schemaName, $column)$/;"	f
+addComment	app/models/LocalFavour.php	/^    public static function addComment($local_favour_id, array $criteria=null)$/;"	f
+addCommentAction	app/controllers/DiscoveryController.php	/^    public function addCommentAction($local_favour_id)$/;"	f
+addFirstResultAction	app/controllers/InsuranceController.php	/^    public function addFirstResultAction()$/;"	f
+addForeignKey	app/library/twm/db/dialect/Mssql.php	/^       public function addForeignKey($tableName, $schemaName, $reference){}$/;"	f
+addHuiGold	app/models/User.php	/^    public static function addHuiGold($user_id, $num)$/;"	f
+addIndex	app/library/twm/db/dialect/Mssql.php	/^    public function addIndex($tableName, $schemaName,  $index)$/;"	f
+addInsuranceAddress	app/models/Insurance.php	/^    public static function addInsuranceAddress(array $criteria=null)$/;"	f
+addInsuranceAttach	app/models/Insurance.php	/^    public static function addInsuranceAttach(array $criteria)$/;"	f
+addInsuranceInfo	app/models/Insurance.php	/^    public static function addInsuranceInfo(array $insurance_info)$/;"	f
+addInsuranceOrder	app/models/Order.php	/^    public static function addInsuranceOrder($info_id, $user_id, $total_fee)$/;"	f
+addInsuranceParam	app/models/Insurance.php	/^    public static function addInsuranceParam(array $insurance_param)$/;"	f
+addInsuranceReservation	app/models/Insurance.php	/^    public static function addInsuranceReservation(array $criteria=null)$/;"	f
+addInsuranceResult	app/models/Insurance.php	/^    public static function addInsuranceResult(array $insurance_result)$/;"	f
+addMission	app/models/Mission.php	/^    public static function addMission($title, $des=null, $is_loop=false, $is_auto_deliv=false, $is_auto_ass=false, $is_visible=true, $prev_id=null, $pid=null, $is_daily=false, array $objectives=null)$/;"	f
+addMissionState	app/models/Mission.php	/^    public static function addMissionState($user_id, $mssid, $is_complete=false)$/;"	f
+addOrder	app/models/Order.php	/^    public static function addOrder($order_type, array $criteria=null)$/;"	f
+addPrimaryKey	app/library/twm/db/dialect/Mssql.php	/^    public function addPrimaryKey($tableName, $schemaName,$index)$/;"	f
+addReadCount	app/models/LocalFavour.php	/^    public static function addReadCount($id)$/;"	f
+addRecord	app/models/MoveCar.php	/^    public static function addRecord(array $data)$/;"	f
+addReservationAction	app/controllers/InsuranceController.php	/^    public function addReservationAction()$/;"	f
+addWxUser	app/models/User.php	/^    public static function addWxUser($openid)$/;"	f
+add_activity_user_success	app/models/Activity.php	/^        $add_activity_user_success = self::addActivityUser($sign_data, $aid);$/;"	v
+add_order_bind	app/models/Order.php	/^        $add_order_bind = array($/;"	v
+add_order_detail_sql	app/models/Order.php	/^        $add_order_detail_sql = "insert into OrderToGoods (goods_id, order_id, number, price) values $order_detail_values_str";$/;"	v
+add_order_detail_success	app/models/Order.php	/^        $add_order_detail_success = $connection->execute($add_order_detail_sql);$/;"	v
+add_order_sql	app/models/Order.php	/^        $add_order_sql = "insert into PayList (orderNo, orderName, money, userId, orderType, relId) values (:order_no, '保险保费', :total_fee, :user_id, 'insurance', :info_id)";$/;"	v
+add_order_sql	app/models/Order.php	/^        $add_order_sql = "insert into PayList (orderNo, orderName, money, userId, orderType, relId) values (:order_no, '活动收费', :total_fee, :user_id, 'activity', :au_id)";$/;"	v
+add_order_success	app/models/Order.php	/^            $add_order_success = $connection->execute($add_order_sql, $add_order_bind);$/;"	v
+afterDispatchLoop	app/plugins/AjaxFilter.php	/^    public function afterDispatchLoop(Event $event, Dispatcher $dispatcher)$/;"	f
+afterExecuteRoute	app/controllers/TempController.php	/^	public function afterExecuteRoute()$/;"	f
+afterExecuteRoute	app/plugins/MissionFilter.php	/^    public function afterExecuteRoute()$/;"	f
+afterPosition	app/library/twm/db/dialect/Mssql.php	/^            $afterPosition = $column->getAfterPosition();$/;"	v
+after_discount_business	app/controllers/InsuranceController.php	/^                $after_discount_business = $total_business * $discount;$/;"	v
+after_discount_compulsory	app/controllers/InsuranceController.php	/^                $after_discount_compulsory = $res_crt->afterDiscountCompulsoryInsurance;$/;"	v
+after_discount_compulsory	app/models/InsuranceCalculator.php	/^        $after_discount_compulsory = self::_getAfterDiscountCompulsoryInsurance($insurance_param->compulsory_state_id, $standard_compulsory);$/;"	v
+after_discount_damage	app/models/InsuranceCalculator.php	/^        $after_discount_damage = 0.0;$/;"	v
+after_discount_driver	app/models/InsuranceCalculator.php	/^        $after_discount_driver = 0.0;$/;"	v
+after_discount_glass	app/models/InsuranceCalculator.php	/^        $after_discount_glass = 0.0;$/;"	v
+after_discount_not_deductible	app/models/InsuranceCalculator.php	/^        $after_discount_not_deductible = 0.0;$/;"	v
+after_discount_optional_deductible	app/models/InsuranceCalculator.php	/^        $after_discount_optional_deductible = 0.0;$/;"	v
+after_discount_passenger	app/models/InsuranceCalculator.php	/^        $after_discount_passenger = 0.0;$/;"	v
+after_discount_robbery	app/models/InsuranceCalculator.php	/^        $after_discount_robbery = 0.0;$/;"	v
+after_discount_scratch	app/models/InsuranceCalculator.php	/^        $after_discount_scratch = 0.0;$/;"	v
+after_discount_self_ignition	app/models/InsuranceCalculator.php	/^        $after_discount_self_ignition = 0.0;$/;"	v
+after_discount_third	app/models/InsuranceCalculator.php	/^        $after_discount_third = 0.0;$/;"	v
+aid	app/controllers/ActivityController.php	/^        $aid = $json_data['aid'];$/;"	v
+aid	app/models/Activity.php	/^                $aid = $result['id'];$/;"	v
+aid	app/models/Activity.php	/^        $aid = null;$/;"	v
+app_id	app/controllers/InsuranceController.php	/^        $app_id = $key_arr[0];$/;"	v
+app_id	app/controllers/InsuranceController.php	/^        $app_id = $this->request->get('appid', null, null);$/;"	v
+app_secret	app/controllers/InsuranceController.php	/^        $app_secret = $key_arr[1];$/;"	v
+app_secret	app/controllers/InsuranceController.php	/^        $app_secret = $this->request->get('secret', null, null);$/;"	v
+application	public/index.php	/^    $application = new \\Phalcon\\Mvc\\Application($di);$/;"	v
+applyPolicyAction	app/controllers/InsuranceController.php	/^    public function applyPolicyAction($info_id)$/;"	f
+assignAutoAssignMission	app/models/Mission.php	/^    public static function assignAutoAssignMission($user_id)$/;"	f
+attach_id	app/controllers/InsuranceController.php	/^            $attach_id = Insurance::addInsuranceAttach($form_data);$/;"	v
+auth	app/plugins/AuthFilter.php	/^        $auth = $user['auth'];$/;"	v
+auth_url	app/controllers/TempController.php	/^						$auth_url = 'https:\/\/open.weixin.qq.com\/connect\/oauth2\/authorize?appid='.$this->_app_id.'&redirect_uri='.urlencode('http:\/\/ip.yn122.net:8092\/insurance_share\/'.$p_user_phone.'?lock_time='.floor(microtime(true)*100)).'&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect';$/;"	v
+auth_url	app/controllers/TempController.php	/^			$auth_url = 'https:\/\/open.weixin.qq.com\/connect\/oauth2\/authorize?appid='.$this->_app_id.'&redirect_uri='.urlencode('http:\/\/ip.yn122.net:8092\/insurance_share\/'.$p_user_phone.'?lock_time='.floor(microtime(true)*100)).'&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect';$/;"	v
+autoIncrement	app/library/twm/db/adapter/Mssql.php	/^                    $autoIncrement = true;$/;"	v
+autoIncrement	app/library/twm/db/adapter/Mssql.php	/^            $autoIncrement = false;$/;"	v
+award	app/controllers/TempController.php	/^				$award = $award_list[$rand_index];$/;"	v
+award_list	app/controllers/TempController.php	/^			$award_list = $award_result->fetchAll();$/;"	v
+award_rand	app/controllers/TempController.php	/^				$award_rand = 0; \/\/必中$/;"	v
+award_rand	app/controllers/TempController.php	/^				$award_rand = mt_rand(1, 10000); \/\/计算随机数$/;"	v
+award_rand	app/controllers/TempController.php	/^			$award_rand = 10000;$/;"	v
+award_result	app/controllers/TempController.php	/^			$award_result = $db->query($get_award_sql, $get_award_bind);$/;"	v
+base_name	app/plugins/AjaxFilter.php	/^        $base_name = basename($uri);$/;"	v
+beforeExecuteRoute	app/plugins/AjaxFilter.php	/^    public function beforeExecuteRoute(Event $event, Dispatcher $dispatcher)$/;"	f
+beforeExecuteRoute	app/plugins/AuthFilter.php	/^    function beforeExecuteRoute(Event $event, Dispatcher $dispatcher)$/;"	f
+beforeExecuteRoute	app/plugins/AutoLoginFilter.php	/^    public function beforeExecuteRoute(Event $event, Dispatcher $dispatcher)$/;"	f
+beforeExecuteRoute	app/plugins/CORSFilter.php	/^    public function beforeExecuteRoute(Event $event, Dispatcher $dispatcher)$/;"	f
+beforeExecuteRoute	app/plugins/MissionFilter.php	/^    public function beforeExecuteRoute()$/;"	f
+beforeExecuteRoute	app/plugins/UTF8EnCodingFilter.php	/^    public function beforeExecuteRoute(Event $event, Dispatcher $dispatcher)$/;"	f
+begin	app/library/twm/db/adapter/Mssql.php	/^    public function begin($nesting = false)$/;"	f
+best_accept	app/plugins/AjaxFilter.php	/^            $best_accept = $this->request->getBestAccept();$/;"	v
+bind	app/models/Activity.php	/^            $bind = array('id' => $id);$/;"	v
+bind	app/models/Activity.php	/^        $bind = array($/;"	v
+bind	app/models/Activity.php	/^        $bind = array('aid' => $aid, 'user_id' => $user_id);$/;"	v
+bind	app/models/Activity.php	/^        $bind = array('id' => $id);$/;"	v
+bind	app/models/Activity.php	/^        $bind = array('pub_user_id' => $pub_user_id);$/;"	v
+bind	app/models/Activity.php	/^        $bind = array();$/;"	v
+bind	app/models/Attachment.php	/^		$bind = array($/;"	v
+bind	app/models/CarInfo.php	/^        $bind = array($/;"	v
+bind	app/models/CarInfo.php	/^        $bind = array('id' => $id);$/;"	v
+bind	app/models/ClockIn.php	/^        $bind = array('user_id' => $user_id);$/;"	v
+bind	app/models/Collection.php	/^		$bind = array();$/;"	v
+bind	app/models/Insurance.php	/^        $bind = array($/;"	v
+bind	app/models/Insurance.php	/^        $bind = array('id' => $id);$/;"	v
+bind	app/models/Insurance.php	/^        $bind = array('info_id' => $info_id);$/;"	v
+bind	app/models/Insurance.php	/^        $bind = array();$/;"	v
+bind	app/models/LocalFavour.php	/^        $bind = array($/;"	v
+bind	app/models/LocalFavour.php	/^        $bind = array('id' => $id);$/;"	v
+bind	app/models/LocalFavour.php	/^        $bind = array();$/;"	v
+bind	app/models/Mission.php	/^        $bind = array($/;"	v
+bind	app/models/Mission.php	/^        $bind = array('id' => $id);$/;"	v
+bind	app/models/Mission.php	/^        $bind = array('user_id' => $user_id);$/;"	v
+bind	app/models/Mission.php	/^        $bind = array('user_id' =>$user_id);$/;"	v
+bind	app/models/ModelEx.php	/^            $bind = isset($parameters['bind'])? $parameters['bind'] : null;$/;"	v
+bind	app/models/User.php	/^                $bind = array($/;"	v
+bind	app/models/User.php	/^            $bind = array($/;"	v
+bind	app/models/User.php	/^        $bind = array($/;"	v
+bind	app/models/User.php	/^        $bind = array('openid' => $openid);$/;"	v
+bind	app/models/User.php	/^        $bind = array('user_id' => $user_id);$/;"	v
+bind	app/models/User.php	/^        $bind = array('user_id' => $user_id, 'num' => $num);$/;"	v
+bind	app/models/User.php	/^        $bind = array();$/;"	v
+bind	app/models/User.php	/^        $bind = null;$/;"	v
+bindCarOwnerAction	app/controllers/MovecarController.php	/^    public function bindCarOwnerAction()$/;"	f
+bindDataTypes	app/library/twm/db/adapter/Mssql.php	/^                    $bindDataTypes = array_merge($bindDataTypes, $whereTypes);$/;"	v
+bindDataTypes	app/library/twm/db/adapter/Mssql.php	/^            $bindDataTypes = $dataTypes;$/;"	v
+bindDataTypes	app/library/twm/db/adapter/Mssql.php	/^            $bindDataTypes = array();$/;"	v
+bindParams	app/library/twm/db/test.php	/^	$bindParams = array(':aaa'=>'1',':bbb'=>'2');$/;"	v
+bindType	app/library/twm/db/adapter/Mssql.php	/^                        $bindType = $dataTypes[$position];$/;"	v
+bind_add	app/models/User.php	/^            $bind_add = array($/;"	v
+bind_add_mission_state	app/models/Mission.php	/^                $bind_add_mission_state = array($/;"	v
+bind_add_obj_state	app/models/Mission.php	/^                $bind_add_obj_state = array($/;"	v
+bind_add_objective	app/models/Mission.php	/^                $bind_add_objective = array($/;"	v
+bind_exists	app/models/User.php	/^        $bind_exists = array('user_id' => $user_id);$/;"	v
+bind_get_auto_mission	app/models/Mission.php	/^            $bind_get_auto_mission = array('user_id' => $user_id);$/;"	v
+bind_get_objective	app/models/Mission.php	/^        $bind_get_objective = array($/;"	v
+bind_get_state	app/models/Mission.php	/^                $bind_get_state = array('mssid' => $id);$/;"	v
+bind_mission	app/models/Mission.php	/^        $bind_mission = array($/;"	v
+bind_mission	app/models/Mission.php	/^        $bind_mission = array('id' => $id);$/;"	v
+bind_mission_state	app/models/Mission.php	/^        $bind_mission_state = array('mssid' => $id);$/;"	v
+bind_obj_state	app/models/Mission.php	/^        $bind_obj_state = array($/;"	v
+bind_objective	app/models/Mission.php	/^                $bind_objective = array('id' => $crt_obj->id);$/;"	v
+bind_objective	app/models/Mission.php	/^        $bind_objective = array('mssid' => $id);$/;"	v
+bind_objective	app/models/Mission.php	/^        $bind_objective = array('mssid' => $mssid);$/;"	v
+bind_objective_state	app/models/Mission.php	/^        $bind_objective_state = array('mssid' => $id);$/;"	v
+bind_state	app/models/Mission.php	/^        $bind_state = array($/;"	v
+bind_state	app/models/Mission.php	/^        $bind_state = array('id' => $id);$/;"	v
+bind_success	app/controllers/InsuranceController.php	/^        $bind_success = User::wxBindUser($user['user_id'], $openid, $source);$/;"	v
+bind_update	app/models/User.php	/^            $bind_update = array('user_id' => $crt->user_id);$/;"	v
+bind_user	app/controllers/InsuranceController.php	/^        $bind_user = User::getWxBindUser($openid, $source); $/;"	v
+bind_user	app/controllers/TempController.php	/^				$bind_user = $bind_user_list[0];$/;"	v
+bind_user	app/controllers/TempController.php	/^		$bind_user = null;$/;"	v
+bind_user_bind	app/controllers/TempController.php	/^			$bind_user_bind = array($/;"	v
+bind_user_list	app/controllers/TempController.php	/^			$bind_user_list = User::getUserList(array($/;"	v
+bind_user_sql	app/controllers/TempController.php	/^			$bind_user_sql = 'update IAM_USER set weixintoken = :wx_openid, wx_openid = :wx_openid where userid = :user_id';$/;"	v
+bind_user_success	app/controllers/TempController.php	/^			$bind_user_success = $db->execute($bind_user_sql, $bind_user_bind);$/;"	v
+bingo_bind	app/controllers/TempController.php	/^						$bingo_bind = array($/;"	v
+bingo_num	app/controllers/TempController.php	/^				$bingo_num = $bingo_num_row[0];$/;"	v
+bingo_num_bind	app/controllers/TempController.php	/^				$bingo_num_bind = array($/;"	v
+bingo_num_result	app/controllers/TempController.php	/^				$bingo_num_result = $db->query($bingo_num_sql, $bingo_num_bind);$/;"	v
+bingo_num_row	app/controllers/TempController.php	/^				$bingo_num_row = $bingo_num_result->fetch();$/;"	v
+bingo_num_sql	app/controllers/TempController.php	/^				$bingo_num_sql = <<<SQL$/;"	v
+bingo_sql	app/controllers/TempController.php	/^						$bingo_sql = <<<SQL$/;"	v
+bingo_success	app/controllers/TempController.php	/^						$bingo_success = $db->execute($bingo_sql, $bingo_bind);$/;"	v
+bonus_id	app/models/Mission.php	/^            $bonus_id = $state['b_id'];$/;"	v
+bonuses	app/plugins/MissionFilter.php	/^                        $bonuses = $state['bonuses'];$/;"	v
+boutique	app/library/twm/db/test.php	/^	$boutique = new Boutique();$/;"	v
+calFamilyInsuranceResult	app/models/InsuranceCalculator.php	/^    public static function calFamilyInsuranceResult( Criteria $insurance_param)$/;"	f
+calInsuranceResult	app/models/InsuranceCalculator.php	/^    public static function calInsuranceResult(Criteria $insurance_param)$/;"	f
+calRoadPassengerCarInsuranceResult	app/models/InsuranceCalculator.php	/^    public static function calRoadPassengerCarInsuranceResult(Criteria $insurance_param)$/;"	f
+calTruckInsuranceResult	app/models/InsuranceCalculator.php	/^    public static function calTruckInsuranceResult(Criteria $insurance_param)$/;"	f
+car_info	app/controllers/CarController.php	/^		$car_info = CarInfo::getCarInfoByUserIdAndHphm($user_id, $hphm);$/;"	v
+car_info	app/controllers/InsuranceController.php	/^            $car_info = CarInfo::getCarInfoByUserIdAndHphm($user['user_id'], $form_data['hphm']);$/;"	v
+car_info_id	app/controllers/InsuranceController.php	/^            $car_info_id = $data['car_info_id'];$/;"	v
+car_type_id	app/models/InsuranceCalculator.php	/^        $car_type_id = $insurance_param->car_type_id;$/;"	v
+castValue	app/library/twm/db/adapter/Mssql.php	/^                    $castValue = $value;$/;"	v
+castValue	app/library/twm/db/adapter/Mssql.php	/^                    $castValue = doubleval($value);$/;"	v
+certainInsuranceOrderAction	app/controllers/InsuranceController.php	/^    public function certainInsuranceOrderAction($insurance_info_id)$/;"	f
+ch	app/library/palm/utils/HttpConnect.php	/^        $ch = curl_init();$/;"	v
+chance	app/controllers/TempController.php	/^		$chance = Activity::getDrawChance($aid, $user['user_id']); \/\/获取抽奖机会$/;"	v
+checkInAction	app/controllers/MovecarController.php	/^    public function checkInAction()$/;"	f
+city_list	app/controllers/ProvinceController.php	/^        $city_list = Province::getCityListByPid($province_id);$/;"	v
+client_type	app/controllers/InsuranceController.php	/^                $client_type = 'Android';$/;"	v
+client_type	app/controllers/InsuranceController.php	/^                $client_type = 'iPad';$/;"	v
+client_type	app/controllers/InsuranceController.php	/^                $client_type = 'iPhone';$/;"	v
+client_type	app/controllers/InsuranceController.php	/^                $client_type = 'iPod';$/;"	v
+client_type	app/controllers/InsuranceController.php	/^            $client_type = null;$/;"	v
+client_type	app/controllers/TempController.php	/^				$client_type = 'Android';$/;"	v
+client_type	app/controllers/TempController.php	/^				$client_type = 'iPad';$/;"	v
+client_type	app/controllers/TempController.php	/^				$client_type = 'iPhone';$/;"	v
+client_type	app/controllers/TempController.php	/^				$client_type = 'iPod';$/;"	v
+client_type	app/controllers/TempController.php	/^			$client_type = null;$/;"	v
+client_type	app/controllers/TempController.php	/^		$client_type = $this->request->get('clientType', null, null);$/;"	v
+client_type	app/controllers/UserController.php	/^            $client_type = $this->request->get('clientType');$/;"	v
+client_type	app/plugins/AutoLoginFilter.php	/^            $client_type = $this->request->get('clientType');$/;"	v
+clock_in	app/controllers/ClockinController.php	/^        $clock_in = ClockIn::getClockIn($user['user_id']);$/;"	v
+clock_in	app/controllers/ClockinController.php	/^        $clock_in = ClockIn::getClockIn($user_id);$/;"	v
+clock_in	app/plugins/MissionFilter.php	/^        $clock_in = ClockIn::getClockIn($user['user_id']);$/;"	v
+code	app/controllers/IndexController.php	/^        $code = $this->request->get('code');$/;"	v
+code	app/controllers/InsuranceController.php	/^        $code = $this->request->get('code');$/;"	v
+code_str	app/controllers/TempController.php	/^						$code_str = '';$/;"	v
+coefficient	app/models/InsuranceCalculator.php	/^        $coefficient = $insurance_param->service_year;$/;"	v
+collection_list	app/controllers/CollectionController.php	/^        $collection_list = Collection::getList($criteria, $page_num, $page_size);$/;"	v
+collection_total	app/controllers/CollectionController.php	/^        $collection_total = Collection::getCount($criteria);$/;"	v
+columnAlias	app/library/twm/db/dialect/Mssql.php	/^                    $columnAlias = $column[2];$/;"	v
+columnAliasSql	app/library/twm/db/dialect/Mssql.php	/^                        $columnAliasSql = $columnDomainSql . " AS " . $columnAlias;$/;"	v
+columnAliasSql	app/library/twm/db/dialect/Mssql.php	/^                        $columnAliasSql = $columnDomainSql;$/;"	v
+columnAliasSql	app/library/twm/db/dialect/Mssql.php	/^                    $columnAliasSql = $columnDomainSql;$/;"	v
+columnDomain	app/library/twm/db/dialect/Mssql.php	/^                    $columnDomain = $column[1];$/;"	v
+columnDomainSql	app/library/twm/db/dialect/Mssql.php	/^                        $columnDomainSql = $columnDomain . "." . $columnSql;$/;"	v
+columnDomainSql	app/library/twm/db/dialect/Mssql.php	/^                        $columnDomainSql = $columnSql;$/;"	v
+columnDomainSql	app/library/twm/db/dialect/Mssql.php	/^                    $columnDomainSql = $columnSql;$/;"	v
+columnItem	app/library/twm/db/dialect/Mssql.php	/^                $columnItem = $column[0];$/;"	v
+columnName	app/library/twm/db/adapter/Mssql.php	/^            $columnName = $field['COLUMN_NAME'];$/;"	v
+columnSql	app/library/twm/db/dialect/Mssql.php	/^                        $columnSql = $columnItem;$/;"	v
+columnSql	app/library/twm/db/dialect/Mssql.php	/^                        $columnSql = $escapeColumnChar[0].$columnItem.$escapeColumnChar[1];$/;"	v
+columnSql	app/library/twm/db/dialect/Mssql.php	/^                    $columnSql = $this->getSqlExpression($columnItem, $escapeChar);$/;"	v
+columnSql	app/library/twm/db/dialect/Mssql.php	/^                $columnSql = "CHAR(" . $column->getSize() . ")";$/;"	v
+columnSql	app/library/twm/db/dialect/Mssql.php	/^                $columnSql = "DATE";$/;"	v
+columnSql	app/library/twm/db/dialect/Mssql.php	/^                $columnSql = "DATETIME";$/;"	v
+columnSql	app/library/twm/db/dialect/Mssql.php	/^                $columnSql = "DECIMAL(" . $column->getSize() . "," . $column->getScale() . ")";$/;"	v
+columnSql	app/library/twm/db/dialect/Mssql.php	/^                $columnSql = "INT";$/;"	v
+columnSql	app/library/twm/db/dialect/Mssql.php	/^                $columnSql = "NCHAR(" . $column->getSize() . ")";$/;"	v
+columnSql	app/library/twm/db/dialect/Mssql.php	/^                $columnSql = "NUMERIC"; \/\/FLOAT can't have range$/;"	v
+columnSql	app/library/twm/db/dialect/Mssql.php	/^                $columnSql = "TEXT";$/;"	v
+columnType	app/library/twm/db/adapter/Mssql.php	/^            $columnType = $field['TYPE_NAME'];$/;"	v
+columns	app/library/twm/db/adapter/Mssql.php	/^        $columns = array();$/;"	v
+columns	app/library/twm/db/dialect/Mssql.php	/^            $columns = $definition["columns"];$/;"	v
+columnsSql	app/library/twm/db/dialect/Mssql.php	/^            $columnsSql = $columns;$/;"	v
+columnsSql	app/library/twm/db/dialect/Mssql.php	/^            $columnsSql = join(", ", $selectedColumns);$/;"	v
+columns_str	app/models/ModelEx.php	/^            $columns_str = isset($parameters['columns']) ? $parameters['columns'] : '*';$/;"	v
+comments	app/controllers/DiscoveryController.php	/^        $comments = LocalFavour::getDiscoveryCommentList($local_favour_id, $page_num, $page_size);$/;"	v
+commit	app/library/twm/db/adapter/Mssql.php	/^    public function commit($nesting = false)$/;"	f
+company	app/controllers/InsuranceController.php	/^                $company = Insurance::getMinDiscount();$/;"	v
+company_id	app/controllers/InsuranceController.php	/^        $company_id = $data['company_id'];$/;"	v
+company_list	app/controllers/InsuranceController.php	/^        $company_list = Insurance::getInsuranceCompanyList(5);$/;"	v
+comparision	app/plugins/MissionFilter.php	/^                        $comparision = $objective['comparision'];$/;"	v
+compiler	app/config/services.php	/^            $compiler = $volt->getCompiler();$/;"	v
+compulsory_state_list	app/controllers/InsuranceController.php	/^        $compulsory_state_list = CompulsoryState::getList();$/;"	v
+condition	app/models/ModelEx.php	/^        $condition = isset($parameters[0]) && is_string($parameters[0]) ? $parameters[0]:'';$/;"	v
+condition_arr	app/models/Activity.php	/^        $condition_arr = array($/;"	v
+condition_arr	app/models/Activity.php	/^        $condition_arr = array();$/;"	v
+condition_arr	app/models/Collection.php	/^		$condition_arr = array();$/;"	v
+condition_arr	app/models/Insurance.php	/^        $condition_arr = array('state_id = 3');$/;"	v
+condition_arr	app/models/Insurance.php	/^        $condition_arr = array('state_id = 4');$/;"	v
+condition_arr	app/models/Insurance.php	/^        $condition_arr = array('state_id = 5');$/;"	v
+condition_arr	app/models/Insurance.php	/^        $condition_arr = array();$/;"	v
+condition_arr	app/models/LocalFavour.php	/^        $condition_arr = array('typeId in (1, 6, 7)');$/;"	v
+condition_arr	app/models/User.php	/^        $condition_arr = array();$/;"	v
+condition_str	app/models/Activity.php	/^            $condition_str = 'where '.implode(' and ', $condition_arr);$/;"	v
+condition_str	app/models/Activity.php	/^        $condition_str = '';$/;"	v
+condition_str	app/models/Collection.php	/^			$condition_str = 'where '.implode(' and ', $condition_arr);$/;"	v
+condition_str	app/models/Collection.php	/^		$condition_str = '';$/;"	v
+condition_str	app/models/Insurance.php	/^            $condition_str = 'where '.implode(' and ', $condition_arr);$/;"	v
+condition_str	app/models/Insurance.php	/^        $condition_str = '';$/;"	v
+condition_str	app/models/LocalFavour.php	/^            $condition_str = 'where '.implode(' and ', $condition_arr);$/;"	v
+condition_str	app/models/LocalFavour.php	/^        $condition_str = '';$/;"	v
+condition_str	app/models/User.php	/^            $condition_str = 'where '.implode(' and ', $condition_arr);$/;"	v
+condition_str	app/models/User.php	/^        $condition_str = '';$/;"	v
+conditions	app/library/twm/db/adapter/Mssql.php	/^                    $conditions = $whereCondition['conditions'];$/;"	v
+config	public/index.php	/^    $config = include __DIR__ . "\/..\/app\/config\/config.php";$/;"	v
+connect	app/library/twm/db/adapter/Mssql.php	/^    public function connect($descriptor = null)$/;"	f
+connection	app/controllers/InsuranceController.php	/^        $connection = $this->db;$/;"	v
+connection	app/models/Activity.php	/^        $connection = self::_getConnection();$/;"	v
+connection	app/models/CarInfo.php	/^        $connection = self::_getConnection();$/;"	v
+connection	app/models/ClockIn.php	/^        $connection = self::_getConnection();$/;"	v
+connection	app/models/Insurance.php	/^        $connection = self::_getConnection();$/;"	v
+connection	app/models/Mission.php	/^        $connection = self::_getConnection();$/;"	v
+connection	app/models/ModelEx.php	/^        $connection = self::_getConnection();$/;"	v
+connection	app/models/Order.php	/^        $connection = self::_getConnection();$/;"	v
+connection	app/models/User.php	/^            $connection = self::_getConnection();$/;"	v
+constraintName	app/library/twm/db/adapter/Mssql.php	/^            $constraintName = $reference[2];$/;"	v
+countPos	app/library/twm/db/dialect/Mssql.php	/^                    $countPos = strpos($sql, 'COUNT');$/;"	v
+countString	app/library/twm/db/adapter/Mssql.php	/^            $countString = 'SELECT COUNT(*) "numrows"';$/;"	v
+countString	app/library/twm/db/adapter/Mssql.php	/^            $countString = 'SELECT COUNT(*)';$/;"	v
+createSavepoint	app/library/twm/db/dialect/Mssql.php	/^       public function createSavepoint($name){}$/;"	f
+createTable	app/library/twm/db/dialect/Mssql.php	/^       public function createTable($tableName, $schemaName, $definition){}$/;"	f
+createView	app/library/twm/db/dialect/Mssql.php	/^    public function createView($viewName, $definition, $schemaName=null)$/;"	f
+criteria	app/controllers/ActivityController.php	/^        $criteria = array();$/;"	v
+criteria	app/controllers/CollectionController.php	/^        $criteria = array();$/;"	v
+criteria	app/controllers/DiscoveryController.php	/^        $criteria = $this->request->get('criteria');$/;"	v
+crt	app/models/Activity.php	/^        $crt = new Criteria($criteria);$/;"	v
+crt	app/models/Activity.php	/^        $crt = new Criteria($user_info);$/;"	v
+crt	app/models/CarInfo.php	/^        $crt = new Criteria($car_info);$/;"	v
+crt	app/models/Collection.php	/^		$crt = new Criteria($criteria);$/;"	v
+crt	app/models/Insurance.php	/^        $crt = new Criteria($criteria);$/;"	v
+crt	app/models/Insurance.php	/^        $crt = new Criteria($insurance_info);$/;"	v
+crt	app/models/LocalFavour.php	/^        $crt = new Criteria($criteria);$/;"	v
+crt	app/models/Mission.php	/^        $crt = new Criteria($criteria);$/;"	v
+crt	app/models/Order.php	/^        $crt = new Criteria($criteria);$/;"	v
+crt	app/models/User.php	/^        $crt = new Criteria($criteria);$/;"	v
+crt_obj	app/models/Mission.php	/^            $crt_obj = new Criteria($objective);$/;"	v
+crt_objective	app/models/Mission.php	/^            $crt_objective = new Criteria($objective);$/;"	v
+crypt	app/config/services.php	/^    $crypt = new Phalcon\\Crypt();$/;"	v
+cte_condition_arr	app/models/Activity.php	/^        $cte_condition_arr = array($/;"	v
+cte_condition_arr	app/models/Collection.php	/^		$cte_condition_arr = array();$/;"	v
+cte_condition_arr	app/models/Insurance.php	/^        $cte_condition_arr = array('state_id = 3');$/;"	v
+cte_condition_arr	app/models/Insurance.php	/^        $cte_condition_arr = array('state_id = 4');$/;"	v
+cte_condition_arr	app/models/Insurance.php	/^        $cte_condition_arr = array('state_id = 5');$/;"	v
+cte_condition_arr	app/models/Insurance.php	/^        $cte_condition_arr = array();$/;"	v
+cte_condition_arr	app/models/LocalFavour.php	/^        $cte_condition_arr = array();$/;"	v
+cte_condition_str	app/models/Activity.php	/^            $cte_condition_str = 'where '.implode(' and ', $cte_condition_arr);$/;"	v
+cte_condition_str	app/models/Activity.php	/^        $cte_condition_str = '';$/;"	v
+cte_condition_str	app/models/Collection.php	/^			$cte_condition_str = 'where '.implode(' and ', $cte_condition_arr);$/;"	v
+cte_condition_str	app/models/Collection.php	/^		$cte_condition_str = '';$/;"	v
+cte_condition_str	app/models/Insurance.php	/^            $cte_condition_str = 'where '.implode(' and ', $cte_condition_arr);$/;"	v
+cte_condition_str	app/models/Insurance.php	/^        $cte_condition_str = '';$/;"	v
+cte_condition_str	app/models/LocalFavour.php	/^            $cte_condition_str = 'where '.implode(' and ', $cte_condition_arr);$/;"	v
+cte_condition_str	app/models/LocalFavour.php	/^        $cte_condition_str = '';$/;"	v
+cur_bonus_id	app/models/Mission.php	/^                    $cur_bonus_id = $bonus_id;$/;"	v
+cur_bonus_id	app/models/Mission.php	/^                $cur_bonus_id = $bonus_id;$/;"	v
+cur_bonus_id	app/models/Mission.php	/^        $cur_bonus_id = null;$/;"	v
+cur_id	app/models/Mission.php	/^                $cur_id = $state_id;$/;"	v
+cur_id	app/models/Mission.php	/^        $cur_id = null;$/;"	v
+cur_obj_id	app/models/Mission.php	/^                    $cur_obj_id = $obj_id;$/;"	v
+cur_obj_id	app/models/Mission.php	/^                $cur_obj_id = $obj_id;$/;"	v
+cur_obj_id	app/models/Mission.php	/^        $cur_obj_id = null;$/;"	v
+cur_state	app/models/Mission.php	/^                $cur_state = new ArrayObject(array($/;"	v
+cur_state	app/models/Mission.php	/^        $cur_state = null;$/;"	v
+cur_time	app/controllers/TempController.php	/^		$cur_time = date('H:i');$/;"	v
+cur_value	app/plugins/MissionFilter.php	/^                        $cur_value = $objective['value'];$/;"	v
+data	app/controllers/InsuranceController.php	/^        $data = $this->request->getJsonRawBody(true);$/;"	v
+data	app/controllers/MovecarController.php	/^        $data = $this->request->getJsonRawBody(true);$/;"	v
+data	app/plugins/AjaxFilter.php	/^                $data = $this->view->getParamsToView();$/;"	v
+data_bin	app/controllers/AttachmentController.php	/^                $data_bin = freah($f, $file_size);$/;"	v
+data_string	app/controllers/AttachmentController.php	/^                $data_string = base64_encode(file_get_contents($path));$/;"	v
+data_type	app/plugins/AjaxFilter.php	/^            $data_type = $this->_requestDataType();$/;"	v
+db	app/controllers/TempController.php	/^		$db = $this->db;$/;"	v
+db	app/library/twm/db/test.php	/^$db = new \\Twm\\Db\\Adapter\\Pdo\\Mssql($mc); $/;"	v
+db	app/models/Attachment.php	/^		$db = self::_getConnection();$/;"	v
+db	app/models/LocalFavour.php	/^        $db = self::_getConnection();$/;"	v
+debug	public/index.php	/^$debug = new Phalcon\\Debug();$/;"	v
+definition	app/library/twm/db/adapter/Mssql.php	/^            $definition = array($/;"	v
+delMission	app/models/Mission.php	/^    public static function delMission($id)$/;"	f
+delMissionState	app/models/Mission.php	/^    public static function delMissionState($id)$/;"	f
+del_order_bind	app/models/Order.php	/^        $del_order_bind = array($/;"	v
+del_order_sql	app/models/Order.php	/^        $del_order_sql = "delete from PayList where orderType = 'insurance' and relId = :info_id";$/;"	v
+delete	app/library/twm/db/adapter/Mssql.php	/^    public function delete($table, $whereCondition = null, $placeholders = null, $dataTypes = null)$/;"	f
+des_field	app/models/Mission.php	/^            $des_field = ':des'.$index;$/;"	v
+describe	app/library/twm/db/adapter/Mssql.php	/^            $describe = $this->fetchAll($sql, \\Phalcon\\DB::FETCH_NUM);$/;"	v
+describe	app/library/twm/db/adapter/Mssql.php	/^        $describe = $this->fetchAll($dialect->describeColumns($table, $schema), \\Phalcon\\Db::FETCH_ASSOC);$/;"	v
+describeColumns	app/library/twm/db/adapter/Mssql.php	/^    public function describeColumns($table, $schema = null)$/;"	f
+describeColumns	app/library/twm/db/dialect/Mssql.php	/^    public function describeColumns($table, $schema = null)$/;"	f
+describeIndexes	app/library/twm/db/adapter/Mssql.php	/^    public function describeIndexes($table, $schema = null)$/;"	f
+describeIndexes	app/library/twm/db/dialect/Mssql.php	/^    public function describeIndexes($table, $schema = null)$/;"	f
+describeKeys	app/library/twm/db/adapter/Mssql.php	/^        $describeKeys = $this->fetchAll("exec sp_pkeys @table_name = '$table'");$/;"	v
+describeReferences	app/library/twm/db/adapter/Mssql.php	/^    public function describeReferences($table, $schema = null)$/;"	f
+describeReferences	app/library/twm/db/dialect/Mssql.php	/^    public function describeReferences($table, $schema = null)$/;"	f
+di	app/config/services.php	/^$di = new FactoryDefault();$/;"	v
+di	app/models/ModelEx.php	/^        $di = DI::getDefault();$/;"	v
+di	app/models/User.php	/^        $di = \\Phalcon\\DI::getDefault();$/;"	v
+dialect	app/library/twm/db/adapter/Mssql.php	/^        $dialect = $this->_dialect;$/;"	v
+dir	app/controllers/AttachmentController.php	/^        $dir = self::_dir();$/;"	v
+discount	app/controllers/InsuranceController.php	/^                $discount = $company['discount'];$/;"	v
+discoverise	app/controllers/DiscoveryController.php	/^        $discoverise = LocalFavour::getLocalFavourList($criteria, $page_num, $page_size);$/;"	v
+discoverise_total	app/controllers/DiscoveryController.php	/^        $discoverise_total = LocalFavour::getLocalFavourCount($criteria);$/;"	v
+discovery	app/controllers/DiscoveryController.php	/^        $discovery = LocalFavour::getLocalFavourDetailById($id);$/;"	v
+dispatcher	app/config/services.php	/^    $dispatcher = new Dispatcher();$/;"	v
+doClockInAction	app/controllers/ClockinController.php	/^    public function doClockInAction($user_id=null)$/;"	f
+domain	app/library/twm/db/dialect/Mssql.php	/^        $domain = $this->escaping($expressions['domain'], $escapeChar);$/;"	v
+driving_tour_list	app/controllers/DrivingtourController.php	/^        $driving_tour_list = Activity::getDrivingTourList(null, $page_num, $page_size);$/;"	v
+driving_tour_total	app/controllers/DrivingtourController.php	/^        $driving_tour_total = Activity::getDrivingTourCount();$/;"	v
+dropColumn	app/library/twm/db/dialect/Mssql.php	/^    public function dropColumn($tableName, $schemaName, $columnName)$/;"	f
+dropForeignKey	app/library/twm/db/dialect/Mssql.php	/^       public function dropForeignKey($tableName, $schemaName, $referenceName){}$/;"	f
+dropIndex	app/library/twm/db/dialect/Mssql.php	/^    public function dropIndex($tableName, $schemaName, $indexName)$/;"	f
+dropPrimaryKey	app/library/twm/db/dialect/Mssql.php	/^    public function dropPrimaryKey($tableName, $schemaName)$/;"	f
+dropTable	app/library/twm/db/dialect/Mssql.php	/^       public function dropTable($tableName, $schemaName){}$/;"	f
+dropView	app/library/twm/db/dialect/Mssql.php	/^    public function dropView($viewName, $schemaName=null, $ifExists=null)$/;"	f
+dsn	app/library/twm/db/adapter/Mssql.php	/^        $dsn = $this->_config;$/;"	v
+dsn	app/library/twm/db/adapter/Mssql.php	/^        $dsn = $this->_pdoType . ':' . implode(';', $dsn);$/;"	v
+ec	app/library/twm/db/test.php	/^$ec = array($/;"	v
+emptyArr	app/library/twm/db/adapter/Mssql.php	/^        $emptyArr = array();$/;"	v
+endIndex	app/library/twm/db/dialect/Mssql.php	/^                    $endIndex = $startIndex + $number - 1;$/;"	v
+err_info	app/controllers/TempController.php	/^						$err_info = $db->getInternalHandler()->errorInfo();$/;"	v
+err_info	app/models/Order.php	/^            $err_info = $connection->getInternalHandler()->errorInfo();$/;"	v
+err_msg	app/controllers/DiscoveryController.php	/^            $err_msg = '回复添加失败!';$/;"	v
+err_msg	app/controllers/DiscoveryController.php	/^            $err_msg = '回复添加成功!';$/;"	v
+escapeChar	app/library/twm/db/dialect/Mssql.php	/^        $escapeChar = "\\"";$/;"	v
+escapeColumnChar	app/library/twm/db/dialect/Mssql.php	/^        $escapeColumnChar = array('[',']');$/;"	v
+escapeIdentifier	app/library/twm/db/adapter/Mssql.php	/^    public function escapeIdentifier($identifier)$/;"	f
+escapedField	app/library/twm/db/adapter/Mssql.php	/^                $escapedField = $field;$/;"	v
+escapedField	app/library/twm/db/adapter/Mssql.php	/^                $escapedField = $this->escapeIdentifier($field);$/;"	v
+escapedFields	app/library/twm/db/adapter/Mssql.php	/^                $escapedFields = $fields;$/;"	v
+escapedFields	app/library/twm/db/adapter/Mssql.php	/^                $escapedFields = array();$/;"	v
+escapedTable	app/library/twm/db/adapter/Mssql.php	/^            $escapedTable = $table;$/;"	v
+escapedTable	app/library/twm/db/adapter/Mssql.php	/^            $escapedTable = $this->escapeIdentifier($table);$/;"	v
+escaping	app/library/twm/db/dialect/Mssql.php	/^    protected function escaping($item, $escapeChar)$/;"	f
+eventsManager	app/config/plugins.php	/^$eventsManager = $di->getShared('eventsManager');$/;"	v
+eventsManager	app/config/services.php	/^    $eventsManager = $di->getShared('eventsManager');$/;"	v
+events_to_client	app/plugins/MissionFilter.php	/^                                    $events_to_client = array( 'system.bonus' => array($msg_bonus) );$/;"	v
+events_to_client	app/plugins/MissionFilter.php	/^                                $events_to_client = $this->view->getVar('events');$/;"	v
+executePrepared	app/library/twm/db/adapter/Mssql.php	/^    public function executePrepared($statement, $placeholders, $dataTypes)$/;"	f
+exists	app/models/User.php	/^        $exists = !empty($result_exists[0]);$/;"	v
+ext_name	app/plugins/AjaxFilter.php	/^            $ext_name = substr($base_name, $pos + 1);$/;"	v
+ext_name	app/plugins/AjaxFilter.php	/^        $ext_name = null;$/;"	v
+f	app/controllers/AttachmentController.php	/^                $f = fopen($path);$/;"	v
+fetchOne	app/models/ModelEx.php	/^    public static function fetchOne($sql, $bindParameters=null, $bindTypes=null, $fetch_mode = Db::FETCH_OBJ)$/;"	f
+field	app/library/twm/db/adapter/Mssql.php	/^            $field = $fields[$position];$/;"	v
+field_obj_state_str	app/models/Mission.php	/^                    $field_obj_state_str = '';$/;"	v
+field_obj_state_str	app/models/Mission.php	/^                    $field_obj_state_str = rtrim($field_obj_state_str, ', ');$/;"	v
+field_obj_str	app/models/Mission.php	/^                $field_obj_str = '';$/;"	v
+field_state_str	app/models/Mission.php	/^        $field_state_str = '';$/;"	v
+field_state_str	app/models/Mission.php	/^        $field_state_str = rtrim($field_state_str, ', ');$/;"	v
+field_str	app/models/CarInfo.php	/^        $field_str = '';$/;"	v
+field_str	app/models/CarInfo.php	/^        $field_str = rtrim($field_str, ', ');$/;"	v
+field_str	app/models/Insurance.php	/^        $field_str = '';$/;"	v
+field_str	app/models/Insurance.php	/^        $field_str = 'lastModifiedTime = getdate(), ';$/;"	v
+field_str	app/models/Insurance.php	/^        $field_str = rtrim($field_str, ', ');$/;"	v
+field_str	app/models/Mission.php	/^        $field_str = '';$/;"	v
+field_str	app/models/Mission.php	/^        $field_str = rtrim($field_str, ', ');$/;"	v
+field_str	app/models/User.php	/^                $field_str = rtrim($field_str, ', ');$/;"	v
+field_str	app/models/User.php	/^            $field_str = '';$/;"	v
+file	app/controllers/AttachmentController.php	/^        $file = $files[0];$/;"	v
+file_max_size	app/controllers/AttachmentController.php	/^    private static $file_max_size = 5242880; \/\/最大文件大小,单位字节(这里是5M)$/;"	v
+file_name	app/controllers/AttachmentController.php	/^        $file_name = $file->getBasename();$/;"	v
+file_size	app/controllers/AttachmentController.php	/^        $file_size = $file->getSize();$/;"	v
+files	app/controllers/AttachmentController.php	/^        $files = $this->request->getUploadedFiles();$/;"	v
+filtered_states	app/models/Mission.php	/^        $filtered_states = array();$/;"	v
+final_param_id	app/controllers/InsuranceController.php	/^        $final_param_id = $info['final_param_id'];$/;"	v
+final_result	app/controllers/InsuranceController.php	/^                $final_result = Insurance::getInsuranceFinalResultById($final_result_id);$/;"	v
+final_result_id	app/controllers/InsuranceController.php	/^        $final_result_id = $data['result_id'];$/;"	v
+find	app/models/ModelEx.php	/^    public static function find($parameters=null)$/;"	f
+findFirst	app/models/ModelEx.php	/^    public static function findFirst($parameters=null)$/;"	f
+first_result	app/controllers/InsuranceController.php	/^        $first_result = Insurance::getInsuranceFirstResultById($id);$/;"	v
+flashSession	app/config/services.php	/^    $flashSession = new \\Phalcon\\Flash\\Session(array($/;"	v
+forUpdate	app/library/twm/db/dialect/Mssql.php	/^    public function forUpdate($sqlQuery)$/;"	f
+form_data	app/controllers/InsuranceController.php	/^        $form_data = $this->request->getJsonRawBody(true);$/;"	v
+get	app/library/palm/utils/HttpConnect.php	/^    public function get($url, $header=array(), $cookie='')$/;"	f
+getActivityByPubUser	app/models/Activity.php	/^    public static function getActivityByPubUser($pub_user_id, $page_num=null, $page_size=null)$/;"	f
+getActivityCount	app/models/Activity.php	/^    public static function getActivityCount(array $criteria=null)$/;"	f
+getActivityDetailById	app/models/Activity.php	/^    public static function getActivityDetailById($id)$/;"	f
+getActivityList	app/models/Activity.php	/^    public static function getActivityList(array $criteria=null,$page_num=null, $page_size=null)$/;"	f
+getActivityPuser	app/models/Activity.php	/^    public static function getActivityPuser($aid, $user_id)$/;"	f
+getActivityPuserAction	app/controllers/ActivityController.php	/^    public function getActivityPuserAction($aid, $user_id)$/;"	f
+getActivityUser	app/models/Activity.php	/^    public static function getActivityUser(array $criteria=null)$/;"	f
+getActivityUserAction	app/controllers/ActivityController.php	/^    public function getActivityUserAction()$/;"	f
+getActualedInsuranceInfoCount	app/models/Insurance.php	/^    public static function getActualedInsuranceInfoCount(array $criteria=null)$/;"	f
+getActualedInsuranceInfoList	app/models/Insurance.php	/^    public static function getActualedInsuranceInfoList(array $criteria=null, $page_num=null, $page_size=null)$/;"	f
+getAttachmentById	app/models/Attachment.php	/^	public static function getAttachmentById($id)$/;"	f
+getAvailableAutoMissionList	app/models/Mission.php	/^    public static function getAvailableAutoMissionList($user_id)$/;"	f
+getAvailableMissionCount	app/models/Mission.php	/^    public static function getAvailableMissionCount($user_id)$/;"	f
+getAvailableMissionList	app/models/Mission.php	/^    public static function getAvailableMissionList($user_id, $page_num=null, $page_size=null)$/;"	f
+getCarInfoByUserIdAndHphm	app/models/CarInfo.php	/^    public static function getCarInfoByUserIdAndHphm($user_id, $hphm)$/;"	f
+getCarInfoByUserIdAndHphmAction	app/controllers/CarController.php	/^	public function getCarInfoByUserIdAndHphmAction($user_id, $hphm)$/;"	f
+getCityById	app/models/Province.php	/^    public static function getCityById($id)$/;"	f
+getCityListByPid	app/models/Province.php	/^    public static function getCityListByPid($pid)$/;"	f
+getClockIn	app/models/ClockIn.php	/^    public static function getClockIn($user_id)$/;"	f
+getClockInInfoAction	app/controllers/ClockinController.php	/^    public function getClockInInfoAction($user_id=null)$/;"	f
+getColumnDefinition	app/library/twm/db/dialect/Mssql.php	/^    public function getColumnDefinition($column)$/;"	f
+getCommentsAction	app/controllers/DiscoveryController.php	/^    public function getCommentsAction($local_favour_id)$/;"	f
+getCompletedMissionCount	app/models/Mission.php	/^    public static function getCompletedMissionCount($user_id)$/;"	f
+getCompletedMissionList	app/models/Mission.php	/^    public static function getCompletedMissionList($user_id, $page_num=null, $page_size=null)$/;"	f
+getCount	app/models/Collection.php	/^	public static function getCount(array $criteria=null)$/;"	f
+getCurrentUser	app/models/User.php	/^    public static function getCurrentUser()$/;"	f
+getDetailAction	app/controllers/ActivityController.php	/^    public function getDetailAction($id)$/;"	f
+getDetailAction	app/controllers/DiscoveryController.php	/^    public function getDetailAction($id)$/;"	f
+getDetailAction	app/controllers/DrivingtourController.php	/^    public function getDetailAction($id)$/;"	f
+getDiscoveryCommentCount	app/models/LocalFavour.php	/^    public static function getDiscoveryCommentCount($local_favour_id)$/;"	f
+getDiscoveryCommentList	app/models/LocalFavour.php	/^    public static function getDiscoveryCommentList($local_favour_id, $page_num=null, $page_size=null)$/;"	f
+getDrawChance	app/models/Activity.php	/^    public static function getDrawChance($aid, $user_id)$/;"	f
+getDrivingTourCount	app/models/Activity.php	/^    public static function getDrivingTourCount(array $criteria=null)$/;"	f
+getDrivingTourDetailById	app/models/Activity.php	/^    public static function getDrivingTourDetailById($id)$/;"	f
+getDrivingTourList	app/models/Activity.php	/^    public static function getDrivingTourList(array $criteria=null, $page_num=null, $page_size=null)$/;"	f
+getFinalResultsAction	app/controllers/InsuranceController.php	/^    public function getFinalResultsAction($info_id)$/;"	f
+getFullProgressInMissionState	app/models/Mission.php	/^    public static function getFullProgressInMissionState($user_id)$/;"	f
+getGoodsByIds	app/models/Goods.php	/^    public static function getGoodsByIds(array $ids)$/;"	f
+getHasOrderInsuranceCount	app/models/Insurance.php	/^    public static function getHasOrderInsuranceCount(array $criteria=null)$/;"	f
+getHasOrderInsuranceInfoList	app/models/Insurance.php	/^    public static function getHasOrderInsuranceInfoList(array $criteria=null, $page_num=null, $page_size=null)$/;"	f
+getHasPolicyInsuranceCount	app/models/Insurance.php	/^    public static function getHasPolicyInsuranceCount(array $criteria=null)$/;"	f
+getHasPolicyInsuranceList	app/models/Insurance.php	/^    public static function getHasPolicyInsuranceList(array $criteria=null, $page_num=null, $page_size=null)$/;"	f
+getInProgressMissionCount	app/models/Mission.php	/^    public static function getInProgressMissionCount($user_id)$/;"	f
+getInProgressMissionList	app/models/Mission.php	/^    public static function getInProgressMissionList($user_id, $page_num=null, $page_size=null)$/;"	f
+getIndexAdv	app/models/Adv.php	/^	public static function getIndexAdv()$/;"	f
+getInsuranceCompanyList	app/models/Insurance.php	/^    public static function getInsuranceCompanyList($top)$/;"	f
+getInsuranceCompanyListAction	app/controllers/InsuranceController.php	/^    public function getInsuranceCompanyListAction()$/;"	f
+getInsuranceFinalResultById	app/models/Insurance.php	/^    public static function getInsuranceFinalResultById($id)$/;"	f
+getInsuranceFinalResults	app/models/Insurance.php	/^    public static function getInsuranceFinalResults($info_id)$/;"	f
+getInsuranceFirstResultAction	app/controllers/InsuranceController.php	/^    public function getInsuranceFirstResultAction($id)$/;"	f
+getInsuranceFirstResultById	app/models/Insurance.php	/^    public static function getInsuranceFirstResultById($id)$/;"	f
+getInsuranceInfoAction	app/controllers/InsuranceController.php	/^    public function getInsuranceInfoAction($id)$/;"	f
+getInsuranceInfoById	app/models/Insurance.php	/^    public static function getInsuranceInfoById($id)$/;"	f
+getInsuranceInfoCount	app/models/Insurance.php	/^    public static function getInsuranceInfoCount(array $criteria=null)$/;"	f
+getInsuranceInfoList	app/models/Insurance.php	/^    public static function getInsuranceInfoList(array $criteria=null, $page_num=null, $page_size=null)$/;"	f
+getInsuranceInfoListAction	app/controllers/InsuranceController.php	/^    public function getInsuranceInfoListAction($state)$/;"	f
+getInsuranceOrderInfo	app/models/Insurance.php	/^    public static function getInsuranceOrderInfo($info_id)$/;"	f
+getInsuranceOrderInfoAction	app/controllers/InsuranceController.php	/^    public function getInsuranceOrderInfoAction($insurance_info_id)$/;"	f
+getInsuranceSetList	app/models/Insurance.php	/^    public static function getInsuranceSetList()$/;"	f
+getList	app/models/Collection.php	/^	public static function getList(array $criteria=null, $page_num=null, $page_size)$/;"	f
+getList	app/models/CompulsoryState.php	/^    public static function getList()$/;"	f
+getList	app/models/InsuranceSet.php	/^    public static function getList()$/;"	f
+getListAction	app/controllers/ActivityController.php	/^    public function getListAction($type)$/;"	f
+getListAction	app/controllers/CollectionController.php	/^	public function getListAction()$/;"	f
+getListAction	app/controllers/DiscoveryController.php	/^    public function getListAction()$/;"	f
+getListAction	app/controllers/DrivingtourController.php	/^    public function getListAction()$/;"	f
+getLocalFavourCount	app/models/LocalFavour.php	/^    public static function getLocalFavourCount(array $criteria=null)$/;"	f
+getLocalFavourDetailById	app/models/LocalFavour.php	/^    public static function getLocalFavourDetailById($id)$/;"	f
+getLocalFavourList	app/models/LocalFavour.php	/^    public static function getLocalFavourList(array $criteria=null, $page_num=null, $page_size=null)$/;"	f
+getMinDiscount	app/models/Insurance.php	/^    public static function getMinDiscount()$/;"	f
+getObjectiveStateByMssid	app/models/Mission.php	/^    public static function getObjectiveStateByMssid($user_id, $mssid)$/;"	f
+getProvinceById	app/models/Province.php	/^    public static function getProvinceById($id)$/;"	f
+getProvinceCitiseAction	app/controllers/ProvinceController.php	/^    public function getProvinceCitiseAction($province_id)$/;"	f
+getProvinceList	app/models/Province.php	/^    public static function getProvinceList()$/;"	f
+getProvinceListAction	app/controllers/ProvinceController.php	/^    public function getProvinceListAction()$/;"	f
+getRawResponse	app/library/palm/utils/HttpConnect.php	/^    public function getRawResponse()$/;"	f
+getRecordListAction	app/controllers/MovecarController.php	/^    public function getRecordListAction()$/;"	f
+getResponseBody	app/library/palm/utils/HttpConnect.php	/^    public function getResponseBody()$/;"	f
+getResponseHeader	app/library/palm/utils/HttpConnect.php	/^    public function getResponseHeader()$/;"	f
+getResponseStatus	app/library/palm/utils/HttpConnect.php	/^    public function getResponseStatus()$/;"	f
+getSessionIdAction	app/controllers/UserController.php	/^    public function getSessionIdAction()$/;"	f
+getSqlExpression	app/library/twm/db/dialect/Mssql.php	/^    public function getSqlExpression($expressions, $escapeChar = "\\"")$/;"	f
+getSqlTable	app/library/twm/db/dialect/Mssql.php	/^    public function getSqlTable($tables, $escapeChar = "\\"")$/;"	f
+getTransactionLevel	app/library/twm/db/adapter/Mssql.php	/^    public function getTransactionLevel()$/;"	f
+getUserAvatarAction	app/controllers/UserController.php	/^    public function getUserAvatarAction($user_id)$/;"	f
+getUserAvatarById	app/models/User.php	/^    public static function getUserAvatarById($user_id)$/;"	f
+getUserByPhone	app/models/User.php	/^    public static function getUserByPhone($phone)$/;"	f
+getUserInfoAction	app/controllers/UserController.php	/^    public function getUserInfoAction()$/;"	f
+getUserInfoById	app/models/User.php	/^    public static function getUserInfoById($id)$/;"	f
+getUserList	app/models/User.php	/^    public static function getUserList(array $criteria=null)$/;"	f
+getUserMissionStateList	app/models/Mission.php	/^    public static function getUserMissionStateList($user_id)$/;"	f
+getWxBindUser	app/models/User.php	/^    public static function getWxBindUser($openid, $source='cm')$/;"	f
+get_award_bind	app/controllers/TempController.php	/^			$get_award_bind = array($/;"	v
+get_award_sql	app/controllers/TempController.php	/^			$get_award_sql = <<<SQL$/;"	v
+get_view_bind	app/controllers/TempController.php	/^				$get_view_bind = array($/;"	v
+get_view_sql	app/controllers/TempController.php	/^				$get_view_sql = 'select top 1 id from Hui_ActivityShareView where wx_user_id = :wx_user_id and p_user_id = :p_user_id and aid = :aid';$/;"	v
+get_view_sql	app/controllers/TempController.php	/^				$get_view_sql = <<<SQL$/;"	v
+get_win_list_bind	app/controllers/TempController.php	/^		$get_win_list_bind = array($/;"	v
+get_win_list_sql	app/controllers/TempController.php	/^		$get_win_list_sql = <<<SQL$/;"	v
+get_wx_user_bind	app/controllers/TempController.php	/^				$get_wx_user_bind = array('openid' => $wx_userinfo['openid']);$/;"	v
+get_wx_user_bind	app/models/User.php	/^            $get_wx_user_bind = array($/;"	v
+get_wx_user_sql	app/controllers/TempController.php	/^				$get_wx_user_sql = 'select top 1 id from WX_USER where openid = :openid';$/;"	v
+get_wx_user_sql	app/models/User.php	/^            $get_wx_user_sql = <<<SQL$/;"	v
+gift	app/controllers/InsuranceController.php	/^                $gift = $company['gift'];$/;"	v
+gift2	app/controllers/InsuranceController.php	/^                $gift2 = $company['gift2'];$/;"	v
+gift_money	app/controllers/InsuranceController.php	/^                $gift_money = $res_crt->afterDiscountCompulsoryInsurance * $gift + ($res_crt->standardThird < 0 ?  0 : $res_crt->standardThird) * $discount * $gift +  ($total_business - ($res_crt->standardThird<0?0: $res_crt->standardThird) - $res_crt->standardOptionalDeductible - $res_crt->standardNotDeductible) * $discount * $gift2;$/;"	v
+goods	app/models/Order.php	/^        $goods = Goods::getGoodsByIds(array_keys($goods_number_map));$/;"	v
+goods_number	app/models/Order.php	/^            $goods_number = $goods_number_map[$goods_id];$/;"	v
+goods_number_map	app/models/Order.php	/^        $goods_number_map = array();$/;"	v
+goods_price_map	app/models/Order.php	/^        $goods_price_map = array();$/;"	v
+groupFields	app/library/twm/db/dialect/Mssql.php	/^            $groupFields = $definition['group'];$/;"	v
+groupItems	app/library/twm/db/dialect/Mssql.php	/^            $groupItems = array();$/;"	v
+group_by	app/models/ModelEx.php	/^        $group_by = isset($parameters['group_by'])?$parameters['columns']:null;$/;"	v
+havingConditions	app/library/twm/db/dialect/Mssql.php	/^                $havingConditions = $definition['having'];$/;"	v
+hook_field	app/models/Mission.php	/^            $hook_field = ':hook'.$index;$/;"	v
+ids_str	app/models/Goods.php	/^        $ids_str = implode(', ', $ids);$/;"	v
+indexAction	app/controllers/ActivityController.php	/^    public function indexAction()$/;"	f
+indexAction	app/controllers/IndexController.php	/^    public function indexAction()$/;"	f
+indexAction	app/controllers/InsuranceController.php	/^    public function indexAction()$/;"	f
+indexAction	app/controllers/MovecarController.php	/^    public function indexAction()$/;"	f
+indexObjects	app/library/twm/db/adapter/Mssql.php	/^        $indexObjects = array();$/;"	v
+indexes	app/library/twm/db/adapter/Mssql.php	/^        $indexes = array();$/;"	v
+info	app/controllers/InsuranceController.php	/^        $info = Insurance::getInsuranceInfoById($id);$/;"	v
+info	app/controllers/InsuranceController.php	/^        $info = Insurance::getInsuranceInfoById($info_id);$/;"	v
+info_id	app/controllers/InsuranceController.php	/^        $info_id = $form_data['info_id'];$/;"	v
+info_list	app/controllers/InsuranceController.php	/^            $info_list = Insurance::getActualedInsuranceiNfoList(array('user_id' => $user_id), $page_num, $page_size);$/;"	v
+info_list	app/controllers/InsuranceController.php	/^            $info_list = Insurance::getHasOrderInsuranceInfoList(array('user_id' => $user_id), $page_num, $page_size);$/;"	v
+info_list	app/controllers/InsuranceController.php	/^            $info_list = Insurance::getHasPolicyInsuranceList(array('user_id' => $user_id), $page_num, $page_size);$/;"	v
+info_list	app/controllers/InsuranceController.php	/^            $info_list = Insurance::getInsuranceInfoList(array('state' => $state, 'user_id' => $user_id), $page_num, $page_size);$/;"	v
+info_list	app/controllers/InsuranceController.php	/^        $info_list = null;$/;"	v
+info_total	app/controllers/InsuranceController.php	/^            $info_total = Insurance::getActualedInsuranceInfoCount(array('user_id' => $user_id));$/;"	v
+info_total	app/controllers/InsuranceController.php	/^            $info_total = Insurance::getHasOrderInsuranceCount(array('user_id' => $user_id));$/;"	v
+info_total	app/controllers/InsuranceController.php	/^            $info_total = Insurance::getHasPolicyInsuranceCount(array('user_id' => $user_id));$/;"	v
+info_total	app/controllers/InsuranceController.php	/^            $info_total = Insurance::getInsuranceInfoCount(array('state' => $state, 'user_id' => $user_id));$/;"	v
+info_total	app/controllers/InsuranceController.php	/^        $info_total = 0;$/;"	v
+info_update	app/controllers/InsuranceController.php	/^        $info_update = array($/;"	v
+initialize	app/controllers/TempController.php	/^	public function initialize()$/;"	f
+insert	app/library/twm/db/adapter/Mssql.php	/^    public function insert($table, $values, $fields = null, $dataTypes = null)$/;"	f
+insertSql	app/library/twm/db/adapter/Mssql.php	/^            $insertSql = "INSERT INTO " . $escapedTable . " (" . join(", ", $escapedFields) . ") VALUES (" . $joinedValues . ")";$/;"	v
+insertSql	app/library/twm/db/adapter/Mssql.php	/^            $insertSql = "INSERT INTO " . $escapedTable . " VALUES (" . $joinedValues . ")";$/;"	v
+insertValues	app/library/twm/db/adapter/Mssql.php	/^        $insertValues = array();$/;"	v
+insert_au_bind	app/controllers/TempController.php	/^		$insert_au_bind = array($/;"	v
+insert_au_sql	app/controllers/TempController.php	/^		$insert_au_sql = 'insert into ActivityUser(userid, aid, p_user_id, invitation_code) values (:user_id, :aid, :p_user_id, :invitation_code)';$/;"	v
+insert_au_success	app/controllers/TempController.php	/^		$insert_au_success = $db->execute($insert_au_sql, $insert_au_bind);$/;"	v
+insert_view_bind	app/controllers/TempController.php	/^					$insert_view_bind = array($/;"	v
+insert_view_sql	app/controllers/TempController.php	/^					$insert_view_sql = 'insert into Hui_ActivityShareView (p_user_id, wx_user_id, aid) values (:p_user_id, :wx_user_id, :aid)';$/;"	v
+insert_view_success	app/controllers/TempController.php	/^					$insert_view_success = $db->execute($insert_view_sql, $insert_view_bind);$/;"	v
+insert_wx_user_bind	app/controllers/TempController.php	/^					$insert_wx_user_bind = array($/;"	v
+insert_wx_user_sql	app/controllers/TempController.php	/^					$insert_wx_user_sql = 'insert into WX_USER (openid, nickname, sex, province, city, country, headimgurl,privilege, unionid) values (:openid, :nickname, :sex, :province, :city, :country, :headimgurl, :privilege, :unionid)';$/;"	v
+insuranceShareAction	app/controllers/TempController.php	/^	public function insuranceShareAction()$/;"	f
+insuranceShareDescribeAction	app/controllers/TempController.php	/^	public function insuranceShareDescribeAction()$/;"	f
+insuranceShareDrawAction	app/controllers/TempController.php	/^	public function insuranceShareDrawAction($aid)$/;"	f
+insurance_info	app/controllers/InsuranceController.php	/^        $insurance_info = array($/;"	v
+insurance_order_info	app/controllers/InsuranceController.php	/^        $insurance_order_info = Insurance::getInsuranceOrderInfo($insurance_info_id);$/;"	v
+insurance_set_list	app/controllers/InsuranceController.php	/^        $insurance_set_list = InsuranceSet::getList();$/;"	v
+interpreterHuiGoldBonus	app/plugins/MissionFilter.php	/^    protected function interpreterHuiGoldBonus($value)$/;"	f
+interpreterUserpropSigntimesObjective	app/plugins/MissionFilter.php	/^    protected function interpreterUserpropSigntimesObjective($cur_value, $obj_value, $comparision)$/;"	f
+interpreter_bonus_method	app/plugins/MissionFilter.php	/^                            $interpreter_bonus_method = 'interpreter'.$type_name.$target_name.'Bonus';$/;"	v
+interpreter_objective_method	app/plugins/MissionFilter.php	/^                    $interpreter_objective_method = 'interpreter'.$type_name.$target_name.'Objective';$/;"	v
+invitation_code	app/controllers/TempController.php	/^		$invitation_code = strtoupper((str_pad(dechex($user['id']), 5, '0', STR_PAD_LEFT)));$/;"	v
+involved_p_user	app/controllers/TempController.php	/^			$involved_p_user = $query_result->fetch();$/;"	v
+involved_user	app/controllers/TempController.php	/^		$involved_user = $query_result->fetch();$/;"	v
+isReserved	app/models/Insurance.php	/^    public static function isReserved($phone, $car_info_id)$/;"	f
+isUserJoin	app/models/Activity.php	/^    public static function isUserJoin($user_id, $aid)$/;"	f
+is_already	app/controllers/TempController.php	/^		$is_already = !empty($involved_user);$/;"	v
+is_certain	app/controllers/TempController.php	/^		$is_certain = $this->request->get('is_certain', null, false); \/\/是否花费20次抽奖机会必中$/;"	v
+is_in_car_mate	app/controllers/TempController.php	/^		$is_in_car_mate = strpos($user_agent, 'YN122') !== false;$/;"	v
+is_involved	app/controllers/InsuranceController.php	/^            $is_involved = Activity::isUserJoin($user['user_id'], 228);$/;"	v
+is_on_time	app/controllers/TempController.php	/^		$is_on_time = !empty($valid_time);$/;"	v
+is_period	app/controllers/TempController.php	/^			$is_period = $valid_time['is_period'];$/;"	v
+is_user_join	app/controllers/ActivityController.php	/^        $is_user_join = Activity::isUserJoin($user['user_id'], $id);$/;"	v
+is_user_join	app/controllers/DrivingtourController.php	/^        $is_user_join = Activity::isUserJoin($user['user_id'], $id);$/;"	v
+is_using_attach	app/controllers/InsuranceController.php	/^        $is_using_attach = !empty($form_data['driving_license_a']);$/;"	v
+is_wx	app/controllers/TempController.php	/^		$is_wx = strpos($user_agent, 'MicroMessenger') !== false;$/;"	v
+joinConditionsArray	app/library/twm/db/dialect/Mssql.php	/^                $joinConditionsArray = $join['conditions'];$/;"	v
+joinExpressions	app/library/twm/db/dialect/Mssql.php	/^                        $joinExpressions = array();$/;"	v
+joinedValues	app/library/twm/db/adapter/Mssql.php	/^        $joinedValues = join(", ", $placeholders);$/;"	v
+joins	app/library/twm/db/dialect/Mssql.php	/^            $joins = $definition['joins'];$/;"	v
+json_data	app/controllers/ActivityController.php	/^        $json_data = $this->request->getJsonRawBody(true);$/;"	v
+json_data	app/controllers/DiscoveryController.php	/^        $json_data = $this->request->getJsonRawBody(true);$/;"	v
+json_data	app/controllers/InsuranceController.php	/^        $json_data= $this->request->getJsonRawBody(true);$/;"	v
+key	app/controllers/InsuranceController.php	/^        $key = $this->request->get('key', null, null);$/;"	v
+keyName	app/library/twm/db/adapter/Mssql.php	/^            $keyName = $index['index_id'];$/;"	v
+key_arr	app/controllers/InsuranceController.php	/^        $key_arr = explode('|', base64_decode($key));$/;"	v
+lastInsertId	app/library/twm/db/adapter/Mssql.php	/^    public function lastInsertId($tableName = null, $primaryKey = null)$/;"	f
+last_month	app/models/InsuranceCalculator.php	/^        $last_month = $insurance_param->insurance_month - $insurance_param->first_month;$/;"	v
+level	app/models/InsuranceCalculator.php	/^        $level = $insurance_param->level; \/\/标准保费计算等级(家庭自用车和客车按座位数, 货车按吨位)$/;"	v
+limit	app/library/twm/db/adapter/Mssql.php	/^    public function limit($sqlQuery, $number)$/;"	f
+limit	app/library/twm/db/dialect/Mssql.php	/^    public function limit($sqlQuery, $number)$/;"	f
+limit	app/models/ModelEx.php	/^            $limit = isset($parameters['limit']) ? $parameters['limit'] : null;$/;"	v
+limitValue	app/library/twm/db/dialect/Mssql.php	/^            $limitValue = $definition["limit"];$/;"	v
+listAction	app/controllers/DrivingtourController.php	/^    public function listAction()$/;"	f
+listTables	app/library/twm/db/dialect/Mssql.php	/^    public function listTables($schemaName = null)$/;"	f
+listViews	app/library/twm/db/dialect/Mssql.php	/^    public function listViews($schemaName = null)$/;"	f
+loader	app/config/loader.php	/^$loader = new \\Phalcon\\Loader();$/;"	v
+loader	app/library/twm/db/test.php	/^$loader = new \\Phalcon\\Loader();$/;"	v
+location_url	app/controllers/IndexController.php	/^    	$location_url = '';$/;"	v
+location_url	app/controllers/TempController.php	/^			$location_url = base64_decode($location_url);$/;"	v
+location_url	app/controllers/TempController.php	/^		$location_url = $this->request->get('location_url', null, null);$/;"	v
+lock_file	app/controllers/TempController.php	/^			$lock_file = $lock_time.'.lock';$/;"	v
+lock_file	app/controllers/TempController.php	/^		$lock_file = $lock_time.'.lock';$/;"	v
+lock_time	app/controllers/TempController.php	/^		$lock_time = $this->request->get('lock_time', null, null);$/;"	v
+loginAction	app/controllers/UserController.php	/^    public function loginAction($way)$/;"	f
+mc	app/library/twm/db/test.php	/^$mc = array($/;"	v
+microMessengerBindAction	app/controllers/InsuranceController.php	/^    public function microMessengerBindAction()$/;"	f
+microMessengerEntranceAction	app/controllers/InsuranceController.php	/^    public function microMessengerEntranceAction()$/;"	f
+microMessengerLoginAction	app/controllers/InsuranceController.php	/^    public function microMessengerLoginAction()$/;"	f
+mime_type	app/controllers/AttachmentController.php	/^        $mime_type = $file->getRealType();$/;"	v
+minus	app/controllers/TempController.php	/^			$minus = $is_certain ? 20 : 1;$/;"	v
+minus_chance_bind	app/controllers/TempController.php	/^			$minus_chance_bind = array($/;"	v
+minus_chance_sql	app/controllers/TempController.php	/^			$minus_chance_sql = <<<SQL$/;"	v
+minus_chance_success	app/controllers/TempController.php	/^			$minus_chance_success = $db->execute($minus_chance_sql, $minus_chance_bind);$/;"	v
+missions	app/models/Mission.php	/^            $missions = self::nativeQuery($sql_get_auto_mission, $bind_get_auto_mission);$/;"	v
+modifyColumn	app/library/twm/db/dialect/Mssql.php	/^    public function modifyColumn($tableName, $schemaName, $column)$/;"	f
+msg_bonus	app/plugins/MissionFilter.php	/^                                $msg_bonus = call_user_func_array(array($this, $interpreter_bonus_method), array($value));$/;"	v
+mssid	app/models/Mission.php	/^        $mssid = $connection->lastInsertId();$/;"	v
+name	app/library/twm/db/dialect/Mssql.php	/^        $name = $this->escaping($expressions['name'], $escapeChar);$/;"	v
+nativeExecute	app/models/ModelEx.php	/^    public static function nativeExecute($sql, $bindParameters=null, $bindTypes=null)$/;"	f
+nativeQuery	app/models/ModelEx.php	/^    public static function nativeQuery($sql, $bindParameters=null, $bindTypes=null, $fetch_mode=Db::FETCH_ASSOC)$/;"	f
+nearest_time	app/controllers/TempController.php	/^			$nearest_time = $nearest_time_assoc['start_time'];$/;"	v
+nearest_time_assoc	app/controllers/TempController.php	/^			$nearest_time_assoc = $nearest_time_result->fetch();$/;"	v
+nearest_time_bind	app/controllers/TempController.php	/^			$nearest_time_bind = array($/;"	v
+nearest_time_result	app/controllers/TempController.php	/^			$nearest_time_result = $db->query($nearest_time_sql, $nearest_time_bind);$/;"	v
+nearest_time_sql	app/controllers/TempController.php	/^			$nearest_time_sql = <<<SQL$/;"	v
+new_activity_id	app/controllers/ActivityController.php	/^        $new_activity_id = Activity::addActivity($json_data);$/;"	v
+new_address_id	app/controllers/InsuranceController.php	/^        $new_address_id = Insurance::addInsuranceAddress($data);$/;"	v
+new_attach_id	app/controllers/AttachmentController.php	/^                $new_attach_id = Attachment::addAttachment($data_bin, $file_name, $mime_type, 'binary');$/;"	v
+new_attach_id	app/controllers/AttachmentController.php	/^                $new_attach_id = Attachment::addAttachment($data_string, $file_name, $mime_type, 'base64');$/;"	v
+new_attach_id	app/controllers/AttachmentController.php	/^                $new_attach_id = Attachment::addAttachment($url, $file_name, $mime_type, 'url');$/;"	v
+new_au_id	app/controllers/ActivityController.php	/^            $new_au_id = Activity::signUp($json_data, $aid); \/\/活动参加用户记录新id$/;"	v
+new_au_id	app/models/Activity.php	/^        $new_au_id = $connection->lastInsertId();$/;"	v
+new_car_no_id	app/controllers/InsuranceController.php	/^                $new_car_no_id = CarInfo::addCarInfo(array($/;"	v
+new_comment_id	app/controllers/DiscoveryController.php	/^        $new_comment_id = LocalFavour::addComment($local_favour_id, $json_data);$/;"	v
+new_info_id	app/controllers/InsuranceController.php	/^        $new_info_id = Insurance::addInsuranceInfo($insurance_info);$/;"	v
+new_order_id	app/models/Order.php	/^        $new_order_id = $connection->lastInsertId();$/;"	v
+new_param_id	app/controllers/InsuranceController.php	/^        $new_param_id = Insurance::addInsuranceParam($json_data);$/;"	v
+new_result_id	app/controllers/InsuranceController.php	/^        $new_result_id = Insurance::addInsuranceResult($result);$/;"	v
+nolock	app/library/twm/db/dialect/Mssql.php	/^                    $nolock = true;$/;"	v
+nolock	app/library/twm/db/dialect/Mssql.php	/^            $nolock = false;$/;"	v
+nolockTokens	app/library/twm/db/dialect/Mssql.php	/^        $nolockTokens = array('guid','dev_id'); \/\/token to trigger no lock hint. you may change tokens$/;"	v
+notifyAction	app/controllers/MovecarController.php	/^    public function notifyAction()$/;"	f
+number	app/library/twm/db/dialect/Mssql.php	/^			$number = $number['value'];$/;"	v
+number	app/library/twm/db/dialect/Mssql.php	/^                $number = $limitValue["number"];$/;"	v
+oauth2_url	app/controllers/InsuranceController.php	/^        $oauth2_url = 'https:\/\/open.weixin.qq.com\/connect\/oauth2\/authorize?appid='.$app_id.'&redirect_uri='.$wx_redirect_url.'&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect';$/;"	v
+obj_id	app/models/Mission.php	/^            $obj_id = $objective['id'];$/;"	v
+obj_id	app/models/Mission.php	/^            $obj_id = $state['o_id'];$/;"	v
+obj_value	app/plugins/MissionFilter.php	/^                        $obj_value = $objective['objective'];$/;"	v
+objective_field	app/models/Mission.php	/^            $objective_field = ':objective'.$index;$/;"	v
+objective_id	app/models/Mission.php	/^                $objective_id = $connection->lastInsertId();$/;"	v
+objective_ids	app/models/Mission.php	/^        $objective_ids = array();$/;"	v
+objective_ids_str	app/models/Mission.php	/^        $objective_ids_str = implode(', ', $objective_ids);$/;"	v
+objectives	app/models/Mission.php	/^        $objectives = $connection->query($sql_get_objective, $bind_get_objective);$/;"	v
+offset	app/library/twm/db/adapter/Mssql.php	/^                        $offset = count($countString);$/;"	v
+offset	app/library/twm/db/dialect/Mssql.php	/^		        $offset = $offset['value'];$/;"	v
+offset	app/library/twm/db/dialect/Mssql.php	/^		$offset = $limitValue['offset'];$/;"	v
+oldColumn	app/library/twm/db/adapter/Mssql.php	/^            $oldColumn = $columnName;$/;"	v
+oldColumn	app/library/twm/db/adapter/Mssql.php	/^        $oldColumn = null;$/;"	v
+openid	app/controllers/IndexController.php	/^        $openid = $wx_token['openid'];$/;"	v
+openid	app/controllers/InsuranceController.php	/^        $openid = $access_token_info['openid'];$/;"	v
+openid	app/controllers/InsuranceController.php	/^        $openid = $this->request->get('openid');$/;"	v
+orderFields	app/library/twm/db/dialect/Mssql.php	/^            $orderFields = $definition['order'];$/;"	v
+orderItems	app/library/twm/db/dialect/Mssql.php	/^            $orderItems = array();$/;"	v
+orderSqlItem	app/library/twm/db/dialect/Mssql.php	/^                $orderSqlItem = $this->getSqlExpression($orderItem[0], $escapeChar);$/;"	v
+orderSqlItemType	app/library/twm/db/dialect/Mssql.php	/^                    $orderSqlItemType = $orderSqlItem . " " . $sqlOrderType;$/;"	v
+orderSqlItemType	app/library/twm/db/dialect/Mssql.php	/^                    $orderSqlItemType = $orderSqlItem;$/;"	v
+order_by	app/models/ModelEx.php	/^        $order_by = isset($parameters['columns'])?$parameters['order']:null;$/;"	v
+order_detail_values_str	app/models/Order.php	/^        $order_detail_values_str = '';$/;"	v
+order_detail_values_str	app/models/Order.php	/^        $order_detail_values_str = rtrim($order_detail_values_str, ', ');$/;"	v
+order_no	app/models/Order.php	/^            $order_no = self::_genOrderNo();$/;"	v
+order_result	app/controllers/ActivityController.php	/^                    $order_result = Order::addOrder('activity', $json_data);$/;"	v
+order_result	app/controllers/InsuranceController.php	/^                $order_result = Order::addOrder('insurance', array($/;"	v
+p_user	app/controllers/InsuranceController.php	/^                $p_user = Activity::getActivityUser(array($/;"	v
+p_user	app/controllers/TempController.php	/^			$p_user = User::getUserByPhone($p_user_phone);$/;"	v
+p_user_id	app/controllers/TempController.php	/^			$p_user_id = $p_user['user_id'];$/;"	v
+p_user_id	app/controllers/TempController.php	/^		$p_user_id = null;$/;"	v
+p_user_phone	app/controllers/TempController.php	/^		$p_user_phone = $this->dispatcher->getParam('p_user_phone', null, '0');$/;"	v
+p_user_phone	app/controllers/TempController.php	/^		$p_user_phone = $this->request->get('p_user_phone', null, '0');$/;"	v
+page_condition_str	app/models/Activity.php	/^            $page_condition_str = 'where '.implode(' and ', $cte_condition_arr);$/;"	v
+page_condition_str	app/models/Activity.php	/^            $page_condition_str = 'where rownum between :from and :to';$/;"	v
+page_condition_str	app/models/Activity.php	/^        $page_condition_str = '';$/;"	v
+page_condition_str	app/models/Collection.php	/^			$page_condition_str = 'where rownum between :from and :to';$/;"	v
+page_condition_str	app/models/Collection.php	/^		$page_condition_str = '';$/;"	v
+page_condition_str	app/models/Insurance.php	/^            $page_condition_str = 'where rownum between :from and :to';$/;"	v
+page_condition_str	app/models/Insurance.php	/^        $page_condition_str = '';$/;"	v
+page_condition_str	app/models/LocalFavour.php	/^            $page_condition_str = 'where rownum between :from and :to';$/;"	v
+page_condition_str	app/models/LocalFavour.php	/^        $page_condition_str = '';$/;"	v
+page_condition_str	app/models/Mission.php	/^            $page_condition_str = 'where rownum between :from and :to';$/;"	v
+page_condition_str	app/models/Mission.php	/^        $page_condition_str = '';$/;"	v
+page_num	app/controllers/ActivityController.php	/^        $page_num = $this->request->get('page');$/;"	v
+page_num	app/controllers/CollectionController.php	/^		$page_num = $this->request->get('page');$/;"	v
+page_num	app/controllers/DiscoveryController.php	/^        $page_num = $this->request->get('page');$/;"	v
+page_num	app/controllers/DrivingtourController.php	/^        $page_num = $this->request->get('page');$/;"	v
+page_num	app/controllers/InsuranceController.php	/^        $page_num = $this->request->get('page');$/;"	v
+page_size	app/controllers/ActivityController.php	/^        $page_size = $this->request->get('rows');$/;"	v
+page_size	app/controllers/CollectionController.php	/^        $page_size = $this->request->get('rows');$/;"	v
+page_size	app/controllers/DiscoveryController.php	/^        $page_size = $this->request->get('rows');$/;"	v
+page_size	app/controllers/DrivingtourController.php	/^        $page_size = $this->request->get('rows');$/;"	v
+page_size	app/controllers/InsuranceController.php	/^        $page_size = $this->request->get('rows');$/;"	v
+param_crt	app/models/Insurance.php	/^        $param_crt = new Criteria($insurance_param);$/;"	v
+parameter	app/library/twm/db/adapter/Mssql.php	/^                    $parameter = $wildcard;$/;"	v
+parameter	app/library/twm/db/adapter/Mssql.php	/^                $parameter = $wildcard + 1;$/;"	v
+parameter	app/library/twm/db/adapter/Mssql.php	/^            $parameter = '';$/;"	v
+parts	app/library/palm/utils/HttpConnect.php	/^        $parts = explode("\\r\\n\\r\\n", $this->_response);$/;"	v
+path	app/controllers/AttachmentController.php	/^        $path = $dir.basename($file->getTempName()).time().'.'.$file->getExtension();$/;"	v
+period_id	app/controllers/TempController.php	/^			$period_id = isset($valid_time['period_id']) ? $valid_time['period_id'] : null;$/;"	v
+pic_data_str	app/controllers/UserController.php	/^        $pic_data_str = User::getUserAvatarById($user_id);$/;"	v
+placeholders	app/library/twm/db/adapter/Mssql.php	/^        $placeholders = array();$/;"	v
+pos	app/library/twm/db/adapter/Mssql.php	/^                        $pos = strpos($sql, 'SELECT', $offset) + 7; \/\/'SELECT ';$/;"	v
+pos	app/library/twm/db/dialect/Mssql.php	/^                    $pos = strpos($sql, 'FROM');$/;"	v
+post	app/library/palm/utils/HttpConnect.php	/^    public function post($url, $data='', $header=array(), $cookie='')$/;"	f
+primaryKeys	app/library/twm/db/adapter/Mssql.php	/^        $primaryKeys = array();$/;"	v
+province_id	app/controllers/DrivingtourController.php	/^        $province_id = isset($user['province_id']) ? $user['province_id'] : null;$/;"	v
+province_list	app/controllers/ProvinceController.php	/^        $province_list = Province::getProvinceList();$/;"	v
+pureColumn	app/library/twm/db/dialect/Mssql.php	/^                        $pureColumn = substr($column, ($pos = strpos($column, '.')) !== false ? $pos + 1 : 0);$/;"	v
+pureColumns	app/library/twm/db/dialect/Mssql.php	/^                    $pureColumns = array();$/;"	v
+pureColumns	app/library/twm/db/dialect/Mssql.php	/^                    $pureColumns = join(", ", $pureColumns);$/;"	v
+pwd	app/models/User.php	/^        $pwd = '';$/;"	v
+query	app/library/twm/db/adapter/Mssql.php	/^    public function query($sql, $bindParams = null, $bindTypes = null)$/;"	f
+query_bind	app/controllers/TempController.php	/^			$query_bind = array($/;"	v
+query_bind	app/controllers/TempController.php	/^		$query_bind = array($/;"	v
+query_result	app/controllers/TempController.php	/^			$query_result = $db->query($query_sql, $query_bind);$/;"	v
+query_result	app/controllers/TempController.php	/^		$query_result = $db->query($query_sql, $query_bind);$/;"	v
+query_sql	app/controllers/TempController.php	/^			$query_sql = 'select invitation_code from ActivityUser where userid = :user_id and aid = :aid';$/;"	v
+query_sql	app/controllers/TempController.php	/^		$query_sql = 'select invitation_code from ActivityUser where userid = :user_id and aid = :aid';$/;"	v
+rand_index	app/controllers/TempController.php	/^				$rand_index = array_rand($award_list);$/;"	v
+rand_ord	app/controllers/TempController.php	/^								$rand_ord = 101;$/;"	v
+rand_ord	app/controllers/TempController.php	/^								$rand_ord = 113;$/;"	v
+rand_ord	app/controllers/TempController.php	/^								$rand_ord = 51;$/;"	v
+rand_ord	app/controllers/TempController.php	/^								$rand_ord = 81;$/;"	v
+rand_ord	app/controllers/TempController.php	/^							$rand_ord = rand(48, 122);$/;"	v
+record_list	app/controllers/TempController.php	/^				$record_list = $record_result->fetchAll();$/;"	v
+record_result	app/controllers/TempController.php	/^				$record_result = $db->query($get_view_sql, $get_view_bind);$/;"	v
+referenceObjects	app/library/twm/db/adapter/Mssql.php	/^        $referenceObjects = array();$/;"	v
+references	app/library/twm/db/adapter/Mssql.php	/^        $references = array();$/;"	v
+register_result	app/controllers/InsuranceController.php	/^            $register_result = file_get_contents('http:\/\/192.168.3.31\/vehIllegalQuery\/index.php?mod=Member&act=RegisterSave&PWD='.$user_phone.'&PHONE='.$user_phone.'&clientType='.$client_type);$/;"	v
+register_result	app/controllers/TempController.php	/^			$register_result = file_get_contents('http:\/\/192.168.3.31\/vehIllegalQuery\/index.php?mod=Member&act=RegisterSave&PWD='.$user_phone.'&PHONE='.$user_phone.'&clientType='.$client_type);$/;"	v
+releaseSavepoint	app/library/twm/db/dialect/Mssql.php	/^       public function releaseSavepoint($name){}$/;"	f
+res_crt	app/controllers/InsuranceController.php	/^                $res_crt = new Criteria($result);$/;"	v
+resetDailyMissionState	app/models/Mission.php	/^    public static function resetDailyMissionState()$/;"	f
+result	app/controllers/InsuranceController.php	/^                $result = Insurance::getInsuranceFirstResultById($info['result_id']);$/;"	v
+result	app/controllers/InsuranceController.php	/^        $result = InsuranceCalculator::calInsuranceResult(new Criteria($json_data));$/;"	v
+result	app/library/twm/db/adapter/Mssql.php	/^        $result =  parent::query($sql, $bindParams, $bindTypes);$/;"	v
+result	app/library/twm/db/adapter/Mssql.php	/^        $result = $this->fetchOne($sql);$/;"	v
+result	app/library/twm/db/dialect/Mssql.php	/^        $result = "$domain.$name";$/;"	v
+result	app/library/twm/db/dialect/Mssql.php	/^        $result = array();$/;"	v
+result	app/models/Activity.php	/^        $result = self::fetchOne($sql, $bind, null, Db::FETCH_ASSOC);$/;"	v
+result	app/models/Activity.php	/^        $result = self::fetchOne($sql, $bind, null, Db::FETCH_NUM);$/;"	v
+result	app/models/Collection.php	/^		$result = self::fetchOne($sql, $bind, null, Db::FETCH_NUM);$/;"	v
+result	app/models/Insurance.php	/^        $result =  self::fetchOne($sql, $bind, null, Db::FETCH_NUM);$/;"	v
+result	app/models/Insurance.php	/^        $result = self::fetchOne($sql, $bind, null, Db::FETCH_ASSOC);$/;"	v
+result	app/models/Insurance.php	/^        $result = self::fetchOne($sql, $bind, null, Db::FETCH_NUM);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = $car_price * 0.12 \/ 100.0;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = $car_price * 0.18 \/ 100.0;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = $car_price * 0.19 \/ 100.0;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = $car_price * 0.21 \/ 100.0;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = $car_price * 0.24 \/ 100.0;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = $car_price * 0.26 \/ 100.0;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = $car_price * 0.30 \/ 100.0;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = $car_price * 0.35 \/ 100.0;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = $car_price * 0.41 \/ 100.0;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = $car_price * 0.45 \/ 100.0;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = -1;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 10462;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 1061;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 11501;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 1353;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 1507;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 1655;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 1707;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 1946;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 1960;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 2042;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 2143;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 2218;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 2275;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 2373;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 2524;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 2597;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 2644;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 2663;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 2686;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 2893;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 3013;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 3057;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 3098;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 3164;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 3313;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 3346;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 3356;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 3450;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 3596;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 3819;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 3890;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 3960;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 4062;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 4132;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 4190;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 4253;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 4257;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 4662;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 4676;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 4929;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 4938;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 5023;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 5092;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 5427;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 5435;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 5594;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 5846;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 5947;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 6259;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 6389;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 6651;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 6899;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 7635;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 8011;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 8232;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = 8744;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = round($car_price * 2.11 \/ 100.0 + 1090.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = round($car_price * 2.13 \/ 100.0 + 1102.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = round($car_price * 2.15 \/ 100.0 + 1113.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = round($car_price * 2.15 \/ 100.0 + 1222.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = round($car_price * 2.17 \/ 100.0 + 1234.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = round($car_price * 2.19 \/ 100.0 + 1246.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = round($car_price * 2.24 \/ 100.0 + 962.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = round($car_price * 2.26 \/ 100.0 + 971.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = round($car_price * 2.28 \/ 100.0 + 981.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = round($car_price * 2.53 \/ 100.0 + 1236.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = round($car_price * 2.54 \/ 100.0 + 2968.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = round($car_price * 2.56 \/ 100.0 + 1248.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = round($car_price * 2.57 \/ 100.0 + 2998.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = round($car_price * 2.58 \/ 100.0 + 1261.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = round($car_price * 2.59 \/ 100.0 + 3029.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = round($car_price * 2.62 \/ 100.0 + 1292.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = round($car_price * 2.64 \/ 100.0 + 1305.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = round($car_price * 2.67 \/ 100.0 + 1318.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = round($car_price * 2.70 \/ 100.0 + 1533.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = round($car_price * 2.73 \/ 100.0 + 1549.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = round($car_price * 2.75 \/ 100.0 + 1565.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = round($car_price * 2.85 \/ 100.0 + 2332.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = round($car_price * 2.88 \/ 100.0 + 2355.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                        $result = round($car_price * 2.91 \/ 100.0 + 2397.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                    $result = 1100.00;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                    $result = 1850.00;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                    $result = 2350.00;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                    $result = 2620.00;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                    $result = 3070.00;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                    $result = 3420.00;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                    $result = 3450.00;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                    $result = 4480.00;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                    $result = 4690.00;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                    $result = 950.00;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                    $result = round($car_price * 0.49 \/ 100.0 + 80.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                    $result = round($car_price * 0.50 \/ 100.0 + 130.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                    $result = round($car_price * 0.53 \/ 100.0 + 80.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                    $result = round($car_price * 0.54 \/ 100.0 + 90.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                    $result = round($car_price * 0.56 \/ 100.0 + 60.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                    $result = round($driver * 0.42 \/100.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                    $result = round($driver * 0.44 \/100.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                    $result = round($driver * 0.50 \/100.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                    $result = round($driver * 0.77 \/100.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                    $result = round($passenger_number * $passenger * 0.26 \/ 100.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                    $result = round($passenger_number * $passenger * 0.27 \/ 100.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                    $result = round($passenger_number * $passenger * 0.31 \/ 100.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                    $result = round($passenger_number * $passenger * 0.48 \/ 100.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                $result = $car_price * 0.18 \/ 100.0;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                $result = $car_price * 0.3 \/ 100.0;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                $result = $standard_compulsory;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                $result = -1;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                $result = 1007;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                $result = 1148;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                $result = 1248;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                $result = 1408;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                $result = 1690;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                $result = 2201;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                $result = 698;$/;"	v
+result	app/models/InsuranceCalculator.php	/^                $result = round($car_price * 1.39 \/ 100.0 + 584.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                $result = round($car_price * 1.40 \/ 100.0 + 590.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                $result = round($car_price * 1.43 \/ 100.0 + 602.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                $result = round($car_price * 1.47 \/ 100.0 + 619.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                $result = round($standard_compulsory * 0.7, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                $result = round($standard_compulsory * 0.8, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                $result = round($standard_compulsory * 0.9, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                $result = round($standard_compulsory * 1.1, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^                $result = round($standard_compulsory * 1.3, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^            $result = round($car_price * 0.42 \/ 100.0 + 120.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^            $result = round($passenger_number * $passenger * 0.26 \/ 100.0, 2);$/;"	v
+result	app/models/InsuranceCalculator.php	/^        $result = 0.00;$/;"	v
+result	app/models/InsuranceCalculator.php	/^        $result = 0.0;$/;"	v
+result	app/models/InsuranceCalculator.php	/^        $result = 0;$/;"	v
+result	app/models/InsuranceCalculator.php	/^        $result = array();$/;"	v
+result	app/models/LocalFavour.php	/^        $result = self::fetchOne($sql, $bind, null, Db::FETCH_NUM);$/;"	v
+result	app/models/Mission.php	/^        $result = self::fetchOne($sql, $bind, null, Db::FETCH_NUM);$/;"	v
+result	app/models/ModelEx.php	/^            $result = $connection->fetchAll($sql, DB::FETCH_ASSOC);$/;"	v
+result	app/models/ModelEx.php	/^            $result = $connection->fetchAll($sql, DB::FETCH_ASSOC, $bind);$/;"	v
+result	app/models/ModelEx.php	/^        $result = $connection->query($sql, $bindParameters, $bindTypes);$/;"	v
+result	app/models/ModelEx.php	/^        $result = null;$/;"	v
+result	app/models/User.php	/^        $result = self::fetchOne($sql, $bind, null, Db::FETCH_NUM);$/;"	v
+result_crt	app/models/Insurance.php	/^        $result_crt = new Criteria($insurance_result);$/;"	v
+result_exists	app/models/User.php	/^        $result_exists = self::fetchOne($sql_exists, $bind_exists, null, Db::FETCH_NUM);$/;"	v
+result_list	app/controllers/InsuranceController.php	/^        $result_list = Insurance::getInsuranceFinalResults($info_id);$/;"	v
+results	app/models/Activity.php	/^        $results = self::nativeQuery($sql, $bind);$/;"	v
+return_data	app/controllers/ActivityController.php	/^                $return_data = array($/;"	v
+return_data	app/controllers/ActivityController.php	/^            $return_data = array($/;"	v
+return_data	app/controllers/ActivityController.php	/^        $return_data = null;$/;"	v
+return_data	app/controllers/InsuranceController.php	/^        $return_data = array($/;"	v
+return_data	app/controllers/InsuranceController.php	/^        $return_data = array();$/;"	v
+rollBack	app/library/twm/db/adapter/Mssql.php	/^    public function rollBack($nesting = false)$/;"	f
+rollbackSavepoint	app/library/twm/db/dialect/Mssql.php	/^       public function rollbackSavepoint($name){}$/;"	f
+round_month	app/models/InsuranceCalculator.php	/^        $round_month = $round_year * 12 + $last_month - 1;$/;"	v
+round_year	app/models/InsuranceCalculator.php	/^        $round_year = $insurance_param->insurance_year - $insurance_param->first_year;$/;"	v
+router	app/config/routes.php	/^$router = $di->getShared('router');$/;"	v
+satisfy	app/plugins/MissionFilter.php	/^                    $satisfy = $satisfy && $satisfy_part;$/;"	v
+satisfy	app/plugins/MissionFilter.php	/^                $satisfy = true;$/;"	v
+satisfy_part	app/plugins/MissionFilter.php	/^                        $satisfy_part = call_user_func_array(array($this, $interpreter_objective_method), array($cur_value, $obj_value, $comparision));$/;"	v
+satisfy_part	app/plugins/MissionFilter.php	/^                    $satisfy_part = false;$/;"	v
+saveUserInfo	app/models/User.php	/^    public static function saveUserInfo(array $criteria)$/;"	f
+save_user_info_success	app/models/Activity.php	/^        $save_user_info_success = User::saveUserInfo($sign_data);$/;"	v
+scale	app/library/twm/db/dialect/Mssql.php	/^                    $scale = $column->getScale();$/;"	v
+select	app/library/twm/db/dialect/Mssql.php	/^    public function select($definition)$/;"	f
+selectedColumns	app/library/twm/db/dialect/Mssql.php	/^            $selectedColumns = array();$/;"	v
+selectedTables	app/library/twm/db/dialect/Mssql.php	/^            $selectedTables = array();$/;"	v
+seperator	app/library/twm/db/adapter/Mssql.php	/^                $seperator = ',';$/;"	v
+seperator	app/library/twm/db/adapter/Mssql.php	/^            $seperator = ':';$/;"	v
+session	app/config/services.php	/^    $session = new SessionAdapter();$/;"	v
+session	app/models/User.php	/^        $session = $di->getShared('session');$/;"	v
+session_id	app/controllers/UserController.php	/^            $session_id = $this->session->getId();$/;"	v
+session_id	app/controllers/UserController.php	/^        $session_id = $this->session->getId();$/;"	v
+session_id	app/plugins/AutoLoginFilter.php	/^            $session_id = $this->session->getId();$/;"	v
+session_id	app/plugins/AutoLoginFilter.php	/^        $session_id = $this->request->get('ssid');$/;"	v
+setClause	app/library/twm/db/adapter/Mssql.php	/^        $setClause = join(", ", $placeholders);$/;"	v
+shareLock	app/library/twm/db/dialect/Mssql.php	/^    public function shareLock($sqlQuery)$/;"	f
+signUp	app/models/Activity.php	/^    public static function signUp(array $sign_data, $aid)$/;"	f
+signUpAction	app/controllers/ActivityController.php	/^    public function signUpAction()$/;"	f
+sign_times	app/plugins/MissionFilter.php	/^        $sign_times = $clock_in['times'];$/;"	v
+single_not_deductible_compulsory	app/models/InsuranceCalculator.php	/^        $single_not_deductible_compulsory = 0.0;$/;"	v
+single_not_deductible_damage	app/models/InsuranceCalculator.php	/^            $single_not_deductible_damage = self::_getSingleNotDeductibleDamageInsurance($after_discount_damage);$/;"	v
+single_not_deductible_damage	app/models/InsuranceCalculator.php	/^        $single_not_deductible_damage = 0.0;$/;"	v
+single_not_deductible_driver	app/models/InsuranceCalculator.php	/^            $single_not_deductible_driver = self::_getSingleNotDeductibleDriverInsurance($after_discount_driver);$/;"	v
+single_not_deductible_driver	app/models/InsuranceCalculator.php	/^        $single_not_deductible_driver = 0.0;$/;"	v
+single_not_deductible_glass	app/models/InsuranceCalculator.php	/^            $single_not_deductible_glass = self::_getSingleNotDeductibleGlassInsurance($after_discount_glass);$/;"	v
+single_not_deductible_glass	app/models/InsuranceCalculator.php	/^        $single_not_deductible_glass = 0.0;$/;"	v
+single_not_deductible_passenger	app/models/InsuranceCalculator.php	/^            $single_not_deductible_passenger = self::_getSingleNotDeductiblePassengerInsurance($after_discount_passenger);$/;"	v
+single_not_deductible_passenger	app/models/InsuranceCalculator.php	/^        $single_not_deductible_passenger = 0.0;$/;"	v
+single_not_deductible_robbery	app/models/InsuranceCalculator.php	/^            $single_not_deductible_robbery = self::_getSingleNotDeductibleRobberyInsurance($after_discount_robbery);$/;"	v
+single_not_deductible_robbery	app/models/InsuranceCalculator.php	/^        $single_not_deductible_robbery = 0.0;$/;"	v
+single_not_deductible_scratch	app/models/InsuranceCalculator.php	/^            $single_not_deductible_scratch = self::_getSingleNotDeductibleScratchInsurance($after_discount_scratch);$/;"	v
+single_not_deductible_scratch	app/models/InsuranceCalculator.php	/^        $single_not_deductible_scratch = 0.0;$/;"	v
+single_not_deductible_self_ignition	app/models/InsuranceCalculator.php	/^            $single_not_deductible_self_ignition = self::_getSingleNotDeductibleSelfIgnitionInsurance($after_discount_self_ignition);$/;"	v
+single_not_deductible_self_ignition	app/models/InsuranceCalculator.php	/^        $single_not_deductible_self_ignition = 0.0;$/;"	v
+single_not_deductible_third	app/models/InsuranceCalculator.php	/^            $single_not_deductible_third = self::_getSingleNotDeductibleThirdInsurance($after_discount_third);$/;"	v
+single_not_deductible_third	app/models/InsuranceCalculator.php	/^        $single_not_deductible_third = 0.0;$/;"	v
+size	app/library/twm/db/dialect/Mssql.php	/^                $size = $column->getSize();$/;"	v
+sizePattern	app/library/twm/db/adapter/Mssql.php	/^        $sizePattern = "#\\\\(([0-9]+)(,[0-9]+)*\\\\)#";$/;"	v
+source	app/controllers/InsuranceController.php	/^        $source = $this->request->get('source');$/;"	v
+source	app/controllers/InsuranceController.php	/^        $source = $this->request->get('source', null, 'cm');$/;"	v
+sql	app/library/twm/db/adapter/Mssql.php	/^                        $sql = substr($sql, 0, $pos) .  'TOP 100 PERCENT '. substr($sql, $pos);$/;"	v
+sql	app/library/twm/db/adapter/Mssql.php	/^                $sql = str_replace('rowcount', '[rowcount]', $sql);	\/\/sql server keywords$/;"	v
+sql	app/library/twm/db/adapter/Mssql.php	/^            $sql = "DELETE FROM " . $escapedTable . " WHERE " . $whereCondition;$/;"	v
+sql	app/library/twm/db/adapter/Mssql.php	/^            $sql = "DELETE FROM " . $escapedTable;$/;"	v
+sql	app/library/twm/db/adapter/Mssql.php	/^        $sql = $dialect->tableOptions($tableName, $schemaName);$/;"	v
+sql	app/library/twm/db/adapter/Mssql.php	/^        $sql = 'SELECT SCOPE_IDENTITY()';$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^		$sql = preg_replace('\/^SELECT\\s\/i', 'SELECT TOP ' . $number . ' ', $sqlQuery);$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^		$sql = preg_replace('\/^SELECT\\s\/i', 'SELECT TOP ' . $number['value'] . ' ', $sqlQuery);$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^                            $sql = substr($sql, 0, $countPos) .  " *, ROW_NUMBER() OVER ($sqlOrder) AS rownum FROM $table";$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^                            $sql = substr($sql, 0, $countPos) . " *, ROW_NUMBER() OVER (Order By (SELECT COL_NAME(OBJECT_ID('{$selectedTables[0]}'), 1))) AS rownum FROM $table";$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^                            $sql = substr($sql, 0, $pos) .  ", ROW_NUMBER() OVER ($sqlOrder) AS rownum FROM $table";$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^                            $sql = substr($sql, 0, $pos) .  ", ROW_NUMBER() OVER (ORDER BY {$selectedColumns[0]}) AS rownum FROM $table";$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^                    $sql = "SELECT $pureColumns FROM ( $sql ) AS t WHERE t.rownum BETWEEN $startIndex AND $endIndex"; \/\/don't break line$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^                    $sql = $this->limit($sql, $number);$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^                    $sql = $this->limit($sql, '100 PERCENT');$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^                $sql = "IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.VIEWS WHERE TABLE_NAME = '$view') ";$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^                $sql = "IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.VIEWS WHERE TABLE_NAME = '$viewName' AND TABLE_SCHEMA = '$schemaName') ";$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^                $sql = $this->limit($sql, $number);$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^            $sql = "ALTER TABLE [" . $schemaName . "].[" . $tableName . "] ADD ";$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^            $sql = "ALTER TABLE [" . $schemaName . "].[" . $tableName . "] ADD INDEX ";$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^            $sql = "ALTER TABLE [" . $schemaName . "].[" . $tableName . "] ADD PRIMARY KEY ";$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^            $sql = "ALTER TABLE [" . $schemaName . "].[" . $tableName . "] ALTER COLUMN ";$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^            $sql = "ALTER TABLE [" . $schemaName . "].[" . $tableName . "] DROP COLUMN ";$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^            $sql = "ALTER TABLE [" . $schemaName . "].[" . $tableName . "] DROP PRIMARY KEY ";$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^            $sql = "ALTER TABLE [" . $tableName . "] ADD ";$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^            $sql = "ALTER TABLE [" . $tableName . "] ADD INDEX ";$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^            $sql = "ALTER TABLE [" . $tableName . "] ADD PRIMARY KEY ";$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^            $sql = "ALTER TABLE [" . $tableName . "] ALTER COLUMN ";$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^            $sql = "ALTER TABLE [" . $tableName . "] DROP COLUMN ";$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^            $sql = "ALTER TABLE [" . $tableName . "] DROP PRIMARY KEY ";$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^            $sql = "DROP INDEX ($indexName) on  [" . $tableName . "] ";$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^            $sql = "DROP INDEX ($indexName) on [" . $schemaName . "].[" . $tableName . "] ";$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^            $sql = $sql . " WHERE TABLE_SCHEMA = '$schemaName'";$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^            $sql = $sql . "AND TABLE_SCHEMA = '$schemaName'";$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^           $sql = "select * from [INFORMATION_SCHEMA].[COLUMNS] where [TABLE]_NAME='$table' ";$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^           $sql = $sql . "AND TABLE_SCHEMA = '$schemaName'";$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^         $sql = $sqlQuery . ' WITH (NOLOCK) ';$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^        $sql = "SELECT $columnsSql FROM $tablesSql ";$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^        $sql = "SELECT * FROM sys.indexes ind INNER JOIN sys.tables t ON ind.object_id = t.object_id WHERE t.name = '$table' ";$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^        $sql = "SELECT COUNT(*) FROM [INFORMATION_SCHEMA].[TABLES] WHERE [TABLE_NAME] = '$tableName' ";$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^        $sql = "SELECT TABLES.TABLE_TYPE AS table_type,TABLES.AUTO_INCREMENT AS auto_increment,TABLES.ENGINE AS engine,TABLES.TABLE_COLLATION AS table_collation FROM INFORMATION_SCHEMA.TABLES WHERE ";$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^        $sql = "SELECT TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME,REFERENCED_TABLE_SCHEMA,REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE REFERENCED_TABLE_NAME IS NOT NULL AND ";$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^        $sql = "SELECT table_name FROM [INFORMATION_SCHEMA].[TABLES] ";$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^        $sql = "exec sp_columns [$table]";$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^        $sql = $sqlQuery . ' WITH (UPDLOCK) ';$/;"	v
+sql	app/library/twm/db/dialect/Mssql.php	/^        $sql="";$/;"	v
+sql	app/models/Activity.php	/^            $sql = 'update Activity set viewNum += 1 where id = :id';$/;"	v
+sql	app/models/Activity.php	/^        $sql = "select count(id) from Activity $condition_str";$/;"	v
+sql	app/models/Activity.php	/^        $sql = 'insert into Activity ([name], place, createDate, startDate, endDate, state, needPay, pubUser) values (:name, :place, getdate(), :start_date, :end_date, 3, :need_pay, :pub_user)';$/;"	v
+sql	app/models/Activity.php	/^        $sql = 'select chance from AwardChance where aid = :aid and userid = :user_id';$/;"	v
+sql	app/models/Activity.php	/^        $sql = 'select count(id) from ActivityUser where aid = :aid and userid = :user_id';$/;"	v
+sql	app/models/Activity.php	/^        $sql = <<<SQL$/;"	v
+sql	app/models/Adv.php	/^		$sql = <<<SQL$/;"	v
+sql	app/models/Attachment.php	/^			$sql = 'insert into Attachment (name, mime_type, data_type, data_bin) values(:name, :mime_type, 'binary', :data)';$/;"	v
+sql	app/models/Attachment.php	/^			$sql = 'insert into Attachment (name, mime_type, data_type, data_string) values (:name, :mime_type, :data_type, :data)';$/;"	v
+sql	app/models/Attachment.php	/^		$sql = '';$/;"	v
+sql	app/models/Attachment.php	/^		$sql = 'select id, name, mime_type, data_type, data_string, data_bin from Attachment where id = :id';$/;"	v
+sql	app/models/CarInfo.php	/^        $sql = <<<SQL$/;"	v
+sql	app/models/ClockIn.php	/^        $sql = 'insert into Hui_ClockIn (userId, times) values (:user_id, 1)';$/;"	v
+sql	app/models/ClockIn.php	/^        $sql = 'select userId, times, lastClockInDate from Hui_ClockIn where userId = :user_id';$/;"	v
+sql	app/models/ClockIn.php	/^        $sql = 'update HUI_ClockIn set times = (times % 7) + 1, lastClockInDate = getdate() where userId = :user_id and datediff(d, lastClockInDate, getdate()) >= 1';$/;"	v
+sql	app/models/Collection.php	/^		$sql = "select count(1) from Hui_Collection $condition_str";$/;"	v
+sql	app/models/Collection.php	/^		$sql = <<<SQL$/;"	v
+sql	app/models/CompulsoryState.php	/^        $sql = 'select id, status from Inrurance_Compulsory'; \/\/数据库中表名拼写错误,应是Insurance_Compulsory$/;"	v
+sql	app/models/Goods.php	/^        $sql = "select id, name, des, price, isShelf as is_shelf, createDate as create_date, cat_id, latestUpdate as latest_update, type_id from Hui_Goods where id in ($ids_str)";$/;"	v
+sql	app/models/Insurance.php	/^        $sql = "select count(id) from Insurance_Info $condition_str";$/;"	v
+sql	app/models/Insurance.php	/^        $sql = "update Insurance_FinalParam set $field_str where id = :id";$/;"	v
+sql	app/models/Insurance.php	/^        $sql = 'insert into Insurance_Address (provinceId, cityId, address) values (:province_id, :city_id, :address)';$/;"	v
+sql	app/models/Insurance.php	/^        $sql = 'insert into Insurance_Reservation (user_id, phone, car_info_id, offer_date) values (:user_id, :phone, :car_info_id, :offer_date)';$/;"	v
+sql	app/models/Insurance.php	/^        $sql = 'select * from Insurance_FinalResult where id = :id';$/;"	v
+sql	app/models/Insurance.php	/^        $sql = 'select id from Insurance_Reservation where phone = :phone and car_info_id = :car_info_id and mark is null';$/;"	v
+sql	app/models/Insurance.php	/^        $sql = 'select id, name, optionsList as options_list from Insurance_Set';$/;"	v
+sql	app/models/Insurance.php	/^        $sql = 'select top 1 discount, gift, gift2 from Insurance_Discount order by discount asc, gift2 desc, gift desc';$/;"	v
+sql	app/models/Insurance.php	/^        $sql = <<<SQL$/;"	v
+sql	app/models/InsuranceSet.php	/^        $sql = 'select id, name, optionsList as options_list from Insurance_Set';$/;"	v
+sql	app/models/LocalFavour.php	/^        $sql = "select count(id) from LocalFavour $condition_str";$/;"	v
+sql	app/models/LocalFavour.php	/^        $sql = "select title, contents as content from LocalFavour where id = :id";$/;"	v
+sql	app/models/LocalFavour.php	/^        $sql = "update LocalFavour set countFavourRead = countFavourRead + 1 where id = :id";$/;"	v
+sql	app/models/LocalFavour.php	/^        $sql = 'select count(id) from LocalFavourComment where pId = :local_favour_id and isState=1 and userid is not null';$/;"	v
+sql	app/models/LocalFavour.php	/^        $sql = <<<SQL$/;"	v
+sql	app/models/Mission.php	/^        $sql = 'delete from Hui_Mission where id = :id';$/;"	v
+sql	app/models/Mission.php	/^        $sql = 'delete from Hui_MissionState where id =:id';$/;"	v
+sql	app/models/Mission.php	/^        $sql = <<<SQL$/;"	v
+sql	app/models/ModelEx.php	/^            $sql = $limit ? $connection->limit($sql, $limit) : $sql;$/;"	v
+sql	app/models/ModelEx.php	/^            $sql = $sql.$columns_str.' FROM '.self::_getTableName();$/;"	v
+sql	app/models/ModelEx.php	/^            $sql = $sql.self::_buildWGO($parameters);$/;"	v
+sql	app/models/ModelEx.php	/^            $sql = 'SELECT ';$/;"	v
+sql	app/models/ModelEx.php	/^            $sql = 'SELECT * FROM '.self::_getTableName().$sql_wgo;$/;"	v
+sql	app/models/ModelEx.php	/^            $sql = 'SELECT * FROM '.self::_getTableName();$/;"	v
+sql	app/models/Province.php	/^        $sql = 'select id, [name] from City where pid = :pid';$/;"	v
+sql	app/models/Province.php	/^        $sql = 'select id, [name] from Province';$/;"	v
+sql	app/models/Province.php	/^        $sql = 'select id,name from Province where id = :id';$/;"	v
+sql	app/models/Province.php	/^        $sql = 'select id,name,pid,fzjg from City where id = :id';$/;"	v
+sql	app/models/User.php	/^                $sql = <<<SQL$/;"	v
+sql	app/models/User.php	/^            $sql = <<<SQL$/;"	v
+sql	app/models/User.php	/^        $sql = 'insert into IAM_USER (userid, pwd, weixintoken, wx_openid, status) values (:user_id, :pwd, :openid, :openid, :status)';$/;"	v
+sql	app/models/User.php	/^        $sql = 'select PHOTO from IAM_USERPHOTO where USERID = :user_id';$/;"	v
+sql	app/models/User.php	/^        $sql = <<<SQL$/;"	v
+sql	app/models/User.php	/^        $sql = null;$/;"	v
+sqlGroup	app/library/twm/db/dialect/Mssql.php	/^            $sqlGroup = " GROUP BY " . join(", ", $groupItems);$/;"	v
+sqlGroup	app/library/twm/db/dialect/Mssql.php	/^         $sqlGroup = '';$/;"	v
+sqlJoin	app/library/twm/db/dialect/Mssql.php	/^                $sqlJoin = " " . $join["type"] . " JOIN " . $sqlTable;$/;"	v
+sqlJoins	app/library/twm/db/dialect/Mssql.php	/^         $sqlJoins = '';$/;"	v
+sqlOrder	app/library/twm/db/dialect/Mssql.php	/^                $sqlOrder =  " ORDER BY " . join(", ", $orderItems);$/;"	v
+sqlOrder	app/library/twm/db/dialect/Mssql.php	/^            $sqlOrder == null;  \/\/side effect, limit clause need =>  if (isset($sqlOrder) && !empty($sqlOrder))$/;"	v
+sqlOrder	app/library/twm/db/dialect/Mssql.php	/^        $sqlOrder = '';$/;"	v
+sqlOrderType	app/library/twm/db/dialect/Mssql.php	/^                    $sqlOrderType = $orderItem[1];$/;"	v
+sqlStatement	app/library/twm/db/test.php	/^	$sqlStatement = "select * from tb_a_boutique_data where 1=':aaa' and 2=':bbb'";$/;"	v
+sqlTable	app/library/twm/db/dialect/Mssql.php	/^                $sqlTable = $this->getSqlTable($join["source"], $escapeChar);$/;"	v
+sqlWhere	app/library/twm/db/dialect/Mssql.php	/^         $sqlWhere = '';$/;"	v
+sql_add	app/models/User.php	/^            $sql_add = 'insert into IAM_USER_INFO (userid, uname, phone, sex, address,$/;"	v
+sql_add_mission_state	app/models/Mission.php	/^                $sql_add_mission_state = <<<SQL$/;"	v
+sql_add_obj_state	app/models/Mission.php	/^                    $sql_add_obj_state = <<<SQL$/;"	v
+sql_add_obj_state	app/models/Mission.php	/^                $sql_add_obj_state = <<<SQL$/;"	v
+sql_add_obj_state	app/models/Mission.php	/^        $sql_add_obj_state = <<<SQL$/;"	v
+sql_add_objective	app/models/Mission.php	/^                $sql_add_objective = <<<SQL$/;"	v
+sql_del_obj_state	app/models/Mission.php	/^        $sql_del_obj_state = "delete from Hui_MissionObjectiveState where objId not in ( $objective_ids_str )";$/;"	v
+sql_del_objective	app/models/Mission.php	/^        $sql_del_objective = <<<SQL$/;"	v
+sql_del_state	app/models/Mission.php	/^        $sql_del_state = "delete from Hui_MissionState where id = :id";$/;"	v
+sql_exists	app/models/User.php	/^        $sql_exists = 'select count(id) from IAM_USER_INFO where userid = :user_id';$/;"	v
+sql_get_auto_mission	app/models/Mission.php	/^            $sql_get_auto_mission = <<<SQL$/;"	v
+sql_get_objective	app/models/Mission.php	/^        $sql_get_objective = <<<SQL$/;"	v
+sql_get_state	app/models/Mission.php	/^                $sql_get_state = <<<SQL$/;"	v
+sql_mission	app/models/Mission.php	/^        $sql_mission = <<<SQL$/;"	v
+sql_mission_state	app/models/Mission.php	/^        $sql_mission_state = <<<SQL$/;"	v
+sql_obj_state	app/models/Mission.php	/^        $sql_obj_state = "delete from Hui_MissionObjectiveState where mStateId = :state_id";$/;"	v
+sql_objective	app/models/Mission.php	/^                $sql_objective = <<<SQL$/;"	v
+sql_objective	app/models/Mission.php	/^        $sql_objective = <<<SQL$/;"	v
+sql_objective_state	app/models/Mission.php	/^        $sql_objective_state = <<<SQL$/;"	v
+sql_part	app/models/ModelEx.php	/^        $sql_part = '';$/;"	v
+sql_state	app/models/Mission.php	/^        $sql_state = <<<SQL$/;"	v
+sql_update	app/models/User.php	/^            $sql_update = "update IAM_USER_INFO set $field_str where userid = :user_id";$/;"	v
+sql_wgo	app/models/ModelEx.php	/^            $sql_wgo = self::_buildWGO(array($parameters));$/;"	v
+standard_compulsory	app/models/InsuranceCalculator.php	/^        $standard_compulsory = ($insurance_param->compulsory_state_id != 0) ? 950 : 0;$/;"	v
+standard_compulsory	app/models/InsuranceCalculator.php	/^        $standard_compulsory = self::_getStandardCompusoryInsurance('truck', $level);$/;"	v
+standard_damage	app/models/InsuranceCalculator.php	/^            $standard_damage = self::_getStandardDamageInsurance($coefficient, $insurance_param->car_price);$/;"	v
+standard_damage	app/models/InsuranceCalculator.php	/^            $standard_damage = self::_getStandardDamageInsurance($coefficient, $insurance_param->car_price, 'truck', $level);$/;"	v
+standard_damage	app/models/InsuranceCalculator.php	/^        $standard_damage = 0.0;$/;"	v
+standard_driver	app/models/InsuranceCalculator.php	/^            $standard_driver = self::_getStandardDriverInsurance($insurance_param->driver);$/;"	v
+standard_driver	app/models/InsuranceCalculator.php	/^            $standard_driver = self::_getStandardDriverInsurance($insurance_param->driver, 'truck', $level);$/;"	v
+standard_driver	app/models/InsuranceCalculator.php	/^        $standard_driver = 0.0;$/;"	v
+standard_glass	app/models/InsuranceCalculator.php	/^            $standard_glass = self::_getStandardGlassInsurance($insurance_param->glass_id, $insurance_param->car_price);$/;"	v
+standard_glass	app/models/InsuranceCalculator.php	/^            $standard_glass = self::_getStandardGlassInsurance($insurance_param->glass_id, $insurance_param->car_price, 'truck', $level);$/;"	v
+standard_glass	app/models/InsuranceCalculator.php	/^        $standard_glass = 0.0;$/;"	v
+standard_not_deductible	app/models/InsuranceCalculator.php	/^            $standard_not_deductible = self::_getStandardNotDeductibleInsurance($standard_damage, $standard_third, $standard_driver, $standard_passenger, $standard_scratch, $standard_robbery);$/;"	v
+standard_not_deductible	app/models/InsuranceCalculator.php	/^        $standard_not_deductible = 0.0;$/;"	v
+standard_optional_deductible	app/models/InsuranceCalculator.php	/^            $standard_optional_deductible = self::_getStandardOptionalDeductibleInsurance($insurance_param->car_price, $standard_damage, $insurance_param->optional_deductible);$/;"	v
+standard_optional_deductible	app/models/InsuranceCalculator.php	/^        $standard_optional_deductible = 0.0;$/;"	v
+standard_passenger	app/models/InsuranceCalculator.php	/^            $standard_passenger = self::_getStandardPassengerInsurance($insurance_param->passenger_number, $insurance_param->passenger);$/;"	v
+standard_passenger	app/models/InsuranceCalculator.php	/^            $standard_passenger = self::_getStandardPassengerInsurance($insurance_param->passenger_number, $insurance_param->passenger, 'truck', $level);$/;"	v
+standard_passenger	app/models/InsuranceCalculator.php	/^        $standard_passenger = 0.0;$/;"	v
+standard_robbery	app/models/InsuranceCalculator.php	/^            $standard_robbery = self::_getStandardRobberyInsurance($insurance_param->car_price);$/;"	v
+standard_robbery	app/models/InsuranceCalculator.php	/^            $standard_robbery = self::_getStandardRobberyInsurance($insurance_param->car_price, 'truck', $level);$/;"	v
+standard_robbery	app/models/InsuranceCalculator.php	/^        $standard_robbery = 0.0;$/;"	v
+standard_scratch	app/models/InsuranceCalculator.php	/^            $standard_scratch = self::_getStandardScratchInsurance($insurance_param->scratch, $insurance_param->car_price, $coefficient);$/;"	v
+standard_scratch	app/models/InsuranceCalculator.php	/^        $standard_scratch = 0.0;$/;"	v
+standard_self_ignition	app/models/InsuranceCalculator.php	/^            $standard_self_ignition = self::_getStandardSelfIgnitionInsurance($insurance_param->car_price, $round_year, $round_month);$/;"	v
+standard_self_ignition	app/models/InsuranceCalculator.php	/^        $standard_self_ignition = 0.0;$/;"	v
+standard_third	app/models/InsuranceCalculator.php	/^            $standard_third = self::_getStandardThirdInsurance($insurance_param->third);$/;"	v
+standard_third	app/models/InsuranceCalculator.php	/^            $standard_third = self::_getStandardThirdInsurance($insurance_param->third, 'truck', $level);$/;"	v
+standard_third	app/models/InsuranceCalculator.php	/^        $standard_third = 0.0;$/;"	v
+startIndex	app/library/twm/db/dialect/Mssql.php	/^                    $startIndex = $offset + 1;\/\/index start from 1$/;"	v
+state	app/controllers/InsuranceController.php	/^        $state = $this->request->get('state');$/;"	v
+state_id	app/models/Mission.php	/^                        $state_id = $state['id'];$/;"	v
+state_id	app/models/Mission.php	/^                $state_id = $connection->lastInsertId();$/;"	v
+state_id	app/models/Mission.php	/^            $state_id = $state['id'];$/;"	v
+state_id	app/models/Mission.php	/^        $state_id = $connection->lastInsertId();$/;"	v
+state_id	app/plugins/MissionFilter.php	/^                    $state_id = $state['id'];$/;"	v
+states	app/models/Mission.php	/^                $states = $connection->query($sql_get_state, $bind_get_state);$/;"	v
+states	app/models/Mission.php	/^        $states =  self::nativeQuery($sql, $bind);$/;"	v
+step_field	app/models/Mission.php	/^            $step_field = ':step'.$index;$/;"	v
+success	app/controllers/AttachmentController.php	/^        $success = $file->moveTo($path);$/;"	v
+success	app/controllers/ClockinController.php	/^            $success =  ClockIn::addClockIn($user_id);$/;"	v
+success	app/controllers/ClockinController.php	/^            $success = ClockIn::updateClockIn($user_id);$/;"	v
+success	app/controllers/ClockinController.php	/^        $success = false;$/;"	v
+success	app/controllers/DiscoveryController.php	/^            $success = false;$/;"	v
+success	app/controllers/DiscoveryController.php	/^            $success = true;$/;"	v
+success	app/controllers/InsuranceController.php	/^            $success = Insurance::updateInsuranceInfo($info_id, array($/;"	v
+success	app/controllers/InsuranceController.php	/^        $success = $connection->commit();$/;"	v
+success	app/controllers/InsuranceController.php	/^        $success = Insurance::addInsuranceReservation($data);$/;"	v
+success	app/controllers/InsuranceController.php	/^        $success = Insurance::updateInsuranceInfo($info_id, $info_update);$/;"	v
+success	app/controllers/InsuranceController.php	/^        $success = Insurance::updateInsuranceInfo($insurance_info_id, array($/;"	v
+success	app/controllers/UserController.php	/^                    $success = User::addWxUser($openid);$/;"	v
+success	app/models/Activity.php	/^            $success = self::nativeExecute($sql, $bind);$/;"	v
+success	app/models/Activity.php	/^        $success = $add_activity_user_success and $save_user_info_success;$/;"	v
+success	app/models/Activity.php	/^        $success = $connection->commit();$/;"	v
+success	app/models/Activity.php	/^        $success = self::nativeExecute($sql, $bind);$/;"	v
+success	app/models/Attachment.php	/^		$success = self::nativeExecute($sql, $bind);$/;"	v
+success	app/models/CarInfo.php	/^        $success = self::nativeExecute($sql, $bind);$/;"	v
+success	app/models/Insurance.php	/^        $success =  self::nativeExecute($sql, $bind);$/;"	v
+success	app/models/Insurance.php	/^        $success = self::nativeExecute($sql, $bind);$/;"	v
+success	app/models/LocalFavour.php	/^        $success =  self::nativeExecute($sql, $bind);$/;"	v
+success	app/models/Order.php	/^        $success = $connection->commit();$/;"	v
+success	app/models/User.php	/^            $success = self::nativeExecute($sql_add, $bind_add);$/;"	v
+success	app/plugins/MissionFilter.php	/^        $success = User::addHuiGold($user['user_id'], $value);$/;"	v
+success_add_obj_state	app/models/Mission.php	/^                    $success_add_obj_state = $connection->execute($sql_add_obj_state);$/;"	v
+success_add_objective	app/models/Mission.php	/^                $success_add_objective = $connection->execute($sql_add_objective, $bind_add_objective);$/;"	v
+success_del_obj_state	app/models/Mission.php	/^        $success_del_obj_state = $connection->execute($sql_del_obj_state);$/;"	v
+success_del_objective	app/models/Mission.php	/^        $success_del_objective = $connection->execute($sql_del_objective);$/;"	v
+success_mission	app/models/Mission.php	/^        $success_mission = $connection->execute($sql_mission, $bind_mission);$/;"	v
+success_mission_state	app/models/Mission.php	/^        $success_mission_state = $connection->execute($sql_mission_state, $bind_mission_state);$/;"	v
+success_obj_state	app/models/Mission.php	/^        $success_obj_state = $connection->execute($sql_add_obj_state);$/;"	v
+success_obj_state	app/models/Mission.php	/^        $success_obj_state = $connection->execute($sql_obj_state, $bind_obj_state);$/;"	v
+success_obj_state	app/models/Mission.php	/^        $success_obj_state = $connection->execute($sql_objective_state, $bind_objective_state);$/;"	v
+success_objective	app/models/Mission.php	/^                $success_objective = $connection->execute($sql_objective, $bind_objective);$/;"	v
+success_objective	app/models/Mission.php	/^        $success_objective = $connection->execute($sql_objective, $bind_objective);$/;"	v
+success_state	app/models/Mission.php	/^        $success_state = $connection->execute($sql_del_state, $bind_state);$/;"	v
+success_state	app/models/Mission.php	/^        $success_state = $connection->execute($sql_state, $bind_state);$/;"	v
+supportsReleseSavepoints	app/library/twm/db/dialect/Mssql.php	/^       public function supportsReleseSavepoints(){}$/;"	f
+supportsSavepoints	app/library/twm/db/dialect/Mssql.php	/^       public function supportsSavepoints(){}$/;"	f
+table	app/library/twm/db/dialect/Mssql.php	/^                    $table = substr($sql, $pos + 4); \/\/4 = FROM$/;"	v
+tableExists	app/library/twm/db/dialect/Mssql.php	/^    public function tableExists($tableName, $schemaName = null)$/;"	f
+tableOptions	app/library/twm/db/adapter/Mssql.php	/^    public function tableOptions($tableName, $schemaName = null)$/;"	f
+tableOptions	app/library/twm/db/dialect/Mssql.php	/^    public function tableOptions($table, $schema = null)$/;"	f
+tables	app/library/twm/db/dialect/Mssql.php	/^            $tables = $definition["tables"];$/;"	v
+tablesSql	app/library/twm/db/dialect/Mssql.php	/^            $tablesSql = $tables;$/;"	v
+tablesSql	app/library/twm/db/dialect/Mssql.php	/^            $tablesSql = join(", ", $selectedTables);$/;"	v
+target_name	app/plugins/MissionFilter.php	/^                            $target_name = ucfirst(strtolower($bonus['target']));$/;"	v
+target_name	app/plugins/MissionFilter.php	/^                    $target_name = ucfirst(strtolower($objective['target']));$/;"	v
+temps	app/library/twm/db/adapter/Mssql.php	/^        $temps = $this->fetchAll($dialect->describeIndexes($table, $schema), \\Phalcon\\Db::FETCH_ASSOC);$/;"	v
+temps	app/library/twm/db/adapter/Mssql.php	/^        $temps = $this->fetchAll($dialect->describeReferences($table, $schema), \\Phalcon\\Db::FETCH_NUM);$/;"	v
+testDescribeColumns	app/library/twm/db/test.php	/^function testDescribeColumns(){$/;"	f
+testModel	app/library/twm/db/test.php	/^function testModel($db){$/;"	f
+testQueryBinding	app/library/twm/db/test.php	/^function testQueryBinding($db){$/;"	f
+top	app/models/Insurance.php	/^        $top = (int) $top;$/;"	v
+total	app/controllers/ActivityController.php	/^        $total = Activity::getActivityCount($criteria);$/;"	v
+total	app/controllers/DiscoveryController.php	/^        $total = LocalFavour::getDiscoveryCommentCount($local_favour_id);$/;"	v
+total_after_discount	app/controllers/InsuranceController.php	/^                $total_after_discount = $after_discount_compulsory + $after_discount_business;$/;"	v
+total_business	app/controllers/InsuranceController.php	/^                $total_business = $total_standard - $res_crt->standardCompulsoryInsurance;$/;"	v
+total_fee	app/controllers/InsuranceController.php	/^                $total_fee = $final_result['totalAfterDiscount'];$/;"	v
+total_fee	app/models/Order.php	/^        $total_fee = 0;$/;"	v
+total_single_not_deductible	app/models/InsuranceCalculator.php	/^        $total_single_not_deductible = round($single_not_deductible_compulsory + $single_not_deductible_damage + $single_not_deductible_driver + $single_not_deductible_passenger + $single_not_deductible_robbery + $single_not_deductible_glass + $single_not_deductible_scratch + $single_not_deductible_third + $single_not_deductible_self_ignition, 2);$/;"	v
+total_standard	app/controllers/InsuranceController.php	/^                $total_standard = $res_crt->totalStandard;$/;"	v
+total_standard	app/models/InsuranceCalculator.php	/^        $total_standard = round($standard_compulsory + $standard_damage + $standard_driver + $standard_passenger + $standard_robbery + $standard_glass + $standard_scratch + ($standard_third < 0 ? 0 : $standard_third) + $standard_self_ignition + $standard_optional_deductible + $standard_not_deductible, 2);$/;"	v
+tour	app/controllers/DrivingtourController.php	/^        $tour = Activity::getDrivingTourDetailById($id);$/;"	v
+type	app/library/twm/db/adapter/Mssql.php	/^                    $type = \\Phalcon\\Db\\Column::BIND_SKIP;$/;"	v
+type	app/library/twm/db/adapter/Mssql.php	/^                $type = $dataTypes[$wildcard];$/;"	v
+type_field	app/models/Mission.php	/^            $type_field = ':type'.$index;$/;"	v
+type_name	app/plugins/MissionFilter.php	/^                            $type_name = ucfirst(strtolower($bonus['type']));$/;"	v
+type_name	app/plugins/MissionFilter.php	/^                    $type_name = ucfirst(strtolower($objective['type']));$/;"	v
+update	app/library/twm/db/adapter/Mssql.php	/^    public function update($table, $fields, $values, $whereCondition = null, $dataTypes = null)$/;"	f
+updateActivityViewNum	app/models/Activity.php	/^    public static function updateActivityViewNum($id)$/;"	f
+updateCarInfo	app/models/CarInfo.php	/^    public static function updateCarInfo($id, array $car_info)$/;"	f
+updateClockIn	app/models/ClockIn.php	/^    public static function updateClockIn($user_id)$/;"	f
+updateFinalParam	app/models/Insurance.php	/^    public static function updateFinalParam($id, array $criteria=null)$/;"	f
+updateInsuranceInfo	app/models/Insurance.php	/^    public static function updateInsuranceInfo($id, array $criteria=null)$/;"	f
+updateInsuranceParam	app/models/Insurance.php	/^    public static function updateInsuranceParam($id, array $criteria=null)$/;"	f
+updateMission	app/models/Mission.php	/^    public static function updateMission($id, array $criteria=null)$/;"	f
+updateMissionState	app/models/Mission.php	/^    public static function updateMissionState($id, array $criteria=null)$/;"	f
+updateSql	app/library/twm/db/adapter/Mssql.php	/^            $updateSql = "UPDATE " . $escapedTable . " SET " . $setClause . " WHERE ";$/;"	v
+updateSql	app/library/twm/db/adapter/Mssql.php	/^            $updateSql = "UPDATE " . $escapedTable . " SET " . $setClause;$/;"	v
+updateValues	app/library/twm/db/adapter/Mssql.php	/^                    $updateValues = array_merge($updateValues, $whereBind);$/;"	v
+updateValues	app/library/twm/db/adapter/Mssql.php	/^        $updateValues = array();$/;"	v
+uploadFileAction	app/controllers/AttachmentController.php	/^    public function uploadFileAction($data_type)$/;"	f
+upload_dir	app/controllers/AttachmentController.php	/^    private static $upload_dir = '\/..\/..\/public\/uploads';$/;"	v
+uri	app/plugins/AjaxFilter.php	/^        $uri = $this->router->getRewriteUri();$/;"	v
+url	app/config/services.php	/^    $url = new UrlResolver();$/;"	v
+url	app/controllers/AttachmentController.php	/^                $url = $this->url->get( '\/uploads\/'.basename($path) );$/;"	v
+url	app/plugins/AuthFilter.php	/^        $url = $this->router->getRewriteUri();$/;"	v
+user	app/controllers/ActivityController.php	/^        $user = User::getCurrentUser();$/;"	v
+user	app/controllers/ClockinController.php	/^            $user = User::getCurrentUser();$/;"	v
+user	app/controllers/ClockinController.php	/^        $user = User::getCurrentUser();$/;"	v
+user	app/controllers/CollectionController.php	/^        $user = User::getCurrentUser();$/;"	v
+user	app/controllers/DrivingtourController.php	/^        $user = User::getCurrentUser();$/;"	v
+user	app/controllers/InsuranceController.php	/^            $user = User::getUserByPhone($user_phone);$/;"	v
+user	app/controllers/InsuranceController.php	/^        $user = $this->session->get('user');$/;"	v
+user	app/controllers/InsuranceController.php	/^        $user = User::getCurrentUser();$/;"	v
+user	app/controllers/InsuranceController.php	/^        $user = User::getUserByPhone($user_phone);$/;"	v
+user	app/controllers/TempController.php	/^			$user = User::getUserByPhone($user_phone);$/;"	v
+user	app/controllers/TempController.php	/^			$user = User::getUserInfoById($user_id);$/;"	v
+user	app/controllers/TempController.php	/^		$user = !empty($bind_user) ? $bind_user : User::getUserByPhone($user_phone);$/;"	v
+user	app/controllers/TempController.php	/^		$user = User::getCurrentUser();$/;"	v
+user	app/controllers/UserController.php	/^            $user = User::getCurrentUser();$/;"	v
+user	app/controllers/UserController.php	/^            $user = User::getUserInfoById($user_id);$/;"	v
+user	app/controllers/UserController.php	/^            $user = new SessionBag('user');$/;"	v
+user	app/controllers/UserController.php	/^        $user = null;$/;"	v
+user	app/plugins/AuthFilter.php	/^        $user = $this->session->get('user');$/;"	v
+user	app/plugins/AutoLoginFilter.php	/^            $user = new SessionBag('user');$/;"	v
+user	app/plugins/AutoLoginFilter.php	/^        $user = null;$/;"	v
+user	app/plugins/MissionFilter.php	/^        $user = $this->session->get('user');$/;"	v
+user	app/plugins/MissionFilter.php	/^        $user = User::getCurrentUser();$/;"	v
+userId	app/controllers/IndexController.php	/^            $userId = $this->request->get('userId');$/;"	v
+user_agent	app/controllers/IndexController.php	/^    	$user_agent = $this->request->getUserAgent();$/;"	v
+user_agent	app/controllers/InsuranceController.php	/^            $user_agent = $this->request->getUserAgent();$/;"	v
+user_agent	app/controllers/InsuranceController.php	/^        $user_agent = $this->request->getUserAgent();$/;"	v
+user_agent	app/controllers/TempController.php	/^		$user_agent = $this->request->getUserAgent();$/;"	v
+user_id	app/controllers/ActivityController.php	/^        $user_id = $json_data['user_id'];$/;"	v
+user_id	app/controllers/ClockinController.php	/^            $user_id = $user['user_id'];$/;"	v
+user_id	app/controllers/InsuranceController.php	/^        $user_id = $user['user_id'];$/;"	v
+user_id	app/controllers/TempController.php	/^		$user_id = $this->request->get('userId', null, null);$/;"	v
+user_id	app/controllers/UserController.php	/^        $user_id = $this->request->get('userId');$/;"	v
+user_id	app/controllers/UserController.php	/^        $user_id = $this->request->get('user_id');$/;"	v
+user_id	app/models/User.php	/^        $user_id = $crt->user_id;$/;"	v
+user_id	app/models/User.php	/^        $user_id = 'wx_account@yn122.net';$/;"	v
+user_info	app/controllers/UserController.php	/^                $user_info = User::getWxBindUser($wx_openid);$/;"	v
+user_info	app/controllers/UserController.php	/^            $user_info = User::getUserInfoById($user_id);$/;"	v
+user_info	app/controllers/UserController.php	/^        $user_info = null;$/;"	v
+user_info	app/plugins/AutoLoginFilter.php	/^            $user_info = User::getUserInfoById($user_id);$/;"	v
+user_mission_state	app/plugins/MissionFilter.php	/^            $user_mission_state = Mission::getFullProgressInMissionState($user['user_id']);$/;"	v
+user_phone	app/controllers/InsuranceController.php	/^        $user_phone = $this->request->get('user_phone', null, null);$/;"	v
+user_phone	app/controllers/TempController.php	/^		$user_phone = $this->request->get('user_phone', null, null);$/;"	v
+usre_info	app/controllers/UserController.php	/^                        $usre_info = array($/;"	v
+uuid	app/controllers/UserController.php	/^            $uuid = $this->request->get('uuid');$/;"	v
+uuid	app/plugins/AutoLoginFilter.php	/^            $uuid = $this->request->get('uuid');$/;"	v
+valid_time	app/controllers/TempController.php	/^		$valid_time = $valid_time_result->fetch();$/;"	v
+valid_time_bind	app/controllers/TempController.php	/^		$valid_time_bind = array($/;"	v
+valid_time_result	app/controllers/TempController.php	/^		$valid_time_result = $db->query($valid_time_sql, $valid_time_bind);$/;"	v
+valid_time_sql	app/controllers/TempController.php	/^		$valid_time_sql = <<<SQL$/;"	v
+value	app/plugins/MissionFilter.php	/^                                $value = $bonus['value'];$/;"	v
+values_obj_state_str	app/models/Mission.php	/^        $values_obj_state_str = '';$/;"	v
+values_obj_state_str	app/models/Mission.php	/^        $values_obj_state_str = rtrim($values_obj_state_str, ', ');$/;"	v
+values_str	app/models/Mission.php	/^        $values_str = '';$/;"	v
+values_str	app/models/Mission.php	/^        $values_str = rtrim($values_str, ', ');$/;"	v
+ver	app/controllers/UserController.php	/^            $ver = $this->request->get('ver');$/;"	v
+ver	app/plugins/AutoLoginFilter.php	/^            $ver = $this->request->get('ver');$/;"	v
+view	app/config/services.php	/^    $view = new View();$/;"	v
+view	app/library/twm/db/dialect/Mssql.php	/^            $view = "$schemaName.$viewName";$/;"	v
+view	app/library/twm/db/dialect/Mssql.php	/^            $view = "$viewName";$/;"	v
+view	app/library/twm/db/dialect/Mssql.php	/^            $view = "[$schemaName].[$viewName]";$/;"	v
+view	app/library/twm/db/dialect/Mssql.php	/^            $view = "[$viewName]";$/;"	v
+viewExists	app/library/twm/db/dialect/Mssql.php	/^    public function viewExists($viewName, $schemaName = null)$/;"	f
+viewSql	app/library/twm/db/dialect/Mssql.php	/^        $viewSql = $definition['sql'];$/;"	v
+view_record	app/controllers/TempController.php	/^				$view_record = $view_result->fetch();$/;"	v
+view_result	app/controllers/TempController.php	/^				$view_result = $db->query($get_view_sql, $get_view_bind);$/;"	v
+volt	app/config/services.php	/^            $volt = new VoltEngine($view, $di);$/;"	v
+whereBind	app/library/twm/db/adapter/Mssql.php	/^                    $whereBind = $whereCondition["bind"];$/;"	v
+whereConditions	app/library/twm/db/dialect/Mssql.php	/^            $whereConditions = $definition['where'];$/;"	v
+whereTypes	app/library/twm/db/adapter/Mssql.php	/^                    $whereTypes = $whereCondition['bindTypes'];$/;"	v
+winListAction	app/controllers/TempController.php	/^	public function winListAction($aid)$/;"	f
+win_list	app/controllers/TempController.php	/^		$win_list = $win_list_result->fetchAll();$/;"	v
+win_list_result	app/controllers/TempController.php	/^		$win_list_result = $db->query($get_win_list_sql, $get_win_list_bind);$/;"	v
+wxBindUser	app/models/User.php	/^    public static function wxBindUser($user_id, $openid, $source='cm')$/;"	f
+wxEntryAction	app/controllers/IndexController.php	/^    public function wxEntryAction()$/;"	f
+wx_auth_url	app/controllers/IndexController.php	/^            $wx_auth_url = 'https:\/\/open.weixin.qq.com\/connect\/oauth2\/authorize?appid='.$this->_app_id.'&redirect_uri='.urlencode('http:\/\/ip.yn122.net:8091\/mc_api\/wx_entry').'&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect';$/;"	v
+wx_code	app/controllers/TempController.php	/^		$wx_code = $this->request->get('code', null, null);$/;"	v
+wx_openid	app/controllers/TempController.php	/^		$wx_openid = $this->request->get('wx_openid', null, null);$/;"	v
+wx_openid	app/controllers/UserController.php	/^        $wx_openid = $this->request->get('wx_openid');$/;"	v
+wx_redirect_url	app/controllers/InsuranceController.php	/^        $wx_redirect_url = urlencode('http:\/\/ip.yn122.net:8092\/insurance\/wx_login?appid='.$app_id.'&secret='.$app_secret.'&source='.$source);$/;"	v
+wx_state	app/controllers/TempController.php	/^		$wx_state = $this->request->get('state', null, false);$/;"	v
+wx_token	app/controllers/IndexController.php	/^        $wx_token = json_decode($wx_token_json, true);$/;"	v
+wx_token	app/controllers/TempController.php	/^					$wx_token = json_decode($wx_token_json, true);$/;"	v
+wx_token	app/controllers/TempController.php	/^		$wx_token = null;$/;"	v
+wx_token_json	app/controllers/IndexController.php	/^        $wx_token_json = file_get_contents('https:\/\/api.weixin.qq.com\/sns\/oauth2\/access_token?appid='.$this->_app_id.'&secret='.$this->_app_secret.'&code='.$code.'&grant_type=authorization_code');$/;"	v
+wx_token_json	app/controllers/TempController.php	/^					$wx_token_json = file_get_contents('https:\/\/api.weixin.qq.com\/sns\/oauth2\/access_token?appid='.$this->_app_id.'&secret='.$this->_app_secret.'&code='.$wx_code.'&grant_type=authorization_code');$/;"	v
+wx_unionid	app/controllers/TempController.php	/^		$wx_unionid = $this->request->get('wx_unionid', null, null);$/;"	v
+wx_user	app/controllers/TempController.php	/^				$wx_user = $wx_user_result->fetch();$/;"	v
+wx_user	app/models/User.php	/^            $wx_user = self::fetchOne($get_wx_user_sql, $get_wx_user_bind, null, Db::FETCH_ASSOC);$/;"	v
+wx_user_id	app/controllers/TempController.php	/^					$wx_user_id = $db->lastInsertId();$/;"	v
+wx_user_id	app/controllers/TempController.php	/^				$wx_user_id = !empty($wx_user) ? $wx_user['id'] : null;$/;"	v
+wx_user_result	app/controllers/TempController.php	/^				$wx_user_result = $db->query($get_wx_user_sql, $get_wx_user_bind);$/;"	v
+wx_userinfo	app/controllers/TempController.php	/^					$wx_userinfo = json_decode($wx_userinfo_json, true);$/;"	v
+wx_userinfo	app/controllers/TempController.php	/^		$wx_userinfo = json_decode($wx_userinfo_json, true);$/;"	v
+wx_userinfo_json	app/controllers/TempController.php	/^					$wx_userinfo_json = file_get_contents('https:\/\/api.weixin.qq.com\/sns\/userinfo?access_token='.$wx_token['access_token'].'&openid='.$wx_token['openid'].'&lang=zh_CN');$/;"	v
+wx_userinfo_json	app/controllers/TempController.php	/^		$wx_userinfo_json = $this->cookies->get('wx_userinfo_json')->getValue('trim');$/;"	v

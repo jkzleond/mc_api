@@ -1,0 +1,379 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"native",
+				"nativeQuery	(Insurance.php)"
+			],
+			[
+				"php",
+				"perhaps	(backbone.js)"
+			],
+			[
+				"canvas",
+				"canvas_license_a"
+			],
+			[
+				"compress",
+				"compress_width"
+			],
+			[
+				"_onT",
+				"_onThumbnailImageLoad"
+			],
+			[
+				"total",
+				"total_standard"
+			],
+			[
+				"com",
+				"company"
+			],
+			[
+				"apply_ac",
+				"apply_actual_page_view"
+			],
+			[
+				"is",
+				"is_compulsory"
+			],
+			[
+				"compulsory",
+				"compulsoryShortCut"
+			],
+			[
+				"_onFormModel",
+				"_onFormModelSync"
+			],
+			[
+				"car_info",
+				"car_info_id"
+			],
+			[
+				"update",
+				"updateCarInfo"
+			],
+			[
+				"upload",
+				"upload_dir"
+			],
+			[
+				"encodeURI",
+				"encodeURIComponent	(ActuaryPricePageView.js)"
+			],
+			[
+				"show",
+				"showGallery"
+			],
+			[
+				"get_illegal_",
+				"get_illegal_order_sql"
+			],
+			[
+				"get_illegal_total",
+				"get_illegal_total_bind"
+			],
+			[
+				"get_illegal",
+				"get_illegal_total_sql"
+			],
+			[
+				"page",
+				"page_num"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"echo",
+				"echoAccessXML"
+			],
+			[
+				"base",
+				"base64"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 91.0,
+		"last_filter": "Package Control: Install",
+		"selected_items":
+		[
+			[
+				"Package Control: Install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 160.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/www/php/car_mate_local_favour/app/config/loader.php",
+		"/www/php/car_mate_local_favour/public/assets/js/app/templates/insurance/compulsory_set_page.html",
+		"/www/php/car_mate_local_favour/public/assets/js/app/views/insurance/ValueSetPageView.js",
+		"/www/php/car_mate_local_favour/public/assets/js/app/templates/insurance/discount_detail.html",
+		"/www/php/car_mate_local_favour/public/assets/js/app/main.js",
+		"/www/php/car_mate_local_favour/public/assets/js/app/templates/insurance/apply_actual_page.html",
+		"/www/php/car_mate_local_favour/public/assets/js/app/templates/insurance/apply_actual_compulsory_page.html",
+		"/www/php/car_mate_local_favour/public/assets/js/app/models/insurance/InsuranceFormModel.js",
+		"/www/php/car_mate_local_favour/public/assets/js/app/views/insurance/ParityPageView.js",
+		"/www/php/car_mate_local_favour/public/assets/js/app/templates/insurance/reservation_page.html",
+		"/www/php/car_mate_local_favour/public/assets/js/app/models/insurance/InsuranceReservationFormModel.js",
+		"/www/php/car_mate_local_favour/public/assets/js/app/models/CarInfoModel.js",
+		"/www/php/car_mate_local_favour/public/assets/js/app/views/insurance/ReservationPageView.js",
+		"/www/php/car_mate_local_favour/public/assets/js/app/templates/insurance/insurance_page.html",
+		"/www/php/car_mate_local_favour/public/assets/js/app/models/insurance/InsuranceActualFormModel.js",
+		"/www/php/car_mate_local_favour/public/assets/js/app/models/insurance/FinalResultModel.js",
+		"/www/php/car_mate_local_favour/public/assets/js/app/models/DiscoveryModel.js",
+		"/www/php/car_mate_local_favour/public/assets/js/app/models/ProvinceModel.js",
+		"/www/php/car_mate_local_favour/public/assets/js/app/models/CityModel.js",
+		"/www/php/car_mate_local_favour/app/controllers/ControllerBase.php",
+		"/www/php/car_mate_local_favour/public/assets/js/app/routers/NewInsuranceRouter.js",
+		"/www/php/car_mate_local_favour/app/config/routes.php",
+		"/www/php/car_mate_local_favour/public/assets/js/app/views/activity/ActivityDetailPageView.js",
+		"/www/php/car_mate_local_favour/public/assets/js/app/views/insurance/ApplyActualPageView.js",
+		"/www/php/car_mate_local_favour/app/plugins/AjaxFilter.php",
+		"/www/php/car_mate_local_favour/app/models/Insurance.php",
+		"/www/php/car_mate_local_favour/app/controllers/AttachMentController.php",
+		"/www/php/car_mate_local_favour/public/assets/js/app/templates/activity/activity_detail_page.html",
+		"/www/php/car_mate_local_favour/public/assets/js/app/templates/activity/activity_detail.html",
+		"/www/php/car_mate_local_favour/app/views/index/index.volt",
+		"/www/php/car_mate_local_favour/app/views/base.volt",
+		"/www/php/weifa/cyh/Control/OrderPay.php",
+		"/www/php/car_mate_local_favour/public/assets/js/app/views/insurance/ActuaryPricePageView.js",
+		"/www/php/car_mate_local_favour/public/assets/js/app/templates/discovery/comment_list_item.html~",
+		"/www/php/car_mate_local_favour/public/assets/js/app/templates/activity/activity_sign_up_form.html",
+		"/www/php/backbone_test/routers/MainRouter.js",
+		"/www/php/backbone_test/main.js",
+		"/www/php/car_mate_local_favour/public/assets/js/app/routers/ActivityRouter.js",
+		"/www/php/car_mate_local_favour/app/controllers/InsuranceController.php",
+		"/home/jkzleond/.config/sublime-text-3/Packages/User/Base File.sublime-settings",
+		"/home/jkzleond/.config/sublime-text-3/Packages/DocBlockr/Base File.sublime-settings",
+		"/www/php/car_mate_local_favour/public/assets/js/app/models/insurance/InsuranceResultModel.js",
+		"/www/php/car_mate_local_favour/public/assets/js/app/models/insurance/InsuranceInfoModel.js",
+		"/home/jkzleond/文档/www/cyh/statics/reservation.html",
+		"/www/php/car_mate_local_favour/public/assets/js/app/views/insurance/InsurancePageView.js",
+		"/www/php/car_mate_local_favour/public/assets/js/app/views/activity/ActivityPubFormView.js",
+		"/www/php/car_mate_local_favour/public/assets/js/app/views/activity/ActivityListView.js",
+		"/www/php/car_mate_local_favour/public/assets/js/app/models/discovery/CommentModel.js",
+		"/www/php/car_mate_local_favour/public/assets/js/app/routers/LocalFavourRouter.js",
+		"/www/php/car_mate_local_favour/public/assets/js/app/views/DiscoveryDetailPageView.js",
+		"/www/php/car_mate_local_favour/public/assets/js/app/views/discovery/CommentFormView.js",
+		"/www/php/car_mate_local_favour/public/assets/css/local_favour.css",
+		"/www/php/weifa/cyh/Control/view.php",
+		"/www/php/car_mate_local_favour/public/app.manifest",
+		"/www/php/car_mate_local_favour/public/assets/js/app/templates/insurance/insurance_list_page.html",
+		"/www/php/car_mate_local_favour/public/assets/js/app/views/insurance/FinalParityPageView.js",
+		"/www/php/car_mate_local_favour/public/assets/js/app/models/insurance/InsuranceReservationFromModel.js",
+		"/www/php/car_mate_local_favour/public/assets/js/app/templates/activity/activitise_page.html",
+		"/www/php/car_mate_local_favour/app/views/activity/index.volt",
+		"/www/php/car_mate_local_favour/app/controllers/ActivityController.php",
+		"/www/php/car_mate_local_favour/app/models/Activity.php",
+		"/www/php/car_mate_local_favour/public/assets/js/app/views/insurance/FirstPricePageView.js",
+		"/www/php/car_mate_local_favour/public/assets/js/app/templates/insurance/first_price_page.html",
+		"/www/php/car_mate_local_favour/public/assets/js/app/templates/insurance/actuary_price_page.html",
+		"/www/php/car_mate_local_favour/public/assets/js/app/views/insurance/InsuranceListPageView.js",
+		"/www/php/car_mate_local_favour/public/assets/js/app/templates/insurance/full_set_page.html",
+		"/www/php/car_mate_local_favour/public/assets/js/app/routers/TourRouter.js",
+		"/www/php/car_mate_local_favour/public/assets/js/app/models/insurance/PolicyFormModel.js",
+		"/www/php/car_mate_local_favour/public/assets/js/app/routers/InsuranceRouter.js",
+		"/www/php/car_mate_local_favour/app/controllers/FileController.php",
+		"/www/php/car_mate_local_favour/app/controllers/IndexController.php",
+		"/www/php/car_mate_local_favour/app/config/config.php",
+		"/www/php/car_mate_local_favour/app/library/twm/db/adapter/Mssql.php",
+		"/www/php/car_mate_local_favour/app/library/twm/db/dialect/Mssql.php",
+		"/www/php/weifa/cyh/Control/Car.php",
+		"/www/php/car_mate_local_favour/public/assets/css/bxjs.css",
+		"/www/php/car_mate_local_favour/app/models/Adv.php",
+		"/home/jkzleond/下载/首页.html",
+		"/www/php/car_mate_local_favour/app/models/ModelEx.php",
+		"/home/jkzleond/文档/index_adv/1.jpg",
+		"/home/jkzleond/.config/sublime-text-3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/home/jkzleond/文档/index_adv/index.php",
+		"/home/jkzleond/文档/index_adv/index.html",
+		"/www/php/car_mate_admin/app/models/ModelEx.php",
+		"/www/php/car_mate_admin/app/views/illegal/orderDetail.volt",
+		"/www/php/car_mate_admin/app/views/illegal/orderManage.volt",
+		"/www/php/car_mate_admin/public/js/tinymce/tiny_mce_src.js",
+		"/www/php/car_mate_admin/app/models/ActivityUser.php",
+		"/www/php/car_mate_admin/app/models/Criteria.php",
+		"/home/jkzleond/.config/sublime-text-3/Packages/User/CTags.sublime-settings",
+		"/home/jkzleond/.config/sublime-text-3/Packages/CTags/CTags.sublime-settings",
+		"/www/php/car_mate_admin/app/models/Award.php",
+		"/www/php/car_mate_admin/scripts/MyModel.php",
+		"/home/jkzleond/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/jkzleond/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 111.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"clear",
+			"'));",
+			");\n",
+			"bx_bx",
+			".insurance",
+			"\\.insurance",
+			"\\.(.*)",
+			"(\\..*)",
+			"retur"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"bx",
+			".bx",
+			"bx",
+			"\\.insurance_$1",
+			"#insurance_page $1",
+			"#insurance_page \\1"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 297.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

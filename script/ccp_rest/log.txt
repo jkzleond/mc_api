@@ -1,0 +1,862 @@
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>18687528272</to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl></hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr></needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://sandboxapp.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=09AB1F39A318FA1731A8B09269EC2417
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><statusCode>111310</statusCode><statusMsg>【呼叫】应用未上线，回拨被叫号码外呼受限</statusMsg></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>18687528272</to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl></hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr></needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://sandboxapp.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=3408DBDB428D00B5A13EC54F6A5CEE6B
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><statusCode>111310</statusCode><statusMsg>【呼叫】应用未上线，回拨被叫号码外呼受限</statusMsg></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>4006101019</to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl></hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr></needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://sandboxapp.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=E1C1F1EB2F3830A8DC9BD41DA0DBB3A4
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><statusCode>111310</statusCode><statusMsg>【呼叫】应用未上线，回拨被叫号码外呼受限</statusMsg></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>15087057477</to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl></hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr></needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://sandboxapp.cloopen.com:8883/2013-12-26/SubAccounts/aaf98f8954939ed50154b8e57d262763/Calls/Callback?sig=B63A6477F7251DF709D176A29596C80E
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><CallBack><appId>aaf98f8954939ed50154b8e57d0e2762</appId><callSid>160517102436913300060015000854d2</callSid><dateCreated>2016-05-17 10:24:36</dateCreated><orderId>CM6001520160517102436430256</orderId></CallBack><statusCode>000000</statusCode></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>15087057477</to>
+                     <customerSerNum>110</customerSerNum>
+                     <fromSerNum>120</fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl></hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr></needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://sandboxapp.cloopen.com:8883/2013-12-26/SubAccounts/aaf98f8954939ed50154b8e57d262763/Calls/Callback?sig=F72FD1B1346B3E3504C06BBE48CCB38C
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><CallBack><appId>aaf98f8954939ed50154b8e57d0e2762</appId><callSid>16051710294180880006001500085559</callSid><customerSerNum>110</customerSerNum><dateCreated>2016-05-17 10:29:41</dateCreated><fromSerNum>120</fromSerNum><orderId>CM6001520160517102941430354</orderId></CallBack><statusCode>000000</statusCode></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>13518783223</to>
+                     <customerSerNum>110</customerSerNum>
+                     <fromSerNum>120</fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl></hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr></needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://sandboxapp.cloopen.com:8883/2013-12-26/SubAccounts/aaf98f8954939ed50154b8e57d262763/Calls/Callback?sig=7A3CFCAE46C1CD2D01B5DEEE097A37FB
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><CallBack><appId>aaf98f8954939ed50154b8e57d0e2762</appId><callSid>16051710311026810006001500085582</callSid><customerSerNum>110</customerSerNum><dateCreated>2016-05-17 10:31:10</dateCreated><fromSerNum>120</fromSerNum><orderId>CM6001520160517103110430383</orderId></CallBack><statusCode>000000</statusCode></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>13518783223</to>
+                     <customerSerNum>110</customerSerNum>
+                     <fromSerNum>120</fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl></hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr></needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://sandboxapp.cloopen.com:8883/2013-12-26/SubAccounts/aaf98f8954939ed50154b8e57d262763/Calls/Callback?sig=3A92D20C038419A2B8AFDDA8CEA2E1DE
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>13518783223</to>
+                     <customerSerNum>110</customerSerNum>
+                     <fromSerNum>120</fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl></hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr></needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://sandboxapp.cloopen.com:8883/2013-12-26/SubAccounts/aaf98f8954939ed50154b8e57d262763/Calls/Callback?sig=5C868DD4079C3A971FA05712C9A7DDD7
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><statusCode>172001</statusCode><statusMsg>网络错误</statusMsg></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>13518783223</to>
+                     <customerSerNum>110</customerSerNum>
+                     <fromSerNum>120</fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl></hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr></needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://sandboxapp.cloopen.com:8883/2013-12-26/SubAccounts/aaf98f8954939ed50154b8e57d262763/Calls/Callback?sig=8A915A5C9B521BC4232CBCB10F979FF3
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><CallBack><appId>aaf98f8954939ed50154b8e57d0e2762</appId><callSid>16051714000063290006001500086f55</callSid><customerSerNum>110</customerSerNum><dateCreated>2016-05-17 14:00:00</dateCreated><fromSerNum>120</fromSerNum><orderId>CM6001520160517140000436016</orderId></CallBack><statusCode>000000</statusCode></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>13518783223</to>
+                     <customerSerNum>110</customerSerNum>
+                     <fromSerNum>120</fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl></hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr></needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://sandboxapp.cloopen.com:8883/2013-12-26/SubAccounts/aaf98f8954939ed50154b8e57d262763/Calls/Callback?sig=258E3D8D7691E99DF865D81727A3F739
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><CallBack><appId>aaf98f8954939ed50154b8e57d0e2762</appId><callSid>16051714054954810006001500087003</callSid><customerSerNum>110</customerSerNum><dateCreated>2016-05-17 14:05:49</dateCreated><fromSerNum>120</fromSerNum><orderId>CM6001520160517140549436167</orderId></CallBack><statusCode>000000</statusCode></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>18687528272</to>
+                     <customerSerNum>110</customerSerNum>
+                     <fromSerNum>120</fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl></hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr></needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=E30F8B1B3A0AFDF865F749523B10B777
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><CallBack><appId>8a48b5515493a1b70154b9c4615825c5</appId><callSid>16051715112180690001018400083a8a</callSid><customerSerNum>110</customerSerNum><dateCreated>2016-05-17 15:11:21</dateCreated><fromSerNum>120</fromSerNum><orderId>CM1018420160517151121828569</orderId></CallBack><statusCode>000000</statusCode></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>13294958423</to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl></hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr></needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=E8289EE7EF35F93EDDB8637C8E55BEEF
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><statusCode>108041</statusCode><statusMsg>包体中[fromSerNum]节点内容为空</statusMsg></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>18687528272</to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl></hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr></needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=883134D766E008378CDEC20FACE6C784
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><CallBack><appId>8a48b5515493a1b70154b9c4615825c5</appId><callSid>160531170611524600010119003111d9</callSid><dateCreated>2016-05-31 17:06:11</dateCreated><orderId>CM1011920160531170611950511</orderId></CallBack><statusCode>000000</statusCode></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>18687528272</to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl></hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr></needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=48EA209F7335E191E94EC15F7BA40872
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><CallBack><appId>8a48b5515493a1b70154b9c4615825c5</appId><callSid>16053117071360970001024600273549</callSid><dateCreated>2016-05-31 17:07:13</dateCreated><orderId>CM1024620160531170713987856</orderId></CallBack><statusCode>000000</statusCode></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>18687528272</to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl></hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr></needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=D679876A6B66BE7C86D08B70C33808F6
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><CallBack><appId>8a48b5515493a1b70154b9c4615825c5</appId><callSid>1605311713063361000100660024a4e8</callSid><dateCreated>2016-05-31 17:13:06</dateCreated><orderId>CM1006620160531171306784915</orderId></CallBack><statusCode>000000</statusCode></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>18687528272</to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl></hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr></needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=34C4105E673E6C290A9AF71335FCCB13
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><CallBack><appId>8a48b5515493a1b70154b9c4615825c5</appId><callSid>1605311713540004000102950026e0e9</callSid><dateCreated>2016-05-31 17:13:54</dateCreated><orderId>CM1029520160531171354960358</orderId></CallBack><statusCode>000000</statusCode></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>18687528272</to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl></hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr></needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=DAEB2F0DB506313125D24E671D79510E
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><CallBack><appId>8a48b5515493a1b70154b9c4615825c5</appId><callSid>1605311726243934000101850024ccd1</callSid><dateCreated>2016-05-31 17:26:24</dateCreated><orderId>CM1018520160531172624793327</orderId></CallBack><statusCode>000000</statusCode></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>18687528272</to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl></hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr></needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=D3FC8C18D592F4D612B74B10C44F8AD0
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><CallBack><appId>8a48b5515493a1b70154b9c4615825c5</appId><callSid>1605311726385612000102950026efdf</callSid><dateCreated>2016-05-31 17:26:38</dateCreated><orderId>CM1029520160531172638964581</orderId></CallBack><statusCode>000000</statusCode></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>18687528272</to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl></hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr></needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=1545F572BEC319EDC33B7E16C7B60F33
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><CallBack><appId>8a48b5515493a1b70154b9c4615825c5</appId><callSid>1605311727212244000101850024cde3</callSid><dateCreated>2016-05-31 17:27:21</dateCreated><orderId>CM1018520160531172721793636</orderId></CallBack><statusCode>000000</statusCode></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>18687528272</to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl></hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr></needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=3288D22028CD489D486BCAF3DBF13E8D
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><CallBack><appId>8a48b5515493a1b70154b9c4615825c5</appId><callSid>160531172741320400010057000f21d8</callSid><dateCreated>2016-05-31 17:27:41</dateCreated><orderId>CM1005720160531172741210565</orderId></CallBack><statusCode>000000</statusCode></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>18687528272</to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl></hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr></needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=E87443B9D32A24EEA0C70205F565CB4C
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><CallBack><appId>8a48b5515493a1b70154b9c4615825c5</appId><callSid>16053117282455890001030600278e4a</callSid><dateCreated>2016-05-31 17:28:24</dateCreated><orderId>CM1030620160531172824118719</orderId></CallBack><statusCode>000000</statusCode></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>18687528272</to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl></hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr></needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=C13207791AE980CFFC80996E6ED93ABF
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><CallBack><appId>8a48b5515493a1b70154b9c4615825c5</appId><callSid>1605311730000935000103080029a64a</callSid><dateCreated>2016-05-31 17:30:00</dateCreated><orderId>CM1030820160531173000292400</orderId></CallBack><statusCode>000000</statusCode></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>18687528272</to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl></hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr></needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=4ADBADC20C5FBDA1BB5CB9A1587920AF
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><CallBack><appId>8a48b5515493a1b70154b9c4615825c5</appId><callSid>16053117404100650001022900275524</callSid><dateCreated>2016-05-31 17:40:41</dateCreated><orderId>CM1022920160531174041998080</orderId></CallBack><statusCode>000000</statusCode></Response>
+request body = <CallBack>
+                     <from></from>
+                     <to></to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl></hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr></needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=C2EA6C2AC76873AD4A11A07689B9261D
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><statusCode>111300</statusCode><statusMsg>【呼叫】回拨主叫电话号码为空</statusMsg></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>13294958422</to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl></hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr></needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=316501928113E62734CEF209931BF289
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><CallBack><appId>8a48b5515493a1b70154b9c4615825c5</appId><callSid>160531175229162400010057000f3992</callSid><dateCreated>2016-05-31 17:52:29</dateCreated><orderId>CM1005720160531175229217316</orderId></CallBack><statusCode>000000</statusCode></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>13294958422</to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl></hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr></needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=F999B4952364D78BB2F4B4F38FF2BF67
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><CallBack><appId>8a48b5515493a1b70154b9c4615825c5</appId><callSid>1605311752477880000102290027606b</callSid><dateCreated>2016-05-31 17:52:47</dateCreated><orderId>CM1022920160531175247101292</orderId></CallBack><statusCode>000000</statusCode></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>13294958422</to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl></hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr></needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=25F113BCD012DA4E7E1A98BB964B87E3
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><CallBack><appId>8a48b5515493a1b70154b9c4615825c5</appId><callSid>16053117550308990001029500270ba5</callSid><dateCreated>2016-05-31 17:55:03</dateCreated><orderId>CM1029520160531175503972404</orderId></CallBack><statusCode>000000</statusCode></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>19831123</to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl></hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr></needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=609A21873534DDE3BBBA97A20F9B7164
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><statusCode>111347</statusCode><statusMsg>【呼叫】主叫或被叫为非法号码</statusMsg></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>087161111221</to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl></hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr></needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=1B5A4AF3C0FC8ED5EE3D3A869E1626FE
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><CallBack><appId>8a48b5515493a1b70154b9c4615825c5</appId><callSid>160603125934230100010163003abb76</callSid><dateCreated>2016-06-03 12:59:34</dateCreated><orderId>CM1016320160603125934722136</orderId></CallBack><statusCode>000000</statusCode></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>18687528272</to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl></hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr></needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=AEBFC503E9E04821B2725FC826FDCB06
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><CallBack><appId>8a48b5515493a1b70154b9c4615825c5</appId><callSid>1606031301416330000101800018b58d</callSid><dateCreated>2016-06-03 13:01:41</dateCreated><orderId>CM1018020160603130141860358</orderId></CallBack><statusCode>000000</statusCode></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>123456789</to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl></hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr></needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=C84AD72173BE30001659ACDBBDD9D4DC
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><statusCode>111347</statusCode><statusMsg>【呼叫】主叫或被叫为非法号码</statusMsg></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>15087057477</to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl></hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr></needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=79DCDEE62911C66FABB539F55CDB5092
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><CallBack><appId>8a48b5515493a1b70154b9c4615825c5</appId><callSid>160603130411996600010078003aba3e</callSid><dateCreated>2016-06-03 13:04:11</dateCreated><orderId>CM1007820160603130411720949</orderId></CallBack><statusCode>000000</statusCode></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>15087057477</to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl></hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr></needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=52509C3A920FDF99BA24CA02FA629A63
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><CallBack><appId>8a48b5515493a1b70154b9c4615825c5</appId><callSid>1606031304513417000103060030bd09</callSid><dateCreated>2016-06-03 13:04:51</dateCreated><orderId>CM1030620160603130451752515</orderId></CallBack><statusCode>000000</statusCode></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>13200000000</to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl></hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr></needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=2AA0B4A63B84789C69E9587C356CC48B
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><CallBack><appId>8a48b5515493a1b70154b9c4615825c5</appId><callSid>160603144105902000010066002e7dc7</callSid><dateCreated>2016-06-03 14:41:05</dateCreated><orderId>CM1006620160603144105567521</orderId></CallBack><statusCode>000000</statusCode></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>15087057477</to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl></hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr></needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=B012709D24118FA6DBD72E57C43E86CD
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><CallBack><appId>8a48b5515493a1b70154b9c4615825c5</appId><callSid>160603144216200000010185002e9f62</callSid><dateCreated>2016-06-03 14:42:16</dateCreated><orderId>CM1018520160603144216573698</orderId></CallBack><statusCode>000000</statusCode></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>15087057477</to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl></hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr></needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=49FB3C4AFFDDE0A75B591720CF95E443
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><CallBack><appId>8a48b5515493a1b70154b9c4615825c5</appId><callSid>160603144740533200010163003b2e75</callSid><dateCreated>2016-06-03 14:47:40</dateCreated><orderId>CM1016320160603144740754678</orderId></CallBack><statusCode>000000</statusCode></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>087161111221</to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl></hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr></needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=368573B123D8FAD3CBF6B39F98F4539B
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><CallBack><appId>8a48b5515493a1b70154b9c4615825c5</appId><callSid>1606031451093030000102550003303d</callSid><dateCreated>2016-06-03 14:51:09</dateCreated><orderId>CM1025520160603145109177995</orderId></CallBack><statusCode>000000</statusCode></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>087161111221</to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl></hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr></needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=D762CCA52C9692C60B9464A69C0207E2
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><CallBack><appId>8a48b5515493a1b70154b9c4615825c5</appId><callSid>1606031451508103000102460030eebc</callSid><dateCreated>2016-06-03 14:51:50</dateCreated><orderId>CM1024620160603145150760398</orderId></CallBack><statusCode>000000</statusCode></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>18687528272</to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl>http://116.55.248.76:8091/ccp_call_back.php</hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr>1</needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=640EB76FBC3942B4CC8E129EC11483B9
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><CallBack><appId>8a48b5515493a1b70154b9c4615825c5</appId><callSid>1606061512328004000101630043fcf5</callSid><dateCreated>2016-06-06 15:12:32</dateCreated><orderId>CM1016320160606151232464332</orderId></CallBack><statusCode>000000</statusCode></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>18687528272</to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl>http://116.55.248.76:8090/ccp_callback.php</hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr>1</needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=9B4F3D1884863A7B25E3215BE0082CBF
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><CallBack><appId>8a48b5515493a1b70154b9c4615825c5</appId><callSid>1606061525178149000101800000589c</callSid><dateCreated>2016-06-06 15:25:17</dateCreated><orderId>CM1018020160606152517127547</orderId></CallBack><statusCode>000000</statusCode></Response>
+request body = <CallBack>
+                     <from>13294958423-t</from>
+                     <to></to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl>http://116.55.248.76:8090/ccp_callback.php</hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr>1</needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=6BCF4CFBAEC1D206736A1BBB7A6CB6BE
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><statusCode>111301</statusCode><statusMsg>【呼叫】回拨主叫电话号码存在非法字符</statusMsg></Response>
+request body = <CallBack>
+                     <from>13294958423--t</from>
+                     <to></to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl>http://116.55.248.76:8090/ccp_callback.php</hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr>1</needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=A0429B4957120850F2E32D5810DADE5A
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><statusCode>111301</statusCode><statusMsg>【呼叫】回拨主叫电话号码存在非法字符</statusMsg></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>15087057477</to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl>http://116.55.248.76:8090/ccp_callback.php</hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr>1</needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=9B8E58FD0A9EC58104536FA7B99A244F
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><CallBack><appId>8a48b5515493a1b70154b9c4615825c5</appId><callSid>1606061535508959000101190043ffcd</callSid><dateCreated>2016-06-06 15:35:50</dateCreated><orderId>CM1011920160606153550462957</orderId></CallBack><statusCode>000000</statusCode></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>15087057477</to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl>http://116.55.248.76:8090/ccp_callback.php</hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr>1</needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=B64FACE80C8EDD2A46AD99D75267C22F
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><CallBack><appId>8a48b5515493a1b70154b9c4615825c5</appId><callSid>160606154204370600010057000bf6ec</callSid><dateCreated>2016-06-06 15:42:04</dateCreated><orderId>CM1005720160606154204920623</orderId></CallBack><statusCode>000000</statusCode></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>15087057477</to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl>http://116.55.248.76:8090/ccp_callback.php</hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr>1</needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=75352D8F60CA1D9120844A5D2B758D71
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><CallBack><appId>8a48b5515493a1b70154b9c4615825c5</appId><callSid>16060615444102920001011900441587</callSid><dateCreated>2016-06-06 15:44:41</dateCreated><orderId>CM1011920160606154441469207</orderId></CallBack><statusCode>000000</statusCode></Response>
+request body = <CallBack>
+                     <from>13294958423</from>
+                     <to>15087057477</to>
+                     <customerSerNum></customerSerNum>
+                     <fromSerNum></fromSerNum>
+                     <promptTone></promptTone>
+					           <userData></userData>
+					           <maxCallTime></maxCallTime>
+					           <hangupCdrUrl>http://116.55.248.76:8090/ccp_callback.php</hangupCdrUrl>
+                     <alwaysPlay></alwaysPlay>
+                     <terminalDtmf></terminalDtmf>
+                     <needBothCdr>1</needBothCdr>
+                     <needRecord></needRecord>
+                     <countDownTime></countDownTime>
+                     <countDownPrompt></countDownPrompt>
+                   </CallBack>
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=991B7BA3DFA5902AFF4230BE1EA69013
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><CallBack><appId>8a48b5515493a1b70154b9c4615825c5</appId><callSid>160606154900369200010057000c0554</callSid><dateCreated>2016-06-06 15:49:00</dateCreated><orderId>CM1005720160606154900924821</orderId></CallBack><statusCode>000000</statusCode></Response>
+request body = {'from':'13294958423--t','to':'','customerSerNum':'','fromSerNum':'','promptTone':'','userData':'','maxCallTime':'','hangupCdrUrl':'http://116.55.248.76:8090/ccp_callback.php',
+           'alwaysPlay':'','terminalDtmf':'','needBothCdr':'1',
+           'needRecord':'','countDownTime':'$','countDownPrompt':''}
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=F625751DC442A4B31525C7C800CD536E
+response body = {"statusMsg":"【呼叫】回拨主叫电话号码存在非法字符","statusCode":"111301"}
+request body = {'from':'13294958423','to':'15087057477','customerSerNum':'','fromSerNum':'','promptTone':'','userData':'','maxCallTime':'','hangupCdrUrl':'http://116.55.248.76:8090/ccp_callback.php',
+           'alwaysPlay':'','terminalDtmf':'','needBothCdr':'1',
+           'needRecord':'','countDownTime':'$','countDownPrompt':''}
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=335234CFD868099B5F7CC12BB657C9E6
+response body = {"statusCode":"000000","CallBack":{"appId":"8a48b5515493a1b70154b9c4615825c5","orderId":"CM1006620160606160512126092","dateCreated":"2016-06-06 16:05:12","callSid":"16060616051232390001006600005408"}}
+request body = {'from':'13294958423','to':'15087057477','customerSerNum':'','fromSerNum':'','promptTone':'','userData':'','maxCallTime':'','hangupCdrUrl':'http://116.55.248.76:8090/ccp_callback.php',
+           'alwaysPlay':'','terminalDtmf':'','needBothCdr':'1',
+           'needRecord':'','countDownTime':'$','countDownPrompt':'', 'cbConenType': json}
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=87AC61066DAA50414E3831619C7401E9
+response body = {"statusMsg":"【其他】HTTP请求包体无法解析，请检查包体格式","statusCode":"112616"}
+request body = {'from':'13294958423','to':'15087057477','customerSerNum':'','fromSerNum':'','promptTone':'','userData':'','maxCallTime':'','hangupCdrUrl':'http://116.55.248.76:8090/ccp_callback.php',
+           'alwaysPlay':'','terminalDtmf':'','needBothCdr':'1',
+           'needRecord':'','countDownTime':'$','countDownPrompt':'', 'cbConentType': json}
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=110ECBBD1915606381012CDD188F2E6E
+response body = {"statusMsg":"【其他】HTTP请求包体无法解析，请检查包体格式","statusCode":"112616"}
+request body = {'from':'13294958423','to':'15087057477','customerSerNum':'','fromSerNum':'','promptTone':'','userData':'','maxCallTime':'','hangupCdrUrl':'http://116.55.248.76:8090/ccp_callback.php',
+           'alwaysPlay':'','terminalDtmf':'','needBothCdr':'1',
+           'needRecord':'','countDownTime':'$','countDownPrompt':'', 'cbConentType': 'json'}
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=FAD91C6D4DA3FDC23DF5927B312B568A
+response body = {"statusCode":"000000","CallBack":{"appId":"8a48b5515493a1b70154b9c4615825c5","orderId":"CM1025520160606161441133483","dateCreated":"2016-06-06 16:14:41","callSid":"16060616144106000001025500006c30"}}
+request body = {'from':'13294958423','to':'15087057477','customerSerNum':'','fromSerNum':'','promptTone':'','userData':'','maxCallTime':'','hangupCdrUrl':'http://116.55.248.76:8090/ccp_callback.php',
+           'alwaysPlay':'','terminalDtmf':'','needBothCdr':'1',
+           'needRecord':'','countDownTime':'$','countDownPrompt':'', 'cbConenType': 'json'}
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=0F6B91829A7B02E544FCC179215603F9
+response body = {"statusCode":"000000","CallBack":{"appId":"8a48b5515493a1b70154b9c4615825c5","orderId":"CM1018520160606162224329469","dateCreated":"2016-06-06 16:22:24","callSid":"16060616222422090001018500380bca"}}
+request body = {'from':'13294958423','to':'15087057477','customerSerNum':'','fromSerNum':'','promptTone':'','userData':'','maxCallTime':'','hangupCdrUrl':'http://116.55.248.76:8090/ccp_callback.php',
+           'alwaysPlay':'','terminalDtmf':'','needBothCdr':'1',
+           'needRecord':'','countDownTime':'$','countDownPrompt':'', 'cbContenType': 'json'}
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=6BEC76F2D5A03323322F3654444527B9
+response body = {"statusCode":"000000","CallBack":{"appId":"8a48b5515493a1b70154b9c4615825c5","orderId":"CM1018520160606162442331008","dateCreated":"2016-06-06 16:24:42","callSid":"160606162442635300010185003810f4"}}
