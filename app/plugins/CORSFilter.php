@@ -15,7 +15,9 @@ class CORSFilter extends Plugin
         if ($this->request->isAjax() or 1)
         {
             $allow_host_list = $this->config->cors->allow_hosts->toArray();
-            $http_host = !empty($this->request->getServer('HTTP_ORIGIN')) ? $this->request->getServer('HTTP_ORIGIN') : rtrim($this->request->getServer('HTTP_REFERER'), '/');
+            $http_origin = $this->request->getServer('HTTP_ORIGIN');
+            $http_referer = $this->request->getServer('HTTP_REFERER');
+            $http_host = !empty($http_origin) ? $http_origin : rtrim($http_referer, '/');
             $allow_host = '';
             if(in_array($http_host, $allow_host_list))
             {

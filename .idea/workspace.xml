@@ -244,10 +244,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15162455">
+            <state vertical-scroll-proportion="-3.5">
               <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
               <folding />
             </state>
@@ -371,11 +371,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CORSFilter.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CORSFilter.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/plugins/CORSFilter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.4">
-              <caret line="17" column="172" selection-start-line="17" selection-start-column="172" selection-end-line="17" selection-end-column="172" />
+            <state vertical-scroll-proportion="0.3537906">
+              <caret line="19" column="79" selection-start-line="19" selection-start-column="79" selection-end-line="19" selection-end-column="79" />
               <folding />
             </state>
           </provider>
@@ -411,7 +411,6 @@
         <option value="$PROJECT_DIR$/script/wx_pay/log.php" />
         <option value="$PROJECT_DIR$/script/wx_pay/lib/WxPay.Config.php" />
         <option value="$PROJECT_DIR$/script/sms/send.php" />
-        <option value="$PROJECT_DIR$/app/plugins/CORSFilter.php" />
         <option value="$PROJECT_DIR$/app/controllers/UserController.php" />
         <option value="$PROJECT_DIR$/script/wx_pay/jsapi.php" />
         <option value="$PROJECT_DIR$/app/models/Order.php" />
@@ -422,6 +421,7 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/97ad16ea-841b-4db9-9abe-4cedbc9c777f/console.sql" />
         <option value="$PROJECT_DIR$/app/config/config.php" />
         <option value="$PROJECT_DIR$/app/controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/app/plugins/CORSFilter.php" />
       </list>
     </option>
   </component>
@@ -1459,14 +1459,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/plugins/CORSFilter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.4">
-          <caret line="17" column="172" selection-start-line="17" selection-start-column="172" selection-end-line="17" selection-end-column="172" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Ticket.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-36.4">
@@ -1581,8 +1573,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15162455">
+        <state vertical-scroll-proportion="-3.5">
           <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/plugins/CORSFilter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3537906">
+          <caret line="19" column="79" selection-start-line="19" selection-start-column="79" selection-end-line="19" selection-end-column="79" />
           <folding />
         </state>
       </provider>
