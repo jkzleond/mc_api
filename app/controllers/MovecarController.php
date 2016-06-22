@@ -108,13 +108,12 @@ class MovecarController extends ControllerBase
             $this->view->setVar('record_id', $new_record_id);*/
 
             /*生成挪车订单*/
-            $ticket_id = !empty($data['ticket_id']) ? $data['ticket_id'] : null;
 
             $new_order_id = Order::addMoveCarOrder(array(
                 'source' => $user['source'],
                 'hphm' => $data['hphm'],
                 'uphone' => $data['phone']
-            ), $user['user_id'], $this->_price, $ticket_id);
+            ), $user['user_id'], $this->_price);
             if(!$new_order_id)
             {
                 throw new DbTransException('订单生成失败');
@@ -347,6 +346,148 @@ class MovecarController extends ControllerBase
     }
 
     /**
+     * 订单支付
+     * @param $order_id
+     * @param $way
+     */
+    public function orderPayAction($order_id, $way)
+    {
+        $order = Order::getOrderById($order_id);
+
+        if(empty($order))
+        {
+            $this->view->setVars(array(
+                'success' => false,
+                'msg' => '订单不存在'
+            ));
+            return;
+        }
+
+        $data = $this->request->getJsonRawBody(true);
+        $user_id = $order['user_id'];
+        $total_fee = $order['record']['price'];
+        $actual_fee = $total_fee;
+        $ticket_id = !empty($data['ticket_id']) ? $data['ticket_id'] : null;
+        try
+        {
+            $this->db->begin();
+            if(!empty($ticket_id))
+            {
+                //判断票券是否合法(是否存在, 是否属于用户, 是否能用在该应用, 是否符合使用条件, 是否过期)
+                $ticket = Ticket::getTicketById($ticket_id);
+                if(empty($ticket) or $ticket['user_id'] != $user_id or ($ticket['scope'] != 1 and $ticket['scope'] != 2) or $ticket['use_fee'] > $total_fee or strtotime($ticket['end_date']) < time() or $ticket['is_lock'] == 1)
+                {
+                    var_dump($user_id);
+                    throw new DbTransException('非法票券');
+                }
+                //根据票券类型重新计算订单价格
+                $ticket_type = $ticket['type'];
+                if($ticket_type == '4')
+                {
+                    //改价卡
+                    $actual_fee = $ticket['value'];
+                }
+                elseif($ticket_type == '1' or $ticket_type == '2')
+                {
+                    //红包及优惠券
+                    $actual_fee = max($total_fee - $ticket['value'], 0);
+                }
+
+                //暂时锁定票券
+
+                $update_ticket_data = array('unlock_time' => date('Y-m-d H:i:s', time() + 60));
+                if($actual_fee == 0)
+                {
+                    $update_ticket_data['state'] = 2;
+                }
+                $lock_ticket_success = Ticket::updateTicketById($ticket_id, $update_ticket_data);
+
+                if(!$lock_ticket_success)
+                {
+                    throw new DbTransException('票券异常');
+                }
+            }
+
+            $update_order_success = Order::updateOrder($order_id, array(
+                'total_fee' => $actual_fee,
+                'state' => $actual_fee == 0 ? 'ORDER_FREE' : null,
+                'ticket_id' => !empty($ticket_id) ? $ticket_id : false
+            ));
+
+            if(!$update_order_success)
+            {
+                throw new DbTransException('支付失败');
+            }
+
+            $this->db->commit();
+        }
+        catch(DbTransException $e)
+        {
+            $this->db->rollback();
+            $this->view->setVars(array(
+                'success' => false,
+                'msg' => $e->getMessage()
+            ));
+            return;
+        }
+
+        if($actual_fee == 0)
+        {
+            $this->view->setVars(array(
+                'success' => true,
+                'code' => 'order_free'
+            ));
+            return;
+        }
+
+        if($way == 'wxpay')
+        {
+            //获取微信H5支付统一订单
+            $user = User::getCurrentUser();
+            $open_id = $user['wx_openid'];
+            $unified_order_json = $this->_gen_wx_unified_order(array(
+                'remote_ip' => $this->request->getClientAddress(),
+                'open_id' => $open_id,
+                'order' => $order
+            ));
+
+            $this->view->setVars(array(
+                'success' => true,
+                'data' => json_decode($unified_order_json, true)
+            ));
+
+            return;
+        }
+        elseif($way == 'cm')
+        {
+            //车友惠支付链接
+            $order_des = urlencode('挪车业务服务费');
+            $xml = <<<XML
+            <root>
+                <orderId>{$order['id']}<orderId>
+                <orderNo>{$order['order_no']}</orderNo>
+                <orderFee>{$order['total_fee']}</orderFee>
+                <payType>
+                    <offline>0</offline>
+                    <alipay>1</alipay>
+                    <wxpay>1</wxpay>
+                </payType>
+                <des>$order_des</des>
+            </root>
+XML;
+            $order_name = urlencode('挪车业务服务费');
+            $order_info = urlencode(base64_encode($xml));
+            $cm_protocol = 'pay://yn.122.net/?ordername='.$order_name.'&orderinfo='.$order_info;
+
+            $this->view->setVars(array(
+                'success' => true,
+                'data' => $cm_protocol
+            ));
+            return;
+        }
+    }
+
+    /**
      * 获取微信H5支付统一订单
      * @param $order_id
      */
@@ -368,7 +509,7 @@ class MovecarController extends ControllerBase
     }
 
     /**
-     * 获取车友惠
+     * 获取车友惠支付链接
      * @param $order_id
      */
     public function getCmPayProtocolAction($order_id)
@@ -380,6 +521,7 @@ class MovecarController extends ControllerBase
                 'success' => false,
                 'msg' => '订单不存在'
             ));
+            return;
         }
         $order_des = urlencode('挪车业务服务费');
         $xml = <<<XML

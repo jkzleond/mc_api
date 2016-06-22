@@ -133,6 +133,12 @@ $router->addDelete('/records/{id:\d+}.json', array(
     'action' => 'deleteRecord'
 ));
 
+//订单支付
+$router->addPost('/orders/{order_id:\d+}/pay/{way:.*}.json', array(
+    'controller' => 'movecar',
+    'action' => 'orderPay'
+));
+
 //微信H5支付,获取支付参数
 $router->addGet('/wx_pay/{order_id:\d+}/unified_order.json', array(
     'controller' => 'movecar',

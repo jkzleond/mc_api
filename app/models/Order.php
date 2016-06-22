@@ -163,11 +163,10 @@ class Order extends ModelEx
      * @param array $move_car_data
      * @param $user_id
      * @param $total_fee
-     * @param $ticket_id
      * @return int|bool
      * @throws DbTransException
      */
-    public static function addMoveCarOrder(array $move_car_data, $user_id, $total_fee, $ticket_id=null)
+    public static function addMoveCarOrder(array $move_car_data, $user_id, $total_fee)
     {
         $new_order_id = null;
         $actual_fee = $total_fee;
@@ -180,53 +179,10 @@ class Order extends ModelEx
 
         try
         {
-            if(!empty($ticket_id))
-            {
-                //判断票券是否合法(是否存在, 是否属于用户, 是否能用在该应用, 是否符合使用条件, 是否过期)
-                $ticket = Ticket::getTicketById($ticket_id);
-                if(empty($ticket) or $ticket['user_id'] != $user_id or ($ticket['scope'] != 1 and $ticket['scope'] != 2) or $ticket['use_fee'] > $total_fee or strtotime($ticket['end_date']) < time() or $ticket['is_lock'] == 1)
-                {
-                    var_dump($user_id);
-                    throw new DbTransException('非法票券');
-                }
-                //根据票券类型重新计算订单价格
-                $ticket_type = $ticket['type'];
-                if($ticket_type == '4')
-                {
-                    //改价卡
-                    $actual_fee = $ticket['value'];
-                }
-                elseif($ticket_type == '1' or $ticket_type == '2')
-                {
-                    //红包及优惠券
-                    $actual_fee = max($total_fee - $ticket['value'], 0);
-                }
-                else
-                {
-                    $actual_fee = $total_fee;
-                }
-
-                //暂时锁定票券
-
-                $update_ticket_data = array('unlock_time' => date('Y-m-d H:i:s', time() + 60));
-                if($actual_fee == 0)
-                {
-                    $update_ticket_data['state'] = 2;
-                }
-                $lock_ticket_success = Ticket::updateTicketById($ticket_id, $update_ticket_data);
-
-                if(!$lock_ticket_success)
-                {
-                    throw new DbTransException('票券异常');
-                }
-
-            }
-
-            $sql = "insert into PayList (orderNo, orderName, money, userId, orderType, ticket_id, state) values (:order_no, '挪车业务', :total_fee, :user_id, 'move_car', :ticket_id, :state)";
+            $sql = "insert into PayList (orderNo, orderName, money, userId, orderType, state) values (:order_no, '挪车业务', :total_fee, :user_id, 'move_car', :state)";
             $bind = array(
                 'total_fee' => $actual_fee,
                 'user_id' => $user_id,
-                'ticket_id' => $ticket_id,
                 'state' => $actual_fee == 0 ? 'ORDER_FREE' : 'TRADE_WAIT'
             );
 
@@ -284,6 +240,54 @@ class Order extends ModelEx
     }
 
     /**
+     * 更新指定ID订单信息
+     * @param $order_id
+     * @param $data
+     * @return bool
+     */
+    public static function updateOrder($order_id, $data)
+    {
+        $crt = new Criteria($data);
+        $field_str = '';
+        $bind = array('order_id' => $order_id);
+
+        if($crt->total_fee)
+        {
+            $field_str .= 'money = :total_fee, ';
+            $bind['total_fee'] = $crt->total_fee;
+        }
+
+        if($crt->ticket_id)
+        {
+            $field_str .= 'ticket_id = :ticket_id, ';
+            $bind['ticket_id'] = $crt->ticket_id;
+        }
+        elseif($crt->ticket_id === false or $crt->ticket_id === 0)
+        {
+            $field_str .= 'ticket_id = null, ';
+        }
+
+        if($crt->state)
+        {
+            $field_str .= 'state = :state, ';
+            $bind['state'] = $crt->state;
+        }
+
+        if(!empty($field_str))
+        {
+            $field_str = rtrim($field_str, ', ');
+        }
+        else
+        {
+            return false;
+        }
+
+        $sql = "update PayList set $field_str where id = :order_id";
+        return self::nativeExecute($sql, $bind);
+
+    }
+
+    /**
      * 更新指定ID订单相关的挪车记录
      * @param $order_id
      * @param $data
@@ -321,7 +325,7 @@ class Order extends ModelEx
      */
     public static function getOrderById($order_id)
     {
-        $sql = "select id, orderNo as order_no, orderType as order_type, money as total_fee, relId as rel_id, ticket_id, convert(varchar(20), createTime, 20) as create_date,
+        $sql = "select id, userId as user_id, orderNo as order_no, orderType as order_type, money as total_fee, relId as rel_id, ticket_id, convert(varchar(20), createTime, 20) as create_date,
     state,
     case
       when state = 'ORDER_FREE' or state = 'TRADE_SUCCESS' or state = 'TRADE_FINISHED' then
