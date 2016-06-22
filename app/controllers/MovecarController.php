@@ -377,7 +377,6 @@ class MovecarController extends ControllerBase
                 $ticket = Ticket::getTicketById($ticket_id);
                 if(empty($ticket) or $ticket['user_id'] != $user_id or ($ticket['scope'] != 1 and $ticket['scope'] != 2) or $ticket['use_fee'] > $total_fee or strtotime($ticket['end_date']) < time() or $ticket['is_lock'] == 1)
                 {
-                    var_dump($user_id);
                     throw new DbTransException('非法票券');
                 }
                 //根据票券类型重新计算订单价格
@@ -395,7 +394,7 @@ class MovecarController extends ControllerBase
 
                 //暂时锁定票券
 
-                $update_ticket_data = array('unlock_time' => date('Y-m-d H:i:s', time() + 60));
+                $update_ticket_data = array('unlock_time' => date('Y-m-d H:i:s', time() + 15));
                 if($actual_fee == 0)
                 {
                     $update_ticket_data['state'] = 2;
