@@ -453,8 +453,7 @@ class MovecarController extends ControllerBase
 
             $this->view->setVars(array(
                 'success' => true,
-                'data' => json_decode($unified_order_json, true),
-                'msg' => $unified_order_json
+                'data' => json_decode($unified_order_json, true)
             ));
 
             return;
