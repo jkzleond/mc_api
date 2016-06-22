@@ -22,6 +22,6 @@ return new \Phalcon\Config(array(
         'baseUri'        => '',
     ),
     'cors' => array(
-        'allow_hosts' => array('http://localhost:8801', 'http://116.55.248.76', 'http://192.168.31.247:8801', 'http://192.168.100.248:8801', 'http://116.55.248.76:8090', 'http://ip.yn122.net:8090')
+        'allow_hosts' => array('http://localhost:8801', 'http://116.55.248.76', 'http://192.168.31.247:8801', 'http://192.168.100.248:8801', 'http://116.55.248.76:8090', 'http://ip.yn122.net')
     )
 ));
