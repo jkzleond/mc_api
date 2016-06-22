@@ -43,7 +43,7 @@ class IndexController extends ControllerBase
                 echo '缺少必要参数';
                 exit;
             }
-            return $this->response->redirect($this->_mc_client_url.'?userid='.$user_id);
+            return $this->response->redirect(str_replace('{:params}', '?userId='.$user_id, $this->_mc_client_url));
         }
     }
 
