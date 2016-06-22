@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0749f35-5ec1-4f24-850e-c8eb23bce5ba" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/MovecarController.php" afterPath="$PROJECT_DIR$/app/controllers/MovecarController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/wx_pay/jsapi.php" afterPath="$PROJECT_DIR$/script/wx_pay/jsapi.php" />
-    </list>
+    <list default="true" id="c0749f35-5ec1-4f24-850e-c8eb23bce5ba" name="Default" comment="" />
     <ignored path="mc_api.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -261,10 +258,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MovecarController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MovecarController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/MovecarController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5812274">
+            <state vertical-scroll-proportion="-12.6">
               <caret line="455" column="64" selection-start-line="455" selection-start-column="64" selection-end-line="455" selection-end-column="64" />
               <folding>
                 <marker date="1466613529088" expanded="true" signature="12563:12955" placeholder="..." />
@@ -276,10 +273,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jsapi.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="jsapi.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script/wx_pay/jsapi.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.8">
+            <state vertical-scroll-proportion="0.57039714">
               <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
               <folding />
             </state>
@@ -1502,17 +1499,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/wx_pay/jsapi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.8">
-          <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/MovecarController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5812274">
+        <state vertical-scroll-proportion="-12.6">
           <caret line="455" column="64" selection-start-line="455" selection-start-column="64" selection-end-line="455" selection-end-column="64" />
           <folding>
             <marker date="1466613529088" expanded="true" signature="12563:12955" placeholder="..." />
@@ -1520,6 +1509,14 @@
             <marker date="1466613529088" expanded="true" signature="14371:14723" placeholder="..." />
             <marker date="1466613529088" expanded="true" signature="14545:14673" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/wx_pay/jsapi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57039714">
+          <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
