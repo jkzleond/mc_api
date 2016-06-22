@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0749f35-5ec1-4f24-850e-c8eb23bce5ba" name="Default" comment="" />
+    <list default="true" id="c0749f35-5ec1-4f24-850e-c8eb23bce5ba" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/MovecarController.php" afterPath="$PROJECT_DIR$/app/controllers/MovecarController.php" />
+    </list>
     <ignored path="mc_api.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -191,62 +194,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="110" column="128" selection-start-line="110" selection-start-column="128" selection-end-line="110" selection-end-column="128" />
-              <folding>
-                <marker date="1466497321774" expanded="true" signature="307:354" placeholder="insert into MC_User..." />
-                <marker date="1466497321774" expanded="true" signature="644:722" placeholder="select top 1..MC_User..." />
-                <marker date="1466497321774" expanded="true" signature="1408:1616" placeholder="select id, u..." />
-                <marker date="1466497321774" expanded="true" signature="1408:1630" placeholder="select ${$to..." />
-                <marker date="1466497321774" expanded="true" signature="1408:1634" placeholder="select ${$to..." />
-                <marker date="1466497321774" expanded="true" signature="1408:1647" placeholder="select ${$to..." />
-                <marker date="1466497321774" expanded="true" signature="1408:1683" placeholder="select ${$to..." />
-                <marker date="1466497321774" expanded="true" signature="2805:2955" placeholder="select count..." />
-                <marker date="1466497321774" expanded="true" signature="3638:3819" placeholder="insert into Ticket..." />
-                <marker date="1466497321774" expanded="true" signature="4908:5025" placeholder="insert into IAM_USER..." />
-                <marker date="1466497321774" expanded="true" signature="5413:5843" placeholder="select u.id ..IAM_USER..." />
-                <marker date="1466497321774" expanded="true" signature="6126:6484" placeholder="select top 1..." />
-                <marker date="1466497321774" expanded="true" signature="7344:7419" placeholder="select id, u..IAM_USER..." />
-                <marker date="1466497321774" expanded="true" signature="7857:8398" placeholder="select useri..IAM_USER..." />
-                <marker date="1466497321774" expanded="true" signature="8475:8647" placeholder="select u.use..IAM_USER..." />
-                <marker date="1466497321774" expanded="true" signature="9117:9215" placeholder="update IAM_U..." />
-                <marker date="1466497321774" expanded="true" signature="9421:9510" placeholder="select top 1..." />
-                <marker date="1466497321774" expanded="true" signature="9843:9923" placeholder="insert into WX_USER..." />
-                <marker date="1466497321774" expanded="true" signature="10194:10275" placeholder="update WX_US..." />
-                <marker date="1466497321774" expanded="true" signature="11010:11065" placeholder="select PHOTO..IAM_USERPHOTO..." />
-                <marker date="1466497321774" expanded="true" signature="11399:11467" placeholder="update IAM_U..." />
-                <marker date="1466497321774" expanded="true" signature="11924:11983" placeholder="select count..IAM_USER_INFO..." />
-                <marker date="1466497321774" expanded="true" signature="12230:12517" placeholder="insert into IAM_USER_INFO..." />
-                <marker date="1466497321774" expanded="true" signature="15925:15984" placeholder="update IAM_U..." />
-                <marker date="1466497321774" expanded="true" signature="16630:16649" placeholder="update set $..." />
-                <marker date="1466497321774" expanded="true" signature="16630:16684" placeholder="update set $..." />
-                <marker date="1466497321774" expanded="true" signature="16891:16958" placeholder="select count..MC_Car..." />
-                <marker date="1466497321774" expanded="true" signature="17646:17701" placeholder="update MC_Us..." />
-                <marker date="1466497321774" expanded="true" signature="18881:18936" placeholder="select ${$le..MC_Car..." />
-                <marker date="1466497321774" expanded="true" signature="18881:18959" placeholder="select ${$le..MC_Car..." />
-                <marker date="1466497321774" expanded="true" signature="18881:18968" placeholder="select ${$le..MC_Car..." />
-                <marker date="1466497321774" expanded="true" signature="19279:19333" placeholder="select top 1..MC_Car..." />
-                <marker date="1466497321774" expanded="true" signature="19279:19356" placeholder="select top 1..MC_Car..." />
-                <marker date="1466497321774" expanded="true" signature="19279:19357" placeholder="select top 1..MC_Car..." />
-                <marker date="1466497321774" expanded="true" signature="19279:19361" placeholder="select top 1..MC_Car..." />
-                <marker date="1466497321774" expanded="true" signature="19811:19869" placeholder="insert into MC_Car..." />
-                <marker date="1466497321774" expanded="true" signature="20221:20267" placeholder="update MC_Ca..." />
-                <marker date="1466497321774" expanded="true" signature="20221:20268" placeholder="update MC_Ca..." />
-                <marker date="1466497321774" expanded="true" signature="20377:20470" placeholder="/** * 更新车辆信息..." />
-                <marker date="1466497321774" expanded="true" signature="21035:21052" placeholder="update MC_Ca..." />
-                <marker date="1466497321774" expanded="true" signature="21035:21053" placeholder="update MC_Ca..." />
-                <marker date="1466497321774" expanded="true" signature="21035:21072" placeholder="update MC_Ca..." />
-                <marker date="1466497321774" expanded="true" signature="21035:21077" placeholder="update MC_Ca..." />
-                <marker date="1466497321774" expanded="true" signature="21035:21087" placeholder="update MC_Ca..." />
-                <marker date="1466497321774" expanded="true" signature="21035:21090" placeholder="update MC_Ca..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Order.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/Order.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -329,17 +276,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MovecarController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MovecarController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/MovecarController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.4">
-              <caret line="364" column="0" selection-start-line="364" selection-start-column="0" selection-end-line="364" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.8592058">
+              <caret line="460" column="9" selection-start-line="460" selection-start-column="9" selection-end-line="460" selection-end-column="9" />
               <folding>
-                <marker date="1466606591397" expanded="true" signature="12563:12955" placeholder="..." />
-                <marker date="1466606591397" expanded="true" signature="12753:12897" placeholder="..." />
-                <marker date="1466606591397" expanded="true" signature="14371:14723" placeholder="..." />
-                <marker date="1466606591397" expanded="true" signature="14545:14673" placeholder="..." />
+                <marker date="1466612721792" expanded="true" signature="12609:13001" placeholder="..." />
+                <marker date="1466612721792" expanded="true" signature="12799:12943" placeholder="..." />
+                <marker date="1466612721792" expanded="true" signature="14417:14769" placeholder="..." />
+                <marker date="1466612721792" expanded="true" signature="14591:14719" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2016-06-21.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/script/wx_pay/logs/2016-06-21.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -359,10 +316,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/config/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.732852">
+            <state vertical-scroll-proportion="-18.9">
               <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
@@ -398,11 +355,11 @@
         <option value="$PROJECT_DIR$/app/models/User.php" />
         <option value="$PROJECT_DIR$/app/plugins/CORSFilter.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/97ad16ea-841b-4db9-9abe-4cedbc9c777f/console.sql" />
-        <option value="$PROJECT_DIR$/app/controllers/MovecarController.php" />
         <option value="$PROJECT_DIR$/app/config/routes.php" />
         <option value="$PROJECT_DIR$/app/models/Order.php" />
         <option value="$PROJECT_DIR$/app/controllers/IndexController.php" />
         <option value="$PROJECT_DIR$/app/config/config.php" />
+        <option value="$PROJECT_DIR$/app/controllers/MovecarController.php" />
       </list>
     </option>
   </component>
@@ -1283,13 +1240,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/wx_pay/logs/2016-06-21.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/script/wx_pay/logs/2016-06-20.log">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1532,19 +1482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/MovecarController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.4">
-          <caret line="364" column="0" selection-start-line="364" selection-start-column="0" selection-end-line="364" selection-end-column="0" />
-          <folding>
-            <marker date="1466606591397" expanded="true" signature="12563:12955" placeholder="..." />
-            <marker date="1466606591397" expanded="true" signature="12753:12897" placeholder="..." />
-            <marker date="1466606591397" expanded="true" signature="14371:14723" placeholder="..." />
-            <marker date="1466606591397" expanded="true" signature="14545:14673" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-23.1">
@@ -1563,9 +1500,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.732852">
+        <state vertical-scroll-proportion="-18.9">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/wx_pay/logs/2016-06-21.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/MovecarController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8592058">
+          <caret line="460" column="9" selection-start-line="460" selection-start-column="9" selection-end-line="460" selection-end-column="9" />
+          <folding>
+            <marker date="1466612721792" expanded="true" signature="12609:13001" placeholder="..." />
+            <marker date="1466612721792" expanded="true" signature="12799:12943" placeholder="..." />
+            <marker date="1466612721792" expanded="true" signature="14417:14769" placeholder="..." />
+            <marker date="1466612721792" expanded="true" signature="14591:14719" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
