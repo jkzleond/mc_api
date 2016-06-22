@@ -420,6 +420,8 @@ class MovecarController extends ControllerBase
             }
 
             $this->db->commit();
+
+            $order['total_fee'] = $actual_fee;
         }
         catch(DbTransException $e)
         {
