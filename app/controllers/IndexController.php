@@ -5,8 +5,8 @@ class IndexController extends ControllerBase
     //微信appid,secret
     private $_app_id = 'wx1f42c4cb56c5095d';
     private $_app_secret = '276e08a1e2d2c9680823e6ddd0720c4c';
-    private $_mc_client_url = 'http://116.55.248.76/move_car/www/?{:params}#/tab/move_car';
-    private $_mc_client_wx_url = 'http://116.55.248.76/move_car/www/?wx_openid={:openid}#/tab/move_car';
+    private $_mc_client_url = 'http://116.55.248.76/cyh/move_car/www/?{:params}#/tab/move_car';
+    private $_mc_client_wx_url = 'http://116.55.248.76/cyh/move_car/www/?wx_openid={:openid}#/tab/move_car';
 
     /**
      * 通用入口
