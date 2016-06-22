@@ -36,6 +36,7 @@ $input->SetNotify_url("http://116.55.248.76/cyh/wx_h5_pay/notify.php");
 $input->SetTrade_type("JSAPI");
 $input->SetOpenid($open_id);
 $order = WxPayApi::unifiedOrder($input);
+Log::DEBUG('ORDER:', var_export($order, 1));
 echo $tools->GetJsApiParameters($order);
 
 
