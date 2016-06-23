@@ -179,11 +179,14 @@ class UserController extends ControllerBase
                 $user->set('ticket_count', $mc_ticket_count); //挪车业务相关用户信息
                 $user->set('car_count', $mc_car_count); //挪车业务,用户登记的车辆数
 
+                $guid = User::genToken($user_info['user_id'], $user->getIterator());
+
 
                 $this->view->setVars(array(
                     'success' => true,
                     'data' => array(
                         'session_id' => $session_id,
+                        'guid' => $guid,
                         'user_info' => $user->getIterator(),
                     )
                 ));

@@ -7,6 +7,7 @@
  */
 
 use \Phalcon\Db;
+use \Palm\Exception\DbTransException;
 
 class User extends ModelEx
 {
@@ -195,7 +196,6 @@ class User extends ModelEx
      */
     public static function getUserInfoById($id)
     {
-
         $sql = <<<SQL
         select u.id as id, u.userid as user_id, u.uname, u.nickname,
 		u.sex, u.wx_openid, u.wx_unoinid, u.wx_token,
@@ -376,12 +376,78 @@ SQL;
     /**
      * 获取当前登录的用户信息
      * @return mixed
+     * @throws Exception
      */
     public static function getCurrentUser()
     {
+//        $di = \Phalcon\DI::getDefault();
+//        $session = $di->getShared('session');
+//        return $session->get('user');
         $di = \Phalcon\DI::getDefault();
-        $session = $di->getShared('session');
-        return $session->get('user');
+        $guid = $di->get('request')->getHeader('AUTH_TOKEN');
+
+        $sql = 'select top 1 data from AuthToken where guid = :guid';
+        $bind = array('guid' => $guid);
+        $user = self::fetchOne($sql, $bind, null, Db::FETCH_ASSOC);
+        if(empty($user))
+        {
+            throw new Exception('error_token', 1001);
+        }
+        return json_decode($user['data'], true);
+    }
+
+    /**
+     * 生成token
+     * @param $user_id
+     * @param $data
+     * @return bool|string 成功返回生成的token guid,失败返回false
+     */
+    public static function genToken($user_id, $data)
+    {
+        $di =\Phalcon\DI::getDefault();
+        $connection = $di->get('db');
+        try
+        {
+            $connection->begin();
+
+            $get_token_sql = 'select top 1 guid from AuthToken where user_id = :user_id';
+            $get_token_bind = array(
+                'user_id' => $user_id
+            );
+            $exists_token = self::fetchOne($get_token_sql, $get_token_bind, null, Db::FETCH_ASSOC);
+            if(empty($exists_token))
+            {
+                $add_token_sql = 'insert into AuthToken (guid, user_id, data) values (:guid, :user_id, :data)';
+            }
+            else
+            {
+                $add_token_sql = 'update AuthToken set guid = :guid, data = :data where user_id = :user_id';
+            }
+
+            $add_token_bind = array(
+                'user_id' => $user_id,
+                'data' => json_encode($data)
+            );
+            do
+            {
+                $guid = md5(uniqid(mt_rand(), true));
+                $add_token_bind['guid'] = $guid;
+                $add_token_success = self::nativeExecute($add_token_sql, $add_token_bind);
+                $err_info = $connection->getInternalHandler()->errorInfo();
+            }while($err_info[1] == '2627');
+
+            if(!$add_token_success)
+            {
+                throw new DbTransException('token error');
+            }
+            $connection->commit();
+        }
+        catch(DbTransException $e)
+        {
+            $connection->rollback();
+            return false;
+        }
+        return $guid;
     }
 
     /**

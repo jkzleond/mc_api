@@ -3,10 +3,10 @@
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
-$debug = new Phalcon\Debug();
-$debug->listen();
+//$debug = new Phalcon\Debug();
+//$debug->listen();
 
-//try {
+try {
 
     /**
      * Read the configuration
@@ -40,6 +40,9 @@ $debug->listen();
 
     echo $application->handle()->getContent();
 
-//} catch (\Exception $e) {
-//    echo $e->getMessage();
-//}
+} catch (\Exception $e) {
+    echo json_encode(array(
+        'success' => false,
+        'msg' => $e->getMessage()
+    ));
+}

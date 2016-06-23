@@ -96,17 +96,6 @@ class MovecarController extends ControllerBase
                throw new DbTransException('车主就是您本人啊~');
             }
 
-/*            $new_record_id = MoveCar::addRecord(array(
-                'user_id' => $user['user_id'],
-                'source' => $user['source'],
-                'hphm' => $data['hphm']
-            ));
-            if(!$new_record_id)
-            {
-                throw new DbTransException('挪车记录添加失败');
-            }
-            $this->view->setVar('record_id', $new_record_id);*/
-
             /*生成挪车订单*/
 
             $new_order_id = Order::addMoveCarOrder(array(

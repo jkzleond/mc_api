@@ -25,7 +25,7 @@ class CORSFilter extends Plugin
             }
             $this->response->setHeader('Access-Control-Allow-Origin', $allow_host);
             $this->response->setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
-            $this->response->setHeader('Access-Control-Allow-Headers', 'content-type');
+            $this->response->setHeader('Access-Control-Allow-Headers', 'content-type, auth-token');
             $this->response->setHeader('Access-Control-Allow-Credentials', 'true');
 
             if ($this->request->isOptions())

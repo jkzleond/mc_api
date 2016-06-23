@@ -60,6 +60,5 @@ class IndexController extends ControllerBase
         $openid = $wx_token['openid'];
         return $this->response->redirect($this->_mc_client_url.'?openid='.$openid);      
     }
-
 }
 
