@@ -377,7 +377,7 @@ class MovecarController extends ControllerBase
                 $ticket = Ticket::getTicketById($ticket_id);
                 if(empty($ticket) or $ticket['user_id'] != $user_id or ($ticket['scope'] != 1 and $ticket['scope'] != 2) or $ticket['use_fee'] > $total_fee or strtotime($ticket['end_date']) < time() or $ticket['is_lock'] == 1)
                 {
-                    throw new DbTransException('非法票券');
+                    throw new DbTransException(json_encode($ticket));
                 }
                 //根据票券类型重新计算订单价格
                 $ticket_type = $ticket['type'];
