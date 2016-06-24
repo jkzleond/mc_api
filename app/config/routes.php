@@ -127,6 +127,12 @@ $router->addPost('/notify.json', array(
     'action' => 'notify'
 ));
 
+//标记车主电话联系成功率
+$router->addPut('/car_owner/{car_owner_source:.*}/{car_owner_id:\d+}/mark.json', array(
+    'controller' => 'movecar',
+    'action' => 'markCarOwner'
+));
+
 //删除挪车记录
 $router->addDelete('/records/{id:\d+}.json', array(
     'controller' => 'movecar',
@@ -150,6 +156,8 @@ $router->addGet('/cm_pay/{order_id:\d+}/protocol.json', array(
     'controller' => 'movecar',
     'action' => 'getCmPayProtocol'
 ));
+
+
 
 
 /*

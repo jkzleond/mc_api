@@ -44,12 +44,19 @@ class MoveCar extends ModelEx
         $get_mc_car_sql = "
           select
             c.id,
+            case
+              when c.success_count > 0 or c.fail_count > 0 then
+                c.success_count / (c.success_count + c.fail_count) * 10
+              else
+                5
+            end as success_rate,
             isnull(mu.phone, u.phone) as phone,
             'cm' as source
           from MC_Car c
           left join IAM_USER u on u.userid = c.user_id
           left join MC_User mu on mu.user_id = c.user_id
           where c.hphm = :hphm and c.state = 1
+          order by success_rate desc
 ";
         $get_mc_car_bind = array('hphm' => $hphm);
 
@@ -95,5 +102,38 @@ SQL;
         }
 
         return self::fetchOne($sql, $bind, null, Db::FETCH_ASSOC);
+    }
+
+    /**
+     * 标记车主(成功率)
+     * @param int $id
+     * @param bool $is_success
+     * @param string $source
+     * @return bool
+     */
+    public static function markCarOwnerById($id, $is_success, $source='cm')
+    {
+        $bind = array('id' => $id);
+        $field_str = null;
+        if($is_success)
+        {
+            $field_str = 'success_count += 1';
+        }
+        else
+        {
+            $field_str = 'fail_count += 1';
+        }
+
+        $table_name = 'MC_Car';
+
+        if($source != 'cm')
+        {
+            $table_name = 'JGCarOwner';
+        }
+
+        $sql = <<<SQL
+            update $table_name set $field_str where id = :id
+SQL;
+        return self::nativeExecute($sql, $bind);
     }
 }

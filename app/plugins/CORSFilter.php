@@ -23,11 +23,14 @@ class CORSFilter extends Plugin
             {
                 $allow_host = $http_host;
             }
-            $this->response->setHeader('Access-Control-Allow-Origin', $allow_host);
-            $this->response->setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
-            $this->response->setHeader('Access-Control-Allow-Headers', 'content-type, auth-token');
-            $this->response->setHeader('Access-Control-Allow-Credentials', 'true');
-
+            //$this->response->setHeader('Access-Control-Allow-Origin', $allow_host);
+            header('Access-Control-Allow-Origin: '.$allow_host);
+            //$this->response->setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
+            header('Access-Control-Allow-Methods: GET, POST, PUT, DELETE');
+            //$this->response->setHeader('Access-Control-Allow-Headers', 'content-type, auth-token');
+            header('Access-Control-Allow-Headers: content-type, auth-token');
+            //$this->response->setHeader('Access-Control-Allow-Credentials', 'true');
+            header('Access-Control-Allow-Credentials: true');
             if ($this->request->isOptions())
             {
                 //处理预请求

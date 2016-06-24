@@ -43,6 +43,7 @@ try {
 } catch (\Exception $e) {
     echo json_encode(array(
         'success' => false,
-        'msg' => $e->getMessage()
+        'msg' => $e->getMessage(),
+        'code' => $e->getCode()
     ));
 }

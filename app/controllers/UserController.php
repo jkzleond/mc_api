@@ -68,8 +68,9 @@ class UserController extends ControllerBase
                     );
                     $daily_red_bag = $this->db->fetchOne($get_red_bag_sql, Db::FETCH_ASSOC,$get_red_bag_bind);
 
-                    if(!empty($daily_red_bag))
+                    if(!empty($daily_red_bag) and $user_info['user_id'] != 'jkzleond@163.com')
                     {
+                        //已经有每日红包和不是测试号
                         throw new DbTransException();
                     }
 

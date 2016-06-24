@@ -178,6 +178,17 @@ class MovecarController extends ControllerBase
     public function getOrderCarOwnersAction($order_id)
     {
         $order = Order::getOrderById($order_id);
+
+        if($order['is_payed'] != 1)
+        {
+            $this->view->setVars(array(
+                'success' => false,
+                'msg' => '订单未支付',
+                'code' => 'no_pay'
+            ));
+            return;
+        }
+
         $hphm = $order['record']['hphm'];
         $car_owner_list = MoveCar::getCarOwnerList($hphm);
 
@@ -265,7 +276,14 @@ class MovecarController extends ControllerBase
 
         Order::addTrack($order_id, 'notify', '通知车主', 'success');
 
-        $this->_call_to($order['record']['uphone'], $car_owner['phone'], $order);
+        $car_owner_phone = str_replace('-', '', $car_owner['phone']);
+        if(strpos($car_owner_phone, '0871') === 0 and strlen($car_owner_phone) < 12)
+        {
+            //昆明区号的号码加6
+            $car_owner_phone = str_replace('0871', '08716', $car_owner_phone);
+        }
+
+        $this->_call_to($order['record']['uphone'], $car_owner_phone, $order);
 
         $this->view->setVars(array(
             'success' => true,
@@ -534,6 +552,21 @@ XML;
         $this->view->setVars(array(
             'success' => true,
             'data' => $cm_protocol
+        ));
+    }
+
+    /**
+     * 标记车主成功率
+     * @param $car_owner_source
+     * @param $car_owner_id
+     */
+    public function markCarOwnerAction($car_owner_source, $car_owner_id)
+    {
+        $data = $this->request->getJsonRawBody(true);
+        $is_success = $data['success'];
+        $success = MoveCar::markCarOwnerById($car_owner_id, $is_success, $car_owner_source);
+        $this->view->setVars(array(
+            'success' => $success
         ));
     }
 
