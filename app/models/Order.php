@@ -250,8 +250,8 @@ class Order extends ModelEx
         $crt = new Criteria($data);
         $field_str = '';
         $bind = array('order_id' => $order_id);
-
-        if($crt->total_fee or $crt->total_fee === 0 or $crt->total_fee === '0')
+        
+        if(!is_null($crt->total_fee))
         {
             $field_str .= 'money = :total_fee, ';
             $bind['total_fee'] = $crt->total_fee;

@@ -31,4 +31,9 @@ class Criteria
     {
         $this->_collection[$prop] = $value;
     }
+
+    public function __isset($name)
+    {
+        return isset($this->_collection[$name]);
+    }
 }
