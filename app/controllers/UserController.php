@@ -26,14 +26,21 @@ class UserController extends ControllerBase
         elseif($way == 'wx' and !empty($wx_openid))
         {
             //微信openid登录
-            //$user_info = User::getWxBindUser($wx_openid);
-            $user_info = User::getMoveCarUserInfo($wx_openid.'@wx_cm.com');
+
+            //绑定过车友惠账户的用户
+            $user_info = User::getWxBindUser($wx_openid);
+            if(empty($user_info))
+            {
+                $user_info = User::getMoveCarUserInfo($wx_openid.'@wx_cm.com');
+            }
+
             if(empty($user_info))
             {
                 $user_info = array(
                     'user_id' => $wx_openid.'@wx_cm.com'
                 );
             }
+
             $user_info['wx_openid'] = $wx_openid;
         }
 
