@@ -84,8 +84,8 @@ class MovecarController extends ControllerBase
             $this->db->begin();
             $success = true;
             $data = $this->request->getJsonRawBody(true);
-
-            $car_owner_list = MoveCar::getCarOwnerList($data['hphm']);
+            $hphm = strtoupper(str_replace(' ', '',$data['hphm']));
+            $car_owner_list = MoveCar::getCarOwnerList($hphm);
             if(empty($car_owner_list))
             {
                 throw new DbTransException('未找到车主电话');
@@ -100,7 +100,7 @@ class MovecarController extends ControllerBase
 
             $new_order_id = Order::addMoveCarOrder(array(
                 'source' => $user['source'],
-                'hphm' => $data['hphm'],
+                'hphm' => $hphm,
                 'uphone' => $data['phone']
             ), $user['user_id'], $this->_price);
             if(!$new_order_id)
