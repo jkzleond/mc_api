@@ -88,7 +88,8 @@ class MoveCar extends ModelEx
             select
               c.id,
               c.hphm,
-              isnull(mu.phone, u.phone) as phone
+              isnull(mu.phone, u.phone) as phone,
+              'cm' as source
             from MC_Car c
             left join IAM_USER u on u.userid = c.user_id
             left join MC_User mu on mu.user_id = c.user_id
@@ -98,7 +99,7 @@ SQL;
         }
         else
         {
-            $sql = "select id, hphm, phone from JGCarOwner where id = :id";
+            $sql = "select id, hphm, phone, 'jg' as source from JGCarOwner where id = :id";
         }
 
         return self::fetchOne($sql, $bind, null, Db::FETCH_ASSOC);
@@ -108,10 +109,11 @@ SQL;
      * 标记车主(成功率)
      * @param int $id
      * @param bool $is_success
+     * @param int $status success为false时有效 1:未接通, 2:不是车主
      * @param string $source
      * @return bool
      */
-    public static function markCarOwnerById($id, $is_success, $source='cm')
+    public static function markCarOwnerById($id, $is_success, $status, $source='cm')
     {
         $bind = array('id' => $id);
         $field_str = null;
@@ -122,6 +124,10 @@ SQL;
         else
         {
             $field_str = 'fail_count += 1';
+            if($status == 2)
+            {
+                $field_str .= ', not_owner_count += 1';
+            }
         }
 
         $table_name = 'MC_Car';

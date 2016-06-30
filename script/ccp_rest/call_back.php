@@ -89,8 +89,10 @@ $options = getopt('f:t:d:');
 
 $from = $options['f'];
 $to = $options['t'];
-$order_data_encoded = $options['d'];
-$order_data = json_decode(base64_decode($options['d']), true);
+$user_data_encoded = $options['d'];
+$user_data = json_decode(base64_decode($options['d']), true);
+$order_data = $user_data['order'];
+$car_owner_data = $user_data['car_owner'];
 $order_id = $order_data['id'];
 
 $phone_bill = $order_data['record']['phone_bill']; //订单剩余话费
@@ -100,7 +102,9 @@ $max_call_time = floor($phone_bill / 0.12); //按剩余话费不同给出最大�
 $hangup_cdr_url = 'http://116.55.248.76:8090/ccp_callback.php';
 $need_both_cdr = true;
 
-callBack($from, $to, null, null, null, null, null, $order_data['id'], $max_call_time, $hangup_cdr_url, $need_both_cdr);
+$user_data_str = $order_data['id'].'|'.$car_owner_data['source'].'|'.$car_owner_data['id'];
+
+callBack($from, $to, null, null, null, null, null, $user_data_str, $max_call_time, $hangup_cdr_url, $need_both_cdr);
 
 $json = <<<JSON
 {

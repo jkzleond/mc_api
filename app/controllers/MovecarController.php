@@ -165,6 +165,7 @@ class MovecarController extends ControllerBase
     public function getOrderInfoAction($order_id)
     {
         $order = Order::getOrderById($order_id);
+        $order['is_appealed'] = Order::isAppealed($order_id);
         $this->view->setVars(array(
             'success' => true,
             'data' => $order
@@ -283,7 +284,10 @@ class MovecarController extends ControllerBase
             $car_owner_phone = str_replace('0871', '08716', $car_owner_phone);
         }
 
-        $this->_call_to($order['record']['uphone'], $car_owner_phone, $order);
+        $this->_call_to($order['record']['uphone'], $car_owner_phone, array(
+            'order' => $order,
+            'car_owner' => $car_owner
+        ));
 
         $this->view->setVars(array(
             'success' => true,
@@ -564,7 +568,8 @@ XML;
     {
         $data = $this->request->getJsonRawBody(true);
         $is_success = $data['success'];
-        $success = MoveCar::markCarOwnerById($car_owner_id, $is_success, $car_owner_source);
+        $status = isset($data['status']) ? $data['status'] : 1;
+        $success = MoveCar::markCarOwnerById($car_owner_id, $is_success, $status, $car_owner_source);
         $this->view->setVars(array(
             'success' => $success
         ));

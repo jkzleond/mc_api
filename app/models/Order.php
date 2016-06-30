@@ -539,11 +539,18 @@ SQL;
             1
           else
             0
-        end as is_feedbacked
+        end as is_feedbacked,
+        case
+          when ma.id is not null then
+            1
+          else
+            0
+        end as is_appealed
         from (
           select id, userId as user_id, orderNo as order_no, money as total_fee, convert(varchar(20), createTime, 20) as create_date from PayList where orderType = 'move_car' and (state = 'ORDER_FREE' or state = 'TRADE_SUCCESS' or state = 'TRADE_FINISHED')
         ) o
         left join OrderToMoveCar o2mc on o2mc.order_id = o.id
+        left join MC_Appeal ma on ma.order_id = o.id
         $condition_str
         $order_by_str
 SQL;
