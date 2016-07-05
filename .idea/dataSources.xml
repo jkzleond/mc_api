@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="4031662283">
+  <component name="DataSourceManagerImpl" format="xml" hash="3347376278">
     <data-source source="LOCAL" name="SQL Server (Microsoft) - IAMisDB@116.55.248.76" uuid="97ad16ea-841b-4db9-9abe-4cedbc9c777f">
       <driver-ref>sqlserver.ms</driver-ref>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>

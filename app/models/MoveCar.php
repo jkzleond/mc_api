@@ -67,7 +67,7 @@ class MoveCar extends ModelEx
             return $mc_car_list;
         }
 
-        $get_jg_car_sql = "select id, phone, 'jg' as source from JGCarOwner where hphm = :hphm";
+        $get_jg_car_sql = "select id, phone, 'jg' as source from JGCarOwner where hphm = :hphm and state = 1";
         $get_jg_car_bind = array('hphm' => $hphm);
         $jg_car_list = self::nativeQuery($get_jg_car_sql, $get_jg_car_bind);
         return $jg_car_list;
