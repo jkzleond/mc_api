@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0749f35-5ec1-4f24-850e-c8eb23bce5ba" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/ccp_rest/call_back.php" afterPath="$PROJECT_DIR$/script/ccp_rest/call_back.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/UserController.php" afterPath="$PROJECT_DIR$/app/controllers/UserController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/User.php" afterPath="$PROJECT_DIR$/app/models/User.php" />
     </list>
     <ignored path="mc_api.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -274,8 +275,8 @@
       <file leaf-file-name="MovecarController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/MovecarController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.3">
-              <caret line="193" column="47" selection-start-line="193" selection-start-column="47" selection-end-line="193" selection-end-column="47" />
+            <state vertical-scroll-proportion="-7.4">
+              <caret line="206" column="29" selection-start-line="206" selection-start-column="29" selection-end-line="206" selection-end-column="29" />
               <folding>
                 <marker date="1467724582499" expanded="true" signature="12906:12940" placeholder="..." />
                 <marker date="1467724582499" expanded="true" signature="12906:13298" placeholder="..." />
@@ -288,36 +289,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="call_back.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="call_back.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script/ccp_rest/call_back.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.55595666">
-              <caret line="101" column="71" selection-start-line="101" selection-start-column="71" selection-end-line="101" selection-end-column="71" />
+            <state vertical-scroll-proportion="-17.5">
+              <caret line="113" column="21" selection-start-line="113" selection-start-column="21" selection-end-line="113" selection-end-column="21" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CCPRestSDK.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/script/ccp_rest/SDK/CCPRestSDK.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="358" column="26" selection-start-line="358" selection-start-column="18" selection-end-line="358" selection-end-column="26" />
-              <folding>
-                <marker date="1465201479853" expanded="true" signature="3643:3786" placeholder="..." />
-                <marker date="1465201479853" expanded="true" signature="5278:5429" placeholder="..." />
-                <marker date="1465201479853" expanded="true" signature="5612:5763" placeholder="..." />
-                <marker date="1465201479853" expanded="true" signature="7351:7476" placeholder="..." />
-                <marker date="1465201479853" expanded="true" signature="9404:9617" placeholder="..." />
-                <marker date="1465201479853" expanded="true" signature="12391:13261" placeholder="..." />
-                <marker date="1465201479853" expanded="true" signature="15551:16218" placeholder="..." />
-                <marker date="1465201479853" expanded="true" signature="18179:18599" placeholder="..." />
-                <marker date="1465201479853" expanded="true" signature="20177:20338" placeholder="..." />
-                <marker date="1465201479853" expanded="true" signature="21821:21992" placeholder="..." />
-                <marker date="1465201479853" expanded="true" signature="24825:24961" placeholder="..." />
-                <marker date="1465201479853" expanded="true" signature="26643:26810" placeholder="..." />
-                <marker date="1465201479853" expanded="true" signature="28450:28600" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -341,21 +318,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IAMisDB.dbo.MC_Car" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/84cb6339/97ad16ea-841b-4db9-9abe-4cedbc9c777f/IAMisDB.dbo.MC_Car">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="IAMisDB.dbo.OrderToMoveCar" pinned="false" current-in-tab="false">
         <entry file="dbDummy://dbtable:/84cb6339/97ad16ea-841b-4db9-9abe-4cedbc9c777f/IAMisDB.dbo.OrderToMoveCar">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -371,70 +333,95 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="341" column="35" selection-start-line="341" selection-start-column="35" selection-end-line="341" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.48495787">
+              <caret line="419" column="49" selection-start-line="419" selection-start-column="49" selection-end-line="419" selection-end-column="49" />
               <folding>
                 <element signature="e#90#106#0#PHP" expanded="true" />
-                <marker date="1466668052950" expanded="true" signature="345:392" placeholder="insert into MC_User..." />
-                <marker date="1466668052950" expanded="true" signature="682:760" placeholder="select top 1..MC_User..." />
-                <marker date="1466668052950" expanded="true" signature="1446:1654" placeholder="select id, u..." />
-                <marker date="1466668052950" expanded="true" signature="1446:1668" placeholder="select ${$to..." />
-                <marker date="1466668052950" expanded="true" signature="1446:1672" placeholder="select ${$to..." />
-                <marker date="1466668052950" expanded="true" signature="1446:1685" placeholder="select ${$to..." />
-                <marker date="1466668052950" expanded="true" signature="1446:1721" placeholder="select ${$to..." />
-                <marker date="1466668052950" expanded="true" signature="2843:2993" placeholder="select count..." />
-                <marker date="1466668052950" expanded="true" signature="3676:3857" placeholder="insert into Ticket..." />
-                <marker date="1466668052950" expanded="true" signature="4946:5063" placeholder="insert into IAM_USER..." />
-                <marker date="1466668052950" expanded="true" signature="5450:5880" placeholder="select u.id ..IAM_USER..." />
-                <marker date="1466668052950" expanded="true" signature="6163:6521" placeholder="select top 1..." />
-                <marker date="1466668052950" expanded="true" signature="7381:7456" placeholder="select id, u..IAM_USER..." />
-                <marker date="1466668052950" expanded="true" signature="7894:8435" placeholder="select useri..IAM_USER..." />
-                <marker date="1466668052950" expanded="true" signature="8512:8684" placeholder="select u.use..IAM_USER..." />
-                <marker date="1466668052950" expanded="true" signature="9154:9252" placeholder="update IAM_U..." />
-                <marker date="1466668052950" expanded="true" signature="9458:9547" placeholder="select top 1..." />
-                <marker date="1466668052950" expanded="true" signature="9880:9960" placeholder="insert into WX_USER..." />
-                <marker date="1466668052950" expanded="true" signature="10231:10312" placeholder="update WX_US..." />
-                <marker date="1466668052950" expanded="true" signature="11053:11075" placeholder="select data ..." />
-                <marker date="1466668052950" expanded="true" signature="11053:11100" placeholder="select data ..AuthToken..." />
-                <marker date="1466668052950" expanded="true" signature="11053:11104" placeholder="select data ..AuthToken..." />
-                <marker date="1466668052950" expanded="true" signature="11723:11773" placeholder="select top 1..AuthToken..." />
-                <marker date="1466668052950" expanded="true" signature="11723:11780" placeholder="select top 1..AuthToken..." />
-                <marker date="1466668052950" expanded="true" signature="12058:12133" placeholder="insert into AuthToken..." />
-                <marker date="1466668052950" expanded="true" signature="12215:12244" placeholder="update AuthT..." />
-                <marker date="1466668052950" expanded="true" signature="12215:12249" placeholder="update AuthT..." />
-                <marker date="1466668052950" expanded="true" signature="12215:12262" placeholder="update AuthT..." />
-                <marker date="1466668052950" expanded="true" signature="12215:12273" placeholder="update AuthT..." />
-                <marker date="1466668052950" expanded="true" signature="12215:12276" placeholder="update AuthT..." />
-                <marker date="1466668052950" expanded="true" signature="12215:12287" placeholder="update AuthT..." />
-                <marker date="1466668052950" expanded="true" signature="13238:13293" placeholder="select PHOTO..IAM_USERPHOTO..." />
-                <marker date="1466668052950" expanded="true" signature="13627:13695" placeholder="update IAM_U..." />
-                <marker date="1466668052950" expanded="true" signature="14152:14211" placeholder="select count..IAM_USER_INFO..." />
-                <marker date="1466668052950" expanded="true" signature="14458:14745" placeholder="insert into IAM_USER_INFO..." />
-                <marker date="1466668052950" expanded="true" signature="18153:18212" placeholder="update IAM_U..." />
-                <marker date="1466668052950" expanded="true" signature="18858:18877" placeholder="update set $..." />
-                <marker date="1466668052950" expanded="true" signature="18858:18912" placeholder="update set $..." />
-                <marker date="1466668052950" expanded="true" signature="19119:19186" placeholder="select count..MC_Car..." />
-                <marker date="1466668052950" expanded="true" signature="19874:19929" placeholder="update MC_Us..." />
-                <marker date="1466668052950" expanded="true" signature="21109:21164" placeholder="select ${$le..MC_Car..." />
-                <marker date="1466668052950" expanded="true" signature="21109:21187" placeholder="select ${$le..MC_Car..." />
-                <marker date="1466668052950" expanded="true" signature="21109:21196" placeholder="select ${$le..MC_Car..." />
-                <marker date="1466668052950" expanded="true" signature="21507:21561" placeholder="select top 1..MC_Car..." />
-                <marker date="1466668052950" expanded="true" signature="21507:21584" placeholder="select top 1..MC_Car..." />
-                <marker date="1466668052950" expanded="true" signature="21507:21585" placeholder="select top 1..MC_Car..." />
-                <marker date="1466668052950" expanded="true" signature="21507:21589" placeholder="select top 1..MC_Car..." />
-                <marker date="1466668052950" expanded="true" signature="22039:22097" placeholder="insert into MC_Car..." />
-                <marker date="1466668052950" expanded="true" signature="22449:22495" placeholder="update MC_Ca..." />
-                <marker date="1466668052950" expanded="true" signature="22449:22496" placeholder="update MC_Ca..." />
-                <marker date="1466668052950" expanded="true" signature="22605:22698" placeholder="/** * 更新车辆信息..." />
-                <marker date="1466668052950" expanded="true" signature="23263:23280" placeholder="update MC_Ca..." />
-                <marker date="1466668052950" expanded="true" signature="23263:23281" placeholder="update MC_Ca..." />
-                <marker date="1466668052950" expanded="true" signature="23263:23300" placeholder="update MC_Ca..." />
-                <marker date="1466668052950" expanded="true" signature="23263:23305" placeholder="update MC_Ca..." />
-                <marker date="1466668052950" expanded="true" signature="23263:23315" placeholder="update MC_Ca..." />
-                <marker date="1466668052950" expanded="true" signature="23263:23318" placeholder="update MC_Ca..." />
+                <marker date="1467728978787" expanded="true" signature="345:392" placeholder="insert into MC_User..." />
+                <marker date="1467728978787" expanded="true" signature="682:760" placeholder="select top 1..MC_User..." />
+                <marker date="1467728978787" expanded="true" signature="1446:1654" placeholder="select id, u..." />
+                <marker date="1467728978787" expanded="true" signature="1446:1668" placeholder="select ${$to..." />
+                <marker date="1467728978787" expanded="true" signature="1446:1672" placeholder="select ${$to..." />
+                <marker date="1467728978787" expanded="true" signature="1446:1685" placeholder="select ${$to..." />
+                <marker date="1467728978787" expanded="true" signature="1446:1721" placeholder="select ${$to..." />
+                <marker date="1467728978787" expanded="true" signature="2843:2993" placeholder="select count..." />
+                <marker date="1467728978787" expanded="true" signature="3676:3857" placeholder="insert into Ticket..." />
+                <marker date="1467728978787" expanded="true" signature="4946:5063" placeholder="insert into IAM_USER..." />
+                <marker date="1467728978787" expanded="true" signature="5450:5880" placeholder="select u.id ..IAM_USER..." />
+                <marker date="1467728978787" expanded="true" signature="6163:6521" placeholder="select top 1..." />
+                <marker date="1467728978787" expanded="true" signature="7381:7456" placeholder="select id, u..IAM_USER..." />
+                <marker date="1467728978787" expanded="true" signature="7894:8435" placeholder="select useri..IAM_USER..." />
+                <marker date="1467728978787" expanded="true" signature="8512:8684" placeholder="select u.use..IAM_USER..." />
+                <marker date="1467728978787" expanded="true" signature="9154:9252" placeholder="update IAM_U..." />
+                <marker date="1467728978787" expanded="true" signature="9458:9547" placeholder="select top 1..." />
+                <marker date="1467728978787" expanded="true" signature="9880:9960" placeholder="insert into WX_USER..." />
+                <marker date="1467728978787" expanded="true" signature="10231:10312" placeholder="update WX_US..." />
+                <marker date="1467728978787" expanded="true" signature="11053:11075" placeholder="select data ..." />
+                <marker date="1467728978787" expanded="true" signature="11053:11100" placeholder="select data ..AuthToken..." />
+                <marker date="1467728978787" expanded="true" signature="11053:11104" placeholder="select data ..AuthToken..." />
+                <marker date="1467728978787" expanded="true" signature="11845:11890" placeholder="select top 1..AuthToken..." />
+                <marker date="1467728978787" expanded="true" signature="12117:12168" placeholder="select guid ..AuthToken..." />
+                <marker date="1467728978787" expanded="true" signature="12699:12749" placeholder="select top 1..AuthToken..." />
+                <marker date="1467728978787" expanded="true" signature="12699:12756" placeholder="select top 1..AuthToken..." />
+                <marker date="1467728978787" expanded="true" signature="13034:13109" placeholder="insert into AuthToken..." />
+                <marker date="1467728978787" expanded="true" signature="13191:13220" placeholder="update AuthT..." />
+                <marker date="1467728978787" expanded="true" signature="13191:13225" placeholder="update AuthT..." />
+                <marker date="1467728978787" expanded="true" signature="13191:13238" placeholder="update AuthT..." />
+                <marker date="1467728978787" expanded="true" signature="13191:13249" placeholder="update AuthT..." />
+                <marker date="1467728978787" expanded="true" signature="13191:13252" placeholder="update AuthT..." />
+                <marker date="1467728978787" expanded="true" signature="13191:13263" placeholder="update AuthT..." />
+                <marker date="1467728978787" expanded="true" signature="14214:14269" placeholder="select PHOTO..IAM_USERPHOTO..." />
+                <marker date="1467728978787" expanded="true" signature="14603:14671" placeholder="update IAM_U..." />
+                <marker date="1467728978787" expanded="true" signature="15128:15187" placeholder="select count..IAM_USER_INFO..." />
+                <marker date="1467728978787" expanded="true" signature="15434:15721" placeholder="insert into IAM_USER_INFO..." />
+                <marker date="1467728978787" expanded="true" signature="19129:19188" placeholder="update IAM_U..." />
+                <marker date="1467728978787" expanded="true" signature="19834:19853" placeholder="update set $..." />
+                <marker date="1467728978787" expanded="true" signature="19834:19888" placeholder="update set $..." />
+                <marker date="1467728978787" expanded="true" signature="20095:20162" placeholder="select count..MC_Car..." />
+                <marker date="1467728978787" expanded="true" signature="20850:20905" placeholder="update MC_Us..." />
+                <marker date="1467728978787" expanded="true" signature="22085:22140" placeholder="select ${$le..MC_Car..." />
+                <marker date="1467728978787" expanded="true" signature="22085:22163" placeholder="select ${$le..MC_Car..." />
+                <marker date="1467728978787" expanded="true" signature="22085:22172" placeholder="select ${$le..MC_Car..." />
+                <marker date="1467728978787" expanded="true" signature="22483:22537" placeholder="select top 1..MC_Car..." />
+                <marker date="1467728978787" expanded="true" signature="22483:22560" placeholder="select top 1..MC_Car..." />
+                <marker date="1467728978787" expanded="true" signature="22483:22561" placeholder="select top 1..MC_Car..." />
+                <marker date="1467728978787" expanded="true" signature="22483:22565" placeholder="select top 1..MC_Car..." />
+                <marker date="1467728978787" expanded="true" signature="23015:23073" placeholder="insert into MC_Car..." />
+                <marker date="1467728978787" expanded="true" signature="23425:23471" placeholder="update MC_Ca..." />
+                <marker date="1467728978787" expanded="true" signature="23425:23472" placeholder="update MC_Ca..." />
+                <marker date="1467728978787" expanded="true" signature="23581:23674" placeholder="/** * 更新车辆信息..." />
+                <marker date="1467728978787" expanded="true" signature="24239:24256" placeholder="update MC_Ca..." />
+                <marker date="1467728978787" expanded="true" signature="24239:24257" placeholder="update MC_Ca..." />
+                <marker date="1467728978787" expanded="true" signature="24239:24276" placeholder="update MC_Ca..." />
+                <marker date="1467728978787" expanded="true" signature="24239:24281" placeholder="update MC_Ca..." />
+                <marker date="1467728978787" expanded="true" signature="24239:24291" placeholder="update MC_Ca..." />
+                <marker date="1467728978787" expanded="true" signature="24239:24294" placeholder="update MC_Ca..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/IndexController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-21.7">
+              <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/UserController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.1">
+              <caret line="189" column="38" selection-start-line="189" selection-start-column="38" selection-end-line="189" selection-end-column="38" />
+              <folding>
+                <marker date="1467728506527" expanded="true" signature="1927:2043" placeholder="select top 1..Ticket..." />
+                <marker date="1467728506527" expanded="true" signature="3043:3160" placeholder="select top 1..Ticket..." />
               </folding>
             </state>
           </provider>
@@ -493,13 +480,11 @@
         <option value="$PROJECT_DIR$/app/models/Ticket.php" />
         <option value="$PROJECT_DIR$/app/config/config.php" />
         <option value="$PROJECT_DIR$/script/wx_pay/jsapi.php" />
-        <option value="$PROJECT_DIR$/app/models/User.php" />
         <option value="$PROJECT_DIR$/public/index.php" />
         <option value="dbtable:/84cb6339/97ad16ea-841b-4db9-9abe-4cedbc9c777f/IAMisDB.dbo.JGCarOwner" />
         <option value="$PROJECT_DIR$/app/plugins/CORSFilter.php" />
         <option value="$PROJECT_DIR$/app/models/Criteria.php" />
         <option value="$PROJECT_DIR$/app/controllers/IndexController.php" />
-        <option value="$PROJECT_DIR$/app/controllers/UserController.php" />
         <option value="$PROJECT_DIR$/app/models/Order.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/97ad16ea-841b-4db9-9abe-4cedbc9c777f/console.sql" />
         <option value="$PROJECT_DIR$/script/sms/send.php" />
@@ -507,6 +492,8 @@
         <option value="$PROJECT_DIR$/app/controllers/MovecarController.php" />
         <option value="$PROJECT_DIR$/app/models/MoveCar.php" />
         <option value="$PROJECT_DIR$/script/ccp_rest/call_back.php" />
+        <option value="$PROJECT_DIR$/app/controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/app/models/User.php" />
       </list>
     </option>
   </component>
@@ -1428,13 +1415,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/plugins/CORSFilter.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1458,13 +1438,6 @@
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1563,73 +1536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="341" column="35" selection-start-line="341" selection-start-column="35" selection-end-line="341" selection-end-column="35" />
-          <folding>
-            <element signature="e#90#106#0#PHP" expanded="true" />
-            <marker date="1466668052950" expanded="true" signature="345:392" placeholder="insert into MC_User..." />
-            <marker date="1466668052950" expanded="true" signature="682:760" placeholder="select top 1..MC_User..." />
-            <marker date="1466668052950" expanded="true" signature="1446:1654" placeholder="select id, u..." />
-            <marker date="1466668052950" expanded="true" signature="1446:1668" placeholder="select ${$to..." />
-            <marker date="1466668052950" expanded="true" signature="1446:1672" placeholder="select ${$to..." />
-            <marker date="1466668052950" expanded="true" signature="1446:1685" placeholder="select ${$to..." />
-            <marker date="1466668052950" expanded="true" signature="1446:1721" placeholder="select ${$to..." />
-            <marker date="1466668052950" expanded="true" signature="2843:2993" placeholder="select count..." />
-            <marker date="1466668052950" expanded="true" signature="3676:3857" placeholder="insert into Ticket..." />
-            <marker date="1466668052950" expanded="true" signature="4946:5063" placeholder="insert into IAM_USER..." />
-            <marker date="1466668052950" expanded="true" signature="5450:5880" placeholder="select u.id ..IAM_USER..." />
-            <marker date="1466668052950" expanded="true" signature="6163:6521" placeholder="select top 1..." />
-            <marker date="1466668052950" expanded="true" signature="7381:7456" placeholder="select id, u..IAM_USER..." />
-            <marker date="1466668052950" expanded="true" signature="7894:8435" placeholder="select useri..IAM_USER..." />
-            <marker date="1466668052950" expanded="true" signature="8512:8684" placeholder="select u.use..IAM_USER..." />
-            <marker date="1466668052950" expanded="true" signature="9154:9252" placeholder="update IAM_U..." />
-            <marker date="1466668052950" expanded="true" signature="9458:9547" placeholder="select top 1..." />
-            <marker date="1466668052950" expanded="true" signature="9880:9960" placeholder="insert into WX_USER..." />
-            <marker date="1466668052950" expanded="true" signature="10231:10312" placeholder="update WX_US..." />
-            <marker date="1466668052950" expanded="true" signature="11053:11075" placeholder="select data ..." />
-            <marker date="1466668052950" expanded="true" signature="11053:11100" placeholder="select data ..AuthToken..." />
-            <marker date="1466668052950" expanded="true" signature="11053:11104" placeholder="select data ..AuthToken..." />
-            <marker date="1466668052950" expanded="true" signature="11723:11773" placeholder="select top 1..AuthToken..." />
-            <marker date="1466668052950" expanded="true" signature="11723:11780" placeholder="select top 1..AuthToken..." />
-            <marker date="1466668052950" expanded="true" signature="12058:12133" placeholder="insert into AuthToken..." />
-            <marker date="1466668052950" expanded="true" signature="12215:12244" placeholder="update AuthT..." />
-            <marker date="1466668052950" expanded="true" signature="12215:12249" placeholder="update AuthT..." />
-            <marker date="1466668052950" expanded="true" signature="12215:12262" placeholder="update AuthT..." />
-            <marker date="1466668052950" expanded="true" signature="12215:12273" placeholder="update AuthT..." />
-            <marker date="1466668052950" expanded="true" signature="12215:12276" placeholder="update AuthT..." />
-            <marker date="1466668052950" expanded="true" signature="12215:12287" placeholder="update AuthT..." />
-            <marker date="1466668052950" expanded="true" signature="13238:13293" placeholder="select PHOTO..IAM_USERPHOTO..." />
-            <marker date="1466668052950" expanded="true" signature="13627:13695" placeholder="update IAM_U..." />
-            <marker date="1466668052950" expanded="true" signature="14152:14211" placeholder="select count..IAM_USER_INFO..." />
-            <marker date="1466668052950" expanded="true" signature="14458:14745" placeholder="insert into IAM_USER_INFO..." />
-            <marker date="1466668052950" expanded="true" signature="18153:18212" placeholder="update IAM_U..." />
-            <marker date="1466668052950" expanded="true" signature="18858:18877" placeholder="update set $..." />
-            <marker date="1466668052950" expanded="true" signature="18858:18912" placeholder="update set $..." />
-            <marker date="1466668052950" expanded="true" signature="19119:19186" placeholder="select count..MC_Car..." />
-            <marker date="1466668052950" expanded="true" signature="19874:19929" placeholder="update MC_Us..." />
-            <marker date="1466668052950" expanded="true" signature="21109:21164" placeholder="select ${$le..MC_Car..." />
-            <marker date="1466668052950" expanded="true" signature="21109:21187" placeholder="select ${$le..MC_Car..." />
-            <marker date="1466668052950" expanded="true" signature="21109:21196" placeholder="select ${$le..MC_Car..." />
-            <marker date="1466668052950" expanded="true" signature="21507:21561" placeholder="select top 1..MC_Car..." />
-            <marker date="1466668052950" expanded="true" signature="21507:21584" placeholder="select top 1..MC_Car..." />
-            <marker date="1466668052950" expanded="true" signature="21507:21585" placeholder="select top 1..MC_Car..." />
-            <marker date="1466668052950" expanded="true" signature="21507:21589" placeholder="select top 1..MC_Car..." />
-            <marker date="1466668052950" expanded="true" signature="22039:22097" placeholder="insert into MC_Car..." />
-            <marker date="1466668052950" expanded="true" signature="22449:22495" placeholder="update MC_Ca..." />
-            <marker date="1466668052950" expanded="true" signature="22449:22496" placeholder="update MC_Ca..." />
-            <marker date="1466668052950" expanded="true" signature="22605:22698" placeholder="/** * 更新车辆信息..." />
-            <marker date="1466668052950" expanded="true" signature="23263:23280" placeholder="update MC_Ca..." />
-            <marker date="1466668052950" expanded="true" signature="23263:23281" placeholder="update MC_Ca..." />
-            <marker date="1466668052950" expanded="true" signature="23263:23300" placeholder="update MC_Ca..." />
-            <marker date="1466668052950" expanded="true" signature="23263:23305" placeholder="update MC_Ca..." />
-            <marker date="1466668052950" expanded="true" signature="23263:23315" placeholder="update MC_Ca..." />
-            <marker date="1466668052950" expanded="true" signature="23263:23318" placeholder="update MC_Ca..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/script/sms/send.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.3">
@@ -1643,21 +1549,6 @@
         <state vertical-scroll-proportion="-19.6">
           <caret line="163" column="29" selection-start-line="163" selection-start-column="29" selection-end-line="163" selection-end-column="29" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/MovecarController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.3">
-          <caret line="193" column="47" selection-start-line="193" selection-start-column="47" selection-end-line="193" selection-end-column="47" />
-          <folding>
-            <marker date="1467724582499" expanded="true" signature="12906:12940" placeholder="..." />
-            <marker date="1467724582499" expanded="true" signature="12906:13298" placeholder="..." />
-            <marker date="1467724582499" expanded="true" signature="12955:12989" placeholder="..." />
-            <marker date="1467724582499" expanded="true" signature="13096:13240" placeholder="..." />
-            <marker date="1467724582499" expanded="true" signature="14714:15066" placeholder="..." />
-            <marker date="1467724582499" expanded="true" signature="14888:15016" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1680,9 +1571,112 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/script/ccp_rest/call_back.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55595666">
-          <caret line="101" column="71" selection-start-line="101" selection-start-column="71" selection-end-line="101" selection-end-column="71" />
+        <state vertical-scroll-proportion="-17.5">
+          <caret line="113" column="21" selection-start-line="113" selection-start-column="21" selection-end-line="113" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/MovecarController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.4">
+          <caret line="206" column="29" selection-start-line="206" selection-start-column="29" selection-end-line="206" selection-end-column="29" />
+          <folding>
+            <marker date="1467724582499" expanded="true" signature="12906:12940" placeholder="..." />
+            <marker date="1467724582499" expanded="true" signature="12906:13298" placeholder="..." />
+            <marker date="1467724582499" expanded="true" signature="12955:12989" placeholder="..." />
+            <marker date="1467724582499" expanded="true" signature="13096:13240" placeholder="..." />
+            <marker date="1467724582499" expanded="true" signature="14714:15066" placeholder="..." />
+            <marker date="1467724582499" expanded="true" signature="14888:15016" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.7">
+          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.1">
+          <caret line="189" column="38" selection-start-line="189" selection-start-column="38" selection-end-line="189" selection-end-column="38" />
+          <folding>
+            <marker date="1467728506527" expanded="true" signature="1927:2043" placeholder="select top 1..Ticket..." />
+            <marker date="1467728506527" expanded="true" signature="3043:3160" placeholder="select top 1..Ticket..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48495787">
+          <caret line="419" column="49" selection-start-line="419" selection-start-column="49" selection-end-line="419" selection-end-column="49" />
+          <folding>
+            <element signature="e#90#106#0#PHP" expanded="true" />
+            <marker date="1467728978787" expanded="true" signature="345:392" placeholder="insert into MC_User..." />
+            <marker date="1467728978787" expanded="true" signature="682:760" placeholder="select top 1..MC_User..." />
+            <marker date="1467728978787" expanded="true" signature="1446:1654" placeholder="select id, u..." />
+            <marker date="1467728978787" expanded="true" signature="1446:1668" placeholder="select ${$to..." />
+            <marker date="1467728978787" expanded="true" signature="1446:1672" placeholder="select ${$to..." />
+            <marker date="1467728978787" expanded="true" signature="1446:1685" placeholder="select ${$to..." />
+            <marker date="1467728978787" expanded="true" signature="1446:1721" placeholder="select ${$to..." />
+            <marker date="1467728978787" expanded="true" signature="2843:2993" placeholder="select count..." />
+            <marker date="1467728978787" expanded="true" signature="3676:3857" placeholder="insert into Ticket..." />
+            <marker date="1467728978787" expanded="true" signature="4946:5063" placeholder="insert into IAM_USER..." />
+            <marker date="1467728978787" expanded="true" signature="5450:5880" placeholder="select u.id ..IAM_USER..." />
+            <marker date="1467728978787" expanded="true" signature="6163:6521" placeholder="select top 1..." />
+            <marker date="1467728978787" expanded="true" signature="7381:7456" placeholder="select id, u..IAM_USER..." />
+            <marker date="1467728978787" expanded="true" signature="7894:8435" placeholder="select useri..IAM_USER..." />
+            <marker date="1467728978787" expanded="true" signature="8512:8684" placeholder="select u.use..IAM_USER..." />
+            <marker date="1467728978787" expanded="true" signature="9154:9252" placeholder="update IAM_U..." />
+            <marker date="1467728978787" expanded="true" signature="9458:9547" placeholder="select top 1..." />
+            <marker date="1467728978787" expanded="true" signature="9880:9960" placeholder="insert into WX_USER..." />
+            <marker date="1467728978787" expanded="true" signature="10231:10312" placeholder="update WX_US..." />
+            <marker date="1467728978787" expanded="true" signature="11053:11075" placeholder="select data ..." />
+            <marker date="1467728978787" expanded="true" signature="11053:11100" placeholder="select data ..AuthToken..." />
+            <marker date="1467728978787" expanded="true" signature="11053:11104" placeholder="select data ..AuthToken..." />
+            <marker date="1467728978787" expanded="true" signature="11845:11890" placeholder="select top 1..AuthToken..." />
+            <marker date="1467728978787" expanded="true" signature="12117:12168" placeholder="select guid ..AuthToken..." />
+            <marker date="1467728978787" expanded="true" signature="12699:12749" placeholder="select top 1..AuthToken..." />
+            <marker date="1467728978787" expanded="true" signature="12699:12756" placeholder="select top 1..AuthToken..." />
+            <marker date="1467728978787" expanded="true" signature="13034:13109" placeholder="insert into AuthToken..." />
+            <marker date="1467728978787" expanded="true" signature="13191:13220" placeholder="update AuthT..." />
+            <marker date="1467728978787" expanded="true" signature="13191:13225" placeholder="update AuthT..." />
+            <marker date="1467728978787" expanded="true" signature="13191:13238" placeholder="update AuthT..." />
+            <marker date="1467728978787" expanded="true" signature="13191:13249" placeholder="update AuthT..." />
+            <marker date="1467728978787" expanded="true" signature="13191:13252" placeholder="update AuthT..." />
+            <marker date="1467728978787" expanded="true" signature="13191:13263" placeholder="update AuthT..." />
+            <marker date="1467728978787" expanded="true" signature="14214:14269" placeholder="select PHOTO..IAM_USERPHOTO..." />
+            <marker date="1467728978787" expanded="true" signature="14603:14671" placeholder="update IAM_U..." />
+            <marker date="1467728978787" expanded="true" signature="15128:15187" placeholder="select count..IAM_USER_INFO..." />
+            <marker date="1467728978787" expanded="true" signature="15434:15721" placeholder="insert into IAM_USER_INFO..." />
+            <marker date="1467728978787" expanded="true" signature="19129:19188" placeholder="update IAM_U..." />
+            <marker date="1467728978787" expanded="true" signature="19834:19853" placeholder="update set $..." />
+            <marker date="1467728978787" expanded="true" signature="19834:19888" placeholder="update set $..." />
+            <marker date="1467728978787" expanded="true" signature="20095:20162" placeholder="select count..MC_Car..." />
+            <marker date="1467728978787" expanded="true" signature="20850:20905" placeholder="update MC_Us..." />
+            <marker date="1467728978787" expanded="true" signature="22085:22140" placeholder="select ${$le..MC_Car..." />
+            <marker date="1467728978787" expanded="true" signature="22085:22163" placeholder="select ${$le..MC_Car..." />
+            <marker date="1467728978787" expanded="true" signature="22085:22172" placeholder="select ${$le..MC_Car..." />
+            <marker date="1467728978787" expanded="true" signature="22483:22537" placeholder="select top 1..MC_Car..." />
+            <marker date="1467728978787" expanded="true" signature="22483:22560" placeholder="select top 1..MC_Car..." />
+            <marker date="1467728978787" expanded="true" signature="22483:22561" placeholder="select top 1..MC_Car..." />
+            <marker date="1467728978787" expanded="true" signature="22483:22565" placeholder="select top 1..MC_Car..." />
+            <marker date="1467728978787" expanded="true" signature="23015:23073" placeholder="insert into MC_Car..." />
+            <marker date="1467728978787" expanded="true" signature="23425:23471" placeholder="update MC_Ca..." />
+            <marker date="1467728978787" expanded="true" signature="23425:23472" placeholder="update MC_Ca..." />
+            <marker date="1467728978787" expanded="true" signature="23581:23674" placeholder="/** * 更新车辆信息..." />
+            <marker date="1467728978787" expanded="true" signature="24239:24256" placeholder="update MC_Ca..." />
+            <marker date="1467728978787" expanded="true" signature="24239:24257" placeholder="update MC_Ca..." />
+            <marker date="1467728978787" expanded="true" signature="24239:24276" placeholder="update MC_Ca..." />
+            <marker date="1467728978787" expanded="true" signature="24239:24281" placeholder="update MC_Ca..." />
+            <marker date="1467728978787" expanded="true" signature="24239:24291" placeholder="update MC_Ca..." />
+            <marker date="1467728978787" expanded="true" signature="24239:24294" placeholder="update MC_Ca..." />
+          </folding>
         </state>
       </provider>
     </entry>

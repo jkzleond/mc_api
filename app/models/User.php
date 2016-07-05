@@ -397,6 +397,40 @@ SQL;
     }
 
     /**
+     * 设置当前用户数据
+     * @param $user_id
+     * @param $data
+     * @return string 返回用户guid
+     */
+    public static function setCurrentUser($user_id, $data)
+    {
+        $user = null;
+        try
+        {
+            $user = self::getCurrentUser();
+        }
+        catch(Exception $e)
+        {
+            if($e->getCode() == 1001)
+            {
+                return self::genToken($user_id, $data);
+            }
+        }
+
+        $update_token_sql = 'update AuthToken set data = :data where user_id = :user_id';
+        $update_token_bind = array(
+            'user_id' => $user_id,
+            'data' => json_encode($data)
+        );
+        self::nativeExecute($update_token_sql, $update_token_bind);
+
+        $get_guid_sql = 'select guid from AuthToken where user_id = :user_id';
+        $get_guid_bind = array('user_id' => $user_id);
+        $result = self::fetchOne($get_guid_sql, $get_guid_bind, null, Db::FETCH_NUM);
+        return $result[0];
+    }
+
+    /**
      * 生成token
      * @param $user_id
      * @param $data
