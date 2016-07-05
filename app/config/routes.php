@@ -158,6 +158,11 @@ $router->addGet('/cm_pay/{order_id:\d+}/protocol.json', array(
 ));
 
 
+//双向回拨,话单回调
+$router->add('/ccp_callback.json', array(
+    'controller' => 'movecar',
+    'action' => 'ccpCallback'
+));
 
 
 /*

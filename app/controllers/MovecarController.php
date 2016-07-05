@@ -576,6 +576,16 @@ XML;
     }
 
     /**
+     * 双向回拨,话单回调
+     */
+    public function ccpCallbackAction()
+    {
+        $data = $this->request->getJsonRawBody(true);
+        $data_str = $this->request->getRawBody();
+        file_put_contents('ccp_callback.log', $data_str);
+    }
+
+    /**
      * 车主登记页面
      */
     public function checkInAction()
