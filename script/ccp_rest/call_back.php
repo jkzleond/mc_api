@@ -99,7 +99,7 @@ $phone_bill = $order_data['record']['phone_bill']; //订单剩余话费
 $max_call_time = floor($phone_bill / 0.12); //按剩余话费不同给出最大通话时长
 
 
-$hangup_cdr_url = 'http://116.55.248.76:8090/ccp_callback.php';
+$hangup_cdr_url = 'http://116.55.248.76:8090/mc_api/ccp_callback.json';
 $need_both_cdr = true;
 
 $user_data_str = $order_data['id'].'|'.$car_owner_data['source'].'|'.$car_owner_data['id'];
