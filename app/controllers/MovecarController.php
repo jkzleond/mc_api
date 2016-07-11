@@ -604,6 +604,21 @@ XML;
         {
             $this->db->begin();
 
+            $add_order_track_sql = <<<SQL
+            insert into MC_OrderTrack(order_id, action, title, result) values (:order_id, :action, :title, :result)
+SQL;
+            $add_order_track_bind = array(
+                'order_id' => $order_id,
+                'action' => 'call_end',
+                'title' => '语音连接结束-'.(!empty($called_duration) ? '连接成功' : '连接失败'),
+                'result' => !empty($called_duration) ? 'success' : 'failed'
+            );
+            $add_order_track_success = ModelEx::nativeExecute($add_order_track_sql, $add_order_track_bind);
+            if(!$add_order_track_success)
+            {
+                throw new DbTransException('add order track failed');
+            }
+
             $add_call_record_sql = <<<SQL
         insert into MC_CallRecord (order_id, caller, called, caller_start_time, called_start_time, caller_end_time, called_end_time, caller_duration, called_duration, bye_type) values (:order_id, :caller, :called, :caller_start_time, :called_start_time, :caller_end_time, :called_end_time, :caller_duration, :called_duration, :bye_type)
 SQL;
@@ -670,6 +685,43 @@ SQL;
             $this->db->rollback();
             throw $e;
         }
+    }
+
+    /**
+     * 记录操作日志
+     */
+    public function opLogAction()
+    {
+
+        $data = $this->request->getJsonRawBody(true);
+        $action_name = $data['action_name'];
+        $action_title = $data['action_title'];
+
+        $user = User::getCurrentUser();
+        $user_crt = new Criteria($user);
+        $add_oplog_sql = <<<SQL
+        insert into IAM_USEROPLOG (userid, uname, clienttype, mod, act, requrl, reqdate, comments, ip, createDate) values (:user_id, :user_name, :client_type, :mod, :action_name, :requrl, :reqdate, :action_title, :ip, :create_date)
+SQL;
+        $add_oplog_bind = array(
+            'user_id' => $user_crt->user_id,
+            'user_name' => $user_crt->user_name,
+            'client_type' => $user_crt->client_type,
+            'mod' => 'move_car',
+            'action_name' => $action_name,
+            'requrl' => 'http://116.55.248.76:8090/mc_api',
+            'reqdate' => date('Y-m-d'),
+            'action_title' => $action_title,
+            'ip' => $this->request->getServer('REMOTE_ADDR'),
+            'create_date' => date('Y-m-d H:i:s')
+        );
+
+        //echo $add_oplog_sql;
+        //print_r($add_oplog_bind);
+
+        $success = ModelEx::nativeExecute($add_oplog_sql, $add_oplog_bind);
+        $this->view->setVars(array(
+            'success' => $success
+        ));
     }
 
     /**

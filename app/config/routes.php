@@ -164,6 +164,12 @@ $router->add('/ccp_callback.json', array(
     'action' => 'ccpCallback'
 ));
 
+//操作日志(按操作界面操作事件)
+$router->addPost('/oplog.json', array(
+    'controller' => 'movecar',
+    'action' => 'opLog'
+));
+
 
 /*
 其他tmp
