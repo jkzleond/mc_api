@@ -81,7 +81,7 @@ class UserController extends ControllerBase
                         throw new DbTransException();
                     }
 
-                    $add_ticket1_success = User::addTicket(array(
+                    $ticket1 = array(
                         'type' => 1,
                         'scope' => 2,
                         'value' => 10.00,
@@ -90,7 +90,9 @@ class UserController extends ControllerBase
                         'des' => '每日首登赠送红包,仅限当日使用',
                         'end_date' => date('Y-m-d', strtotime('+1 day')),
                         'user_id' => $user_info['user_id']
-                    ));
+                    );
+
+                    $add_ticket1_success = User::addTicket($ticket1);
 
 //                    $get_ticket_sql = "select top 1 id from Ticket where user_id = :user_id and datediff(dd, create_date, getdate()) = 0 and title='每日首登改价卡'";
 //                    $get_ticket_bind = array(
@@ -103,7 +105,7 @@ class UserController extends ControllerBase
 //                        throw new DbTransException();
 //                    }
 
-                    $add_ticket2_success = User::addTicket(array(
+                    $ticket2 = array(
                         'type' => 1,
                         'scope' => 2,
                         'value' => 9.90,
@@ -112,7 +114,9 @@ class UserController extends ControllerBase
                         'des' => '每日首登赠送红包,仅限当日使用',
                         'end_date' => date('Y-m-d', strtotime('+1 day')),
                         'user_id' => $user_info['user_id']
-                    ));
+                    );
+
+                    $add_ticket2_success = User::addTicket($ticket2);
 
                     if(!$add_ticket1_success or !$add_ticket2_success)
                     {
@@ -121,6 +125,16 @@ class UserController extends ControllerBase
                     }
 
                     $this->db->commit();
+                    $this->view->setVar('events', array(
+                        array(
+                            'type' => 'ticket_get',
+                            'data' => array(
+                                'tickets' => array(
+                                    $ticket1, $ticket2
+                                )
+                            )
+                        )
+                    ));
                 }
                 catch(DbTransException $e)
                 {
