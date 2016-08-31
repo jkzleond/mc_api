@@ -42,8 +42,8 @@ $softVersion='2013-12-26';
     * 双向回呼
     * @param $from 主叫电话号码
     * @param $to 被叫电话号码
-    * @param $customerSerNum 被叫侧显示的客服号码
-    * @param $fromSerNum 主叫侧显示的号码
+    * @param string $customerSerNum 被叫侧显示的客服号码
+    * @param string $fromSerNum 主叫侧显示的号码
     * @param $promptTone 自定义回拨提示音
     * @param $alwaysPlay 是否一直播放提示音
     * @param $terminalDtmf 用于终止播放promptTone参数定义的提示音
@@ -55,7 +55,7 @@ $softVersion='2013-12-26';
     * @param $countDownTime 设置倒计时时间
     * @param $countDownPrompt 倒计时时间到后播放的提示音
     */
-function callBack($from,$to,$customerSerNum=null,$fromSerNum=null,$promptTone=null,$alwaysPlay=null,$terminalDtmf=null,$userData=null,$maxCallTime=null,$hangupCdrUrl=null,$needBothCdr=null,$needRecord=null,$countDownTime=null,$countDownPrompt=null) {
+function callBack($from,$to,$customerSerNum='1',$fromSerNum='1',$promptTone=null,$alwaysPlay=null,$terminalDtmf=null,$userData=null,$maxCallTime=null,$hangupCdrUrl=null,$needBothCdr=null,$needRecord=null,$countDownTime=null,$countDownPrompt=null) {
         // 初始化REST SDK
         global $appId,$subAccountSid,$subAccountToken,$voIPAccount,$voIPPassword,$serverIP,$serverPort,$softVersion;
         $rest = new REST($serverIP,$serverPort,$softVersion);
