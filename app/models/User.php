@@ -386,8 +386,11 @@ SQL;
         $di = \Phalcon\DI::getDefault();
         $guid = $di->get('request')->getHeader('AUTH_TOKEN');
 
-        $sql = 'select top 1 data from AuthToken where guid = :guid';
-        $bind = array('guid' => $guid);
+        $sql = 'select top 1 data from AuthToken where guid = :guid and scope = :scope';
+        $bind = array(
+            'guid' => $guid,
+            'scope' => 'move_car'
+        );
         $user = self::fetchOne($sql, $bind, null, Db::FETCH_ASSOC);
         if(empty($user))
         {
@@ -417,15 +420,19 @@ SQL;
             }
         }
 
-        $update_token_sql = 'update AuthToken set data = :data where user_id = :user_id';
+        $update_token_sql = 'update AuthToken set data = :data where user_id = :user_id and scope = :scope';
         $update_token_bind = array(
             'user_id' => $user_id,
-            'data' => json_encode($data)
+            'data' => json_encode($data),
+            'scope' => 'move_car'
         );
         self::nativeExecute($update_token_sql, $update_token_bind);
 
-        $get_guid_sql = 'select guid from AuthToken where user_id = :user_id';
-        $get_guid_bind = array('user_id' => $user_id);
+        $get_guid_sql = 'select guid from AuthToken where user_id = :user_id and scope = :scope';
+        $get_guid_bind = array(
+            'user_id' => $user_id,
+            'scope' => 'move_car'
+        );
         $result = self::fetchOne($get_guid_sql, $get_guid_bind, null, Db::FETCH_NUM);
         return $result[0];
     }
@@ -444,23 +451,25 @@ SQL;
         {
             $connection->begin();
 
-            $get_token_sql = 'select top 1 guid from AuthToken where user_id = :user_id';
+            $get_token_sql = 'select top 1 guid from AuthToken where user_id = :user_id and scope = :scope';
             $get_token_bind = array(
-                'user_id' => $user_id
+                'user_id' => $user_id,
+                'scope' => 'move_car'
             );
             $exists_token = self::fetchOne($get_token_sql, $get_token_bind, null, Db::FETCH_ASSOC);
             if(empty($exists_token))
             {
-                $add_token_sql = 'insert into AuthToken (guid, user_id, data) values (:guid, :user_id, :data)';
+                $add_token_sql = 'insert into AuthToken (guid, user_id, data, scope) values (:guid, :user_id, :data, :scope)';
             }
             else
             {
-                $add_token_sql = 'update AuthToken set guid = :guid, data = :data where user_id = :user_id';
+                $add_token_sql = 'update AuthToken set guid = :guid, data = :data where user_id = :user_id and scope = :scope';
             }
 
             $add_token_bind = array(
                 'user_id' => $user_id,
-                'data' => json_encode($data)
+                'data' => json_encode($data),
+                'scope' => 'move_car'
             );
             do
             {
