@@ -4,9 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/app/library/palm/utils/DateTime.php" line="22" mnemonic="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0749f35-5ec1-4f24-850e-c8eb23bce5ba" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/ccp_rest/call_back.php" afterPath="$PROJECT_DIR$/script/ccp_rest/call_back.php" />
-    </list>
+    <list default="true" id="c0749f35-5ec1-4f24-850e-c8eb23bce5ba" name="Default" comment="" />
     <ignored path="mc_api.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
