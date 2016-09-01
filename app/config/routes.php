@@ -164,6 +164,12 @@ $router->add('/ccp_callback.json', array(
     'action' => 'ccpCallback'
 ));
 
+//www.id98.cn双向回拨,话单回调
+$router->add('/id98_callback.json', array(
+    'controller' => 'movecar',
+    'action' => 'id98Callback'
+));
+
 //操作日志(按操作界面操作事件)
 $router->addPost('/oplog.json', array(
     'controller' => 'movecar',

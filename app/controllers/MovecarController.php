@@ -688,6 +688,27 @@ SQL;
     }
 
     /**
+     *  www.id98.cn的双向回拨回调处理
+     */
+    public function id98CallbackAction()
+    {
+        $call_id = $this->request->get('call_id');
+        $uid = $this->request->get('uid');
+        $phone = $this->request->get('phone');
+        $call = $this->request->get('call');
+        $start_time = $this->request->get('start_time');
+        $end_time = $this->request->get('end_time');
+        $last_time = $this->request->get('last_time');
+        $fee = $this->request->get('fee');
+        $endtype = $this->request->get('endtype');
+        $ext = $this->request->get('ext');
+        $record_url = $this->request->get('recordurl');
+
+        file_put_contents('id68callback.log');
+
+    }
+
+    /**
      * 记录操作日志
      */
     public function opLogAction()
