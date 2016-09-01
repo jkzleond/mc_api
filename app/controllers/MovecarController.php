@@ -691,6 +691,7 @@ SQL;
      */
     public function id98CallbackAction()
     {
+        $this->view->disable();
         $call_id = $this->request->get('call_id');
         $uid = $this->request->get('uid');
         $phone = $this->request->get('phone');
