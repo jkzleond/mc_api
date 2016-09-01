@@ -73,7 +73,6 @@ if($api_settings['is_max_length']) {
 
 $max_call_time = floor($phone_bill / $call_price); //按剩余话费不同给出最大通话时长
 
-
 $hangup_cdr_url = 'http://116.55.248.76:8090/mc_api/id98_callback.json';
 $user_data_str = $order_data['id'].'|'.$car_owner_data['source'].'|'.$car_owner_data['id'];
 

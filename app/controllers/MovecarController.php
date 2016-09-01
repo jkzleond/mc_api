@@ -405,7 +405,6 @@ class MovecarController extends ControllerBase
                 }
 
                 //暂时锁定票券
-
                 $update_ticket_data = array('unlock_time' => date('Y-m-d H:i:s', time() + 15));
                 if($actual_fee == 0)
                 {
@@ -704,7 +703,7 @@ SQL;
         $ext = $this->request->get('ext');
         $record_url = $this->request->get('recordurl');
 
-        file_put_contents('id68callback.log');
+        file_put_contents('id68callback.log', $this->request->get());
 
     }
 
