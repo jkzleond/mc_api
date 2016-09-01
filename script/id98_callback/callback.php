@@ -33,7 +33,7 @@ $api_settings = array(
  */
 function call_back($phone, $call, $return_url, $uid, $ext, $max_length=null,  $phone_show=0, $call_show=1, $record=0, $output='json') {
     $ch = curl_init(API_URL);
-    $param_str = 'appkey='.APP_KEY.'&phone='.$phone.'&call='.$call.'&phoneShow='.$phone_show.'&callShow='.$call_show.'&uid='.$uid.'&ext='.$ext.'&max_length='.$max_length.'&record='.$record.'&returnUrl='.$return_url.'&output='.$output;
+    $param_str = 'appkey='.APP_KEY.'&phone='.$phone.'&call='.$call.'&phoneShow='.$phone_show.'&callShow='.$call_show.'&uid='.$uid.'&ext='.$ext.'&max_length='.$max_length.'&record='.$record.'&return_url='.$return_url.'&output='.$output;
     curl_setopt_array($ch, array(
         CURLOPT_TRANSFERTEXT => 1,
         CURLOPT_RETURNTRANSFER => 1,
