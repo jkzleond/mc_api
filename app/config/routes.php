@@ -170,6 +170,12 @@ $router->add('/id98_callback.json', array(
     'action' => 'id98Callback'
 ));
 
+//轻码云双向回呼,话单回调
+$router->add('/qmy_callback.json', array(
+    'controller' => 'movecar',
+    'action' => 'qmyCallback'
+));
+
 //操作日志(按操作界面操作事件)
 $router->addPost('/oplog.json', array(
     'controller' => 'movecar',
