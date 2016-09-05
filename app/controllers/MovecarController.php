@@ -796,12 +796,14 @@ SQL;
     }
 
     /**
-     * 轻码云双向回呼(通话结束回调)
+     * 轻码云回调鉴权
+     * @param $action
+     * @throws DbTransException
      */
-    public function qmyCallbackAction()
+    public function qmyCallbackAction($action)
     {
         $data = $this->request->getJsonRawBody(true);
-        file_put_contents('qmyCallback.log', var_export($data, 1).PHP_EOL);
+        file_put_contents('qmyCallback.log', $action.':'.var_export($data, 1).PHP_EOL);
         echo json_encode(array(
             'respCode' => '00000'
         ));
