@@ -55,7 +55,7 @@ $softVersion='2013-12-26';
     * @param $countDownTime 设置倒计时时间
     * @param $countDownPrompt 倒计时时间到后播放的提示音
     */
-function callBack($from,$to,$customerSerNum='1',$fromSerNum='1',$promptTone=null,$alwaysPlay=null,$terminalDtmf=null,$userData=null,$maxCallTime=null,$hangupCdrUrl=null,$needBothCdr=null,$needRecord=null,$countDownTime=null,$countDownPrompt=null) {
+function callBack($from,$to,$customerSerNum=null,$fromSerNum=null,$promptTone=null,$alwaysPlay=null,$terminalDtmf=null,$userData=null,$maxCallTime=null,$hangupCdrUrl=null,$needBothCdr=null,$needRecord=null,$countDownTime=null,$countDownPrompt=null) {
         // 初始化REST SDK
         global $appId,$subAccountSid,$subAccountToken,$voIPAccount,$voIPPassword,$serverIP,$serverPort,$softVersion;
         $rest = new REST($serverIP,$serverPort,$softVersion);
@@ -104,7 +104,7 @@ $need_both_cdr = true;
 
 $user_data_str = $order_data['id'].'|'.$car_owner_data['source'].'|'.$car_owner_data['id'];
 
-callBack($from, $to, null, null, null, null, null, $user_data_str, $max_call_time, $hangup_cdr_url, $need_both_cdr);
+callBack($from, $to, $from, $to, null, null, null, $user_data_str, $max_call_time, $hangup_cdr_url, $need_both_cdr);
 
 $json = <<<JSON
 {

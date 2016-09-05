@@ -860,3 +860,13 @@ request body = {'from':'13294958423','to':'15087057477','customerSerNum':'','fro
            'needRecord':'','countDownTime':'$','countDownPrompt':'', 'cbContenType': 'json'}
 request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=6BEC76F2D5A03323322F3654444527B9
 response body = {"statusCode":"000000","CallBack":{"appId":"8a48b5515493a1b70154b9c4615825c5","orderId":"CM1018520160606162442331008","dateCreated":"2016-06-06 16:24:42","callSid":"160606162442635300010185003810f4"}}
+request body = {'from':'13294958423','to':'18687528272','customerSerNum':'13294958423','fromSerNum':'','promptTone':'','userData':'94228|jg|1776311','maxCallTime':'41','hangupCdrUrl':'http://116.55.248.76:8090/mc_api/ccp_callback.json',
+           'alwaysPlay':'','terminalDtmf':'','needBothCdr':'1',
+           'needRecord':'','countDownTime':'$','countDownPrompt':'', 'cbContenType': 'json'}
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=B9F44810D6BEDFB04950EC0F5935116A
+response body = {"statusCode":"000000","CallBack":{"appId":"8a48b5515493a1b70154b9c4615825c5","customerSerNum":"13294958423","orderId":"CM1004820160902164807385967","dateCreated":"2016-09-02 16:48:07","callSid":"16090216480737580001004800040940"}}
+request body = {'from':'13294958423','to':'15087057477','customerSerNum':'13294958423','fromSerNum':'','promptTone':'','userData':'94228|jg|1776311','maxCallTime':'41','hangupCdrUrl':'http://116.55.248.76:8090/mc_api/ccp_callback.json',
+           'alwaysPlay':'','terminalDtmf':'','needBothCdr':'1',
+           'needRecord':'','countDownTime':'$','countDownPrompt':'', 'cbContenType': 'json'}
+request url = https://app.cloopen.com:8883/2013-12-26/SubAccounts/2afe800c1b6e11e6bb9bac853d9f54f2/Calls/Callback?sig=31AD97D6E5F200A199A9C8BE54CC4B09
+response body = {"statusCode":"000000","CallBack":{"appId":"8a48b5515493a1b70154b9c4615825c5","customerSerNum":"13294958423","orderId":"CM1009420160902164846869320","dateCreated":"2016-09-02 16:48:46","callSid":"160902164846428100010094000b2f51"}}

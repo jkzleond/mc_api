@@ -10,11 +10,12 @@ define('APP_KEY', '6d21a53c6bf995e82980c731e32af339');
 define('API_URL', 'http://api.id98.cn/api/v2/callback');
 
 $api_settings = array(
-    'is_phone_show' => false,
+    'is_phone_show' => true,
     'is_call_show' => true,
     'is_record' => false,
     'is_max_length' => true,
-    'cdr_callback_url' => 'http://116.55.248.76:8090/mc_api/id98_callback.json'
+//    'cdr_callback_url' => 'http://116.55.248.76:8090/mc_api/id98_callback.json',
+    'cdr_callback_url' => 'http://116.55.248.76:8090/id98callback.php'
 );
 
 /**
@@ -34,6 +35,7 @@ $api_settings = array(
 function call_back($phone, $call, $return_url, $uid, $ext, $max_length=null,  $phone_show=0, $call_show=1, $record=0, $output='json') {
     $ch = curl_init(API_URL);
     $param_str = 'appkey='.APP_KEY.'&phone='.$phone.'&call='.$call.'&phoneShow='.$phone_show.'&callShow='.$call_show.'&uid='.$uid.'&ext='.$ext.'&max_length='.$max_length.'&record='.$record.'&return_url='.$return_url.'&output='.$output;
+    echo $param_str;
     curl_setopt_array($ch, array(
         CURLOPT_TRANSFERTEXT => 1,
         CURLOPT_RETURNTRANSFER => 1,
@@ -73,7 +75,6 @@ if($api_settings['is_max_length']) {
 
 $max_call_time = floor($phone_bill / $call_price); //按剩余话费不同给出最大通话时长
 
-$hangup_cdr_url = 'http://116.55.248.76:8090/mc_api/id98_callback.json';
 $user_data_str = $order_data['id'].'|'.$car_owner_data['source'].'|'.$car_owner_data['id'];
 
-echo call_back($from, $to, $api_settings['cdr_callback_url'], $from, $user_data_str, $max_call_time, (int)$api_settings['is_phone_show'], (int)$api_settings['is_call_show'], (int)$api_settings['is_record']);
+echo call_back($from, $to, urlencode($api_settings['cdr_callback_url']), $from, $user_data_str, $max_call_time, (int)$api_settings['is_phone_show'], (int)$api_settings['is_call_show'], (int)$api_settings['is_record']);
