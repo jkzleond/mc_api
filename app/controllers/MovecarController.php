@@ -25,7 +25,7 @@ class MovecarController extends ControllerBase
     private function _call_to($from, $to, array $user_data)
     {
         $user_data_str = base64_encode(json_encode($user_data));
-        $script_path = dirname(__FILE__).'/../../script/ccp_rest/call_back.php';
+        $script_path = dirname(__FILE__).'/../../script/qmy_callback/callback.php';
         $cmd = 'php '.$script_path.' -f '.$from.' -t '.$to.' -d '.$user_data_str;
         exec($cmd);
     }
@@ -803,114 +803,129 @@ SQL;
     public function qmyCallbackAction($act)
     {
         $data = $this->request->getJsonRawBody(true);
-        file_put_contents('qmyCallback.log', $act.':'.var_export($data, 1).PHP_EOL);
-        echo json_encode(array(
+
+        file_put_contents('qmyCallback.log', $act.':'.var_export($data, 1).PHP_EOL, FILE_APPEND);
+
+        $return_data = array(
             'respCode' => '00000'
-        ));
-        exit;
-        $user_data = explode('|', $data['callerCdr']['userData']);
-        $order_id = $user_data[0];
-        $car_owner_source = $user_data[1];
-        $car_owner_id = $user_data[2];
-        $caller = $data['calledCdr']['caller'];
-        $called = $data['calledCdr']['called'];
-        $caller_start_time = $data['callerCdr']['starttime'];
-        $caller_start_time = !empty($caller_start_time) ? DateTime::ft2ft($caller_start_time, '%Y%m%d%H%M%S', '%Y-%m-%d %H:%M:%S') : null;
-        $caller_end_time = $data['callerCdr']['endtime'];
-        $caller_end_time = !empty($caller_end_time) ? DateTime::ft2ft($caller_end_time, '%Y%m%d%H%M%S', '%Y-%m-%d %H:%M:%S') : null;
-        $called_start_time = $data['calledCdr']['starttime'];
-        $called_start_time = !empty($called_start_time) ? DateTime::ft2ft($called_start_time, '%Y%m%d%H%M%S', '%Y-%m-%d %H:%M:%S') : null;
-        $called_end_time = $data['calledCdr']['endtime'];
-        $called_end_time = !empty($called_end_time) ? DateTime::ft2ft($called_end_time, '%Y%m%d%H%M%S', '%Y-%m-%d %H:%M:%S') : null;
-        $caller_duration = $data['callerCdr']['duration'];
-        $called_duration = $data['calledCdr']['duration'];
-        $bye_type = $data['callerCdr']['byetype'];
+        );
 
-        try
+        if ($act == 'callAuth')
         {
-            $this->db->begin();
+            isset($data['fromSerNum']) && ($return_data['fromSerNum'] = $data['fromSerNum']);
+            isset($data['toSerNum']) && ($return_data['toSerNum'] = $data['toSerNum']);
+            $return_data['callingAudioId'] = '';
+        }
+        elseif ($act == 'hangup')
+        {
+            $user_data = explode('|', $data['userData']);
+            $order_id = $user_data[0];
+            $car_owner_source = $user_data[1];
+            $car_owner_id = $user_data[2];
+            $caller = $data['caller'];
+            $called = $data['called'];
+            $start_time = !empty($data['startTime']) ? $data['startTime'] : null;
+            $end_time = !empty($data['stopTime']) ? $data['stopTime'] : null;
+            $last_time = $data['callTime']; //通话持续时间
+            $bye_type = 0;
+            $fee = $data['amount']; //本次通话话费
+            $record_url = !empty($data['recordUrl']) ? $data['recordUrl'] : null;
 
-            $add_order_track_sql = <<<SQL
+            if ($data['byeType'] == 'a_con')
+            {
+                $bye_type = 1;
+            }
+            elseif ($data['byeType'] == 'b_con')
+            {
+                $bye_type = 2;
+            }
+
+            try
+            {
+                $this->db->begin();
+
+                $add_order_track_sql = <<<SQL
             insert into MC_OrderTrack(order_id, action, title, result) values (:order_id, :action, :title, :result)
 SQL;
-            $add_order_track_bind = array(
-                'order_id' => $order_id,
-                'action' => 'call_end',
-                'title' => '语音连接结束-'.(!empty($called_duration) ? '连接成功' : '连接失败'),
-                'result' => !empty($called_duration) ? 'success' : 'failed'
-            );
-            $add_order_track_success = ModelEx::nativeExecute($add_order_track_sql, $add_order_track_bind);
-            if(!$add_order_track_success)
-            {
-                throw new DbTransException('add order track failed');
-            }
+                $add_order_track_bind = array(
+                    'order_id' => $order_id,
+                    'action' => 'call_end',
+                    'title' => '语音连接结束-'.($bye_type == 2 ? '连接成功' : '连接失败'),
+                    'result' => $bye_type != 2 ? 'failed' : 'success'
+                );
+                $add_order_track_success = ModelEx::nativeExecute($add_order_track_sql, $add_order_track_bind);
+                if(!$add_order_track_success)
+                {
+                    throw new DbTransException('add order track failed');
+                }
 
-            $add_call_record_sql = <<<SQL
-        insert into MC_CallRecord (order_id, caller, called, caller_start_time, called_start_time, caller_end_time, called_end_time, caller_duration, called_duration, bye_type) values (:order_id, :caller, :called, :caller_start_time, :called_start_time, :caller_end_time, :called_end_time, :caller_duration, :called_duration, :bye_type)
+                $add_call_record_sql = <<<SQL
+        insert into MC_CallRecord (order_id, caller, called, start_time, end_time, last_time, fee, bye_type, record_url) values (:order_id, :caller, :called, :start_time, :end_time, :last_time, :fee, :bye_type, :record_url)
 SQL;
-            $add_call_record_bind = array(
-                'order_id' => $order_id,
-                'caller' => $caller,
-                'called' => $called,
-                'caller_start_time' => $caller_start_time,
-                'called_start_time' => $called_start_time,
-                'caller_end_time' => $caller_end_time,
-                'called_end_time' => $called_end_time,
-                'caller_duration' => $caller_duration,
-                'called_duration' => $called_duration,
-                'bye_type' => $bye_type
-            );
+                $add_call_record_bind = array(
+                    'order_id' => $order_id,
+                    'caller' => $caller,
+                    'called' => $called,
+                    'start_time' => $start_time,
+                    'end_time' => $end_time,
+                    'last_time' => $last_time,
+                    'fee' => $fee,
+                    'bye_type' => $bye_type,
+                    'record_url' => $record_url
+                );
 
-            $add_call_record_success = ModelEx::nativeExecute($add_call_record_sql, $add_call_record_bind);
-            if(!$add_call_record_success)
-            {
-                throw new DbTransException('add call record failed');
-            }
+                $add_call_record_success = ModelEx::nativeExecute($add_call_record_sql, $add_call_record_bind);
+                if(!$add_call_record_success)
+                {
+                    throw new DbTransException('add call record failed');
+                }
 
-            $phone_bill = ceil($caller_duration / 60.00) * 0.12 + ceil($called_duration / 60.00) * 0.12;
-            $update_phone_bill_sql = <<<SQL
-            update OrderToMoveCar set phone_bill -= $phone_bill where order_id = :order_id
+                $update_phone_bill_sql = <<<SQL
+            update OrderToMoveCar set phone_bill -= $fee where order_id = :order_id
 SQL;
-            $update_phone_bill_bind = array(
-                'order_id' => $order_id
-            );
+                $update_phone_bill_bind = array(
+                    'order_id' => $order_id
+                );
 
-            $update_phone_bill_success = ModelEx::nativeExecute($update_phone_bill_sql, $update_phone_bill_bind);
-            if(!$update_phone_bill_success)
-            {
-                throw new DbTransException('update phone bill failed');
-            }
+                $update_phone_bill_success = ModelEx::nativeExecute($update_phone_bill_sql, $update_phone_bill_bind);
+                if(!$update_phone_bill_success)
+                {
+                    throw new DbTransException('update phone bill failed');
+                }
 
-            $car_owner_table = 'MC_Car';
-            if($car_owner_source == 'jg')
-            {
-                $car_owner_table = 'JGCarOwner';
-            }
-            $car_owner_field_str = 'call_count += 1';
-            if($called_duration == 0)
-            {
-                $car_owner_field_str .= ', not_link_count += 1';
-            }
+                $car_owner_table = 'MC_Car';
+                if($car_owner_source == 'jg')
+                {
+                    $car_owner_table = 'JGCarOwner';
+                }
+                $car_owner_field_str = 'call_count += 1';
+                if($bye_type == 1)
+                {
+                    $car_owner_field_str .= ', not_link_count += 1';
+                }
 
-            $mark_car_owner_sql = <<<SQL
+                $mark_car_owner_sql = <<<SQL
             update $car_owner_table set $car_owner_field_str where id = :car_owner_id
 SQL;
-            $mark_car_owner_bind = array(
-                'car_owner_id' => $car_owner_id
-            );
-            $mark_car_owner_success = ModelEx::nativeExecute($mark_car_owner_sql, $mark_car_owner_bind);
-            if(!$mark_car_owner_success)
-            {
-                throw new DbTransException('mark car owner failed');
-            }
+                $mark_car_owner_bind = array(
+                    'car_owner_id' => $car_owner_id
+                );
+                $mark_car_owner_success = ModelEx::nativeExecute($mark_car_owner_sql, $mark_car_owner_bind);
+                if(!$mark_car_owner_success)
+                {
+                    throw new DbTransException('mark car owner failed');
+                }
 
-            $this->db->commit();
+                $this->db->commit();
+            }
+            catch(DbTransException $e)
+            {
+                $this->db->rollback();
+                throw $e;
+            }
         }
-        catch(DbTransException $e)
-        {
-            $this->db->rollback();
-            throw $e;
-        }
+
+        $this->view->setVars($return_data);
     }
 
     /**
