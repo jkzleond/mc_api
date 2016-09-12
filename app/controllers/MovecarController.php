@@ -814,7 +814,7 @@ SQL;
         {
             isset($data['fromSerNum']) && ($return_data['fromSerNum'] = $data['fromSerNum']);
             isset($data['toSerNum']) && ($return_data['toSerNum'] = $data['toSerNum']);
-            $return_data['callingAudioId'] = '';
+            $return_data['callingAudioId'] = '3026052';
         }
         elseif ($act == 'hangup')
         {
