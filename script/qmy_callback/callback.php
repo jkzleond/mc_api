@@ -87,7 +87,7 @@ if($api_settings['is_max_length']) {
     $call_price += 0.01;
 }
 
-$max_call_time = floor($phone_bill / $call_price); //按剩余话费不同给出最大通话时长
+$max_call_time = floor($phone_bill / $call_price / 2) * 60; //按剩余话费不同给出最大通话时长
 
 $user_data_str = $order_data['id'].'|'.$car_owner_data['source'].'|'.$car_owner_data['id'];
 
