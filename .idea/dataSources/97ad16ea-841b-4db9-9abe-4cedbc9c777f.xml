@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="SQL Server (Microsoft) - IAMisDB@116.55.248.76">
+  <database-model serializer="dbm" rdbms="MSSQL" format-version="2.6"/>
+</dataSource>
